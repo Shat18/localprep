@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="localprep.com" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Working\ Copy\\LocalPrepProd\\LocalPrep\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Working\ Copy\\LocalPrepProd\\LocalPrep\.Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Server=tcp:localprepdbsrvr.database.windows.net,1433;Initial Catalog=localprepdb;Persist Security Info=False;User ID=localprepsa;Password=afB=L3MwxwA?3GaZ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Working\ Copy\\LocalPrepProd\\LocalPrep\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="localprepdbEntities-Web.config Connection String" description="" value="metadata=res://*/LocalPrepModel.csdl|res://*/LocalPrepModel.ssdl|res://*/LocalPrepModel.msl;provider=System.Data.SqlClient;provider connection string='data source=tcp:localprepdbsrvr.database.windows.net,1433;initial catalog=localprepdb;persist security info=True;user id=localprepsa;password=afB=L3MwxwA?3GaZ;multipleactiveresultsets=True;application name=EntityFramework'" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Working\ Copy\\LocalPrepProd\\LocalPrep\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='localprepdbEntities']/@connectionString" />
+  </parameter>
+</parameters>

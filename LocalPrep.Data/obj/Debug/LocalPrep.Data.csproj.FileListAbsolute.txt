@@ -1,0 +1,96 @@
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll.config
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.pdb
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.xml
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CopyComplete
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll.config
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CopyComplete
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll.config
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CopyComplete
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll.config
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CopyComplete
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.pdb
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll.config
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.pdb
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.xml
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CopyComplete
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll.config
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CopyComplete
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\Debug\LocalPrep.Data.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CopyComplete
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll.config
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\bin\Debug\LocalPrep.Data.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\bin\Debug\LocalPrep.Data.pdb
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\bin\Debug\EntityFramework.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\bin\Debug\EntityFramework.xml
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\obj\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\obj\Debug\LocalPrep.Data.csproj.CopyComplete
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\obj\Debug\LocalPrep.Data.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Data\obj\Debug\LocalPrep.Data.pdb

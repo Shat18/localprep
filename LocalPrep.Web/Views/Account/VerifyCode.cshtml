@@ -1,0 +1,195 @@
+﻿@model LocalPrep.Web.Models.VerifyCodeViewModel
+
+<script src="~/js/phone_verification.js"></script>
+
+<div id="page-content">
+    <div class="container">
+        <div class="loader-container" style="display:none">
+            <div class="loader"></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-7 col-xl-6">
+                <h3 class="text-green text-center mb-3">Code Verification</h3>
+                @using (Html.BeginForm("VerifyCode", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form", @id = "frmVerify" }))
+                {
+                    @Html.HiddenFor(m => m.Code, new { @id = "hdnCode" })
+                    <div class="timer text-center mb-5">
+                        00:<span id="some_div"></span>
+
+                    </div>
+                    @Html.AntiForgeryToken()
+
+                    @Html.ValidationSummary("", new { @class = "text-danger" })
+                    <p class="text-center mb-4 text-green">Enter your code here</p>
+
+
+                    <div class="d-md-flex mb-5">
+                        <div class="d-flex verify-input mb-4 mb-md-0">
+                            <input type="text" class="form-control bg-light-w mr-md-4 text-center hdnCodeValFirst" aria-label="number" maxlength="1">
+                            <input type="text" class="form-control bg-light-w mr-md-4  text-center hdnCodeValSecond" aria-label="number" maxlength="1">
+                            <input type="text" class="form-control bg-light-w mr-md-4  text-center hdnCodeValThird" aria-label="number" maxlength="1">
+                            <input type="text" class="form-control bg-light-w mr-md-4  text-center hdnCodeValFourth" aria-label="number" maxlength="1">
+                            <input type="text" class="form-control bg-light-w mr-md-4  text-center hdnCodeValFifth" aria-label="number" maxlength="1">
+                            <input type="text" class="form-control bg-light-w mr-md-4  text-center hdnCodeValSix" aria-label="number" maxlength="1">
+                        </div>
+                        <div class="">
+                            <div class="d-grid text-center">
+                                <input type="submit" class="btn btn-default" value="Verify" id="btnverifyCode" />
+                                @*<button class="btn btn-orange" type="submit">Verify</button>*@
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="para-md text-green fw-medium text-center">
+                        Didn’t receive a code?
+                    </p>
+                    <p class="mb-5 text-center"><a href="#" class="text-dark" onclick="phoneAuth();">Resend Code</a></p>
+                    <div class="text-left form-group">
+
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @*<script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js"></script>*@
+    @*<script src="https://www.gstatic.com/firebasejs/9.8.1/firebase.js"></script>*@
+
+
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+    <script>
+
+        $('#btnverifyCode').on("click", function () {
+            $(".loader-container").show();
+
+            var form = jQuery("#frmVerify");
+            var status = form.valid();
+            if (status) {
+
+                $(".loader-container").hide();
+            }
+        });
+
+        $('.hdnCodeValSix').change(function () {
+            var first = $(".hdnCodeValFirst").val();
+            var second = $(".hdnCodeValSecond").val();
+            var third = $(".hdnCodeValThird").val();
+            var fourth = $(".hdnCodeValFourth").val();
+            var five = $(".hdnCodeValFifth").val();
+            var six = $(this).val();
+            $("#hdnCode").val("" + first + second + third + fourth + five + six);
+
+            //alert($("#hdnCode").val())
+        });
+
+
+        $(document).ready(function () {
+            $('input').keyup(function () {
+                //alert(1);
+                var $this = $(this);
+                setTimeout(function () {
+                    if ($this.val().length >= parseInt($this.attr("maxlength"), 10))
+                        $this.next("input").focus();
+                }, 0);
+            });
+
+            var timeLeft = 30;
+            var elem = document.getElementById('some_div');
+            var timerId = setInterval(countdown, 1000);
+            function countdown() {
+                if (timeLeft == -1) {
+                    clearTimeout(timerId);
+                    doSomething();
+                } else {
+                    elem.innerHTML = timeLeft;
+                    /*elem.innerHTML = timeLeft + ' seconds remaining';*/
+                    timeLeft--;
+                }
+            }
+            function doSomething() {
+                //alert("Hi");
+            }
+        });
+
+
+    </script>
+
+
+    <script type="module">
+        //function initializeApp() {
+        //    // Your web app's Firebase configuration
+        //    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        //    var firebaseConfig = {
+        //        apiKey: "AIzaSyDIUMpFFakxTkL9iZdg6Zg5J7nI4VqQM6A",
+        //        authDomain: "local-prep-44804.firebaseapp.com",
+        //        projectId: "local-prep-44804",
+        //        storageBucket: "local-prep-44804.appspot.com",
+        //        messagingSenderId: "307313230615",
+        //        appId: "1:307313230615:web:46409e37abbaf79828ed52",
+        //        measurementId: "G-9DYRBJKS3L"
+        //    };
+
+        //    // Initialize Firebase
+        //    firebase.initializeApp(firebaseConfig);
+        //    console.log(firebase);
+        //};
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyDIUMpFFakxTkL9iZdg6Zg5J7nI4VqQM6A",
+            authDomain: "local-prep-44804.firebaseapp.com",
+            projectId: "local-prep-44804",
+            storageBucket: "local-prep-44804.appspot.com",
+            messagingSenderId: "307313230615",
+            appId: "1:307313230615:web:46409e37abbaf79828ed52",
+            measurementId: "G-9DYRBJKS3L"
+        };
+
+
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        //function phoneAuth() {
+        //    const app = initializeApp(firebaseConfig);
+        //    /*var a = document.getElementById('Number').value;*/
+        //    var a = "9993619886";
+        //    var b = "+91";
+        //    var phoneNumber = b + a;
+
+
+        //    //const phoneNumber = getPhoneNumberFromUserInput();
+        //    //const appVerifier = window.recaptchaVerifier;
+        //    alert(phoneNumber);
+        //    firebase.auth().signInWithPhoneNumber(phoneNumber)
+        //        .then((confirmationResult) => {
+        //            // SMS sent. Prompt user to type the code from the message, then sign the
+        //            // user in with confirmationResult.confirm(code).
+        //            alert("raja");
+        //            window.confirmationResult = confirmationResult;
+        //            // ...
+        //        }).catch((error) => {
+        //            alert("AAraja");
+        //            // Error; SMS not sent
+        //            // ...
+        //        });
+        //}
+        //const analytics = getAnalytics(app);
+    </script>
+
+   
+}
+
+
+
+

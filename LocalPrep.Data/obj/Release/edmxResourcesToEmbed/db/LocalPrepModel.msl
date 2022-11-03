@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="localprepdbModelStoreContainer" CdmEntityContainer="localprepdbEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="localprepdbModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="localprepdbModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="localprepdbModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="localprepdbModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="localprepdbModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="CuisinesSelected" ColumnName="CuisinesSelected" />
+          <ScalarProperty Name="DietsSelected" ColumnName="DietsSelected" />
+          <ScalarProperty Name="CookingStyle" ColumnName="CookingStyle" />
+          <ScalarProperty Name="ProfilePic" ColumnName="ProfilePic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contacts">
+      <EntityTypeMapping TypeName="localprepdbModel.Contact">
+        <MappingFragment StoreEntitySet="Contacts">
+          <ScalarProperty Name="ContactId" ColumnName="ContactId" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="ContactText" ColumnName="ContactText" />
+          <ScalarProperty Name="SubmitDt" ColumnName="SubmitDt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="localprepdbModel.Country">
+        <MappingFragment StoreEntitySet="Countries">
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+          <ScalarProperty Name="CountryNameLong" ColumnName="CountryNameLong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cuisines">
+      <EntityTypeMapping TypeName="localprepdbModel.Cuisine">
+        <MappingFragment StoreEntitySet="Cuisines">
+          <ScalarProperty Name="CuisineId" ColumnName="CuisineId" />
+          <ScalarProperty Name="CuisineName" ColumnName="CuisineName" />
+          <ScalarProperty Name="ImgSrc" ColumnName="ImgSrc" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDt" ColumnName="CreateDt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="database_firewall_rules">
+      <EntityTypeMapping TypeName="localprepdbModel.database_firewall_rules">
+        <MappingFragment StoreEntitySet="database_firewall_rules">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start_ip_address" ColumnName="start_ip_address" />
+          <ScalarProperty Name="end_ip_address" ColumnName="end_ip_address" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+          <ScalarProperty Name="modify_date" ColumnName="modify_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Diets">
+      <EntityTypeMapping TypeName="localprepdbModel.Diet">
+        <MappingFragment StoreEntitySet="Diets">
+          <ScalarProperty Name="DietId" ColumnName="DietId" />
+          <ScalarProperty Name="DietShortName" ColumnName="DietShortName" />
+          <ScalarProperty Name="DietLongName" ColumnName="DietLongName" />
+          <ScalarProperty Name="DietDescription" ColumnName="DietDescription" />
+          <ScalarProperty Name="ImgSrc" ColumnName="ImgSrc" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDt" ColumnName="CreateDt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MealAddOns">
+      <EntityTypeMapping TypeName="localprepdbModel.MealAddOn">
+        <MappingFragment StoreEntitySet="MealAddOns">
+          <ScalarProperty Name="MealAddOnId" ColumnName="MealAddOnId" />
+          <ScalarProperty Name="MealId" ColumnName="MealId" />
+          <ScalarProperty Name="MealAddOnName" ColumnName="MealAddOnName" />
+          <ScalarProperty Name="MealAddOnPrice" ColumnName="MealAddOnPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MealIngredients">
+      <EntityTypeMapping TypeName="localprepdbModel.MealIngredient">
+        <MappingFragment StoreEntitySet="MealIngredients">
+          <ScalarProperty Name="MealIngredientId" ColumnName="MealIngredientId" />
+          <ScalarProperty Name="MealId" ColumnName="MealId" />
+          <ScalarProperty Name="IngredientName" ColumnName="IngredientName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MealPics">
+      <EntityTypeMapping TypeName="localprepdbModel.MealPic">
+        <MappingFragment StoreEntitySet="MealPics">
+          <ScalarProperty Name="MealPicId" ColumnName="MealPicId" />
+          <ScalarProperty Name="MealId" ColumnName="MealId" />
+          <ScalarProperty Name="ImgSrc" ColumnName="ImgSrc" />
+          <ScalarProperty Name="BriefDescription" ColumnName="BriefDescription" />
+          <ScalarProperty Name="UploadDt" ColumnName="UploadDt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MealRatings">
+      <EntityTypeMapping TypeName="localprepdbModel.MealRating">
+        <MappingFragment StoreEntitySet="MealRatings">
+          <ScalarProperty Name="MealRatingId" ColumnName="MealRatingId" />
+          <ScalarProperty Name="MealId" ColumnName="MealId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="StarRating" ColumnName="StarRating" />
+          <ScalarProperty Name="RatingComments" ColumnName="RatingComments" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreateDt" ColumnName="CreateDt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meals">
+      <EntityTypeMapping TypeName="localprepdbModel.Meal">
+        <MappingFragment StoreEntitySet="Meals">
+          <ScalarProperty Name="MealId" ColumnName="MealId" />
+          <ScalarProperty Name="VendorId" ColumnName="VendorId" />
+          <ScalarProperty Name="MealName" ColumnName="MealName" />
+          <ScalarProperty Name="MealPrice" ColumnName="MealPrice" />
+          <ScalarProperty Name="CuisineId" ColumnName="CuisineId" />
+          <ScalarProperty Name="DietId" ColumnName="DietId" />
+          <ScalarProperty Name="SubmitDt" ColumnName="SubmitDt" />
+          <ScalarProperty Name="UpdateDt" ColumnName="UpdateDt" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MealDescription" ColumnName="MealDescription" />
+          <ScalarProperty Name="HeatingInstructions" ColumnName="HeatingInstructions" />
+          <ScalarProperty Name="Servings" ColumnName="Servings" />
+          <ScalarProperty Name="CaloriesServing" ColumnName="CaloriesServing" />
+          <ScalarProperty Name="Calories" ColumnName="Calories" />
+          <ScalarProperty Name="Fat" ColumnName="Fat" />
+          <ScalarProperty Name="Protein" ColumnName="Protein" />
+          <ScalarProperty Name="Sugar" ColumnName="Sugar" />
+          <ScalarProperty Name="Sodium" ColumnName="Sodium" />
+          <ScalarProperty Name="Cholesterol" ColumnName="Cholesterol" />
+          <ScalarProperty Name="TotalCarb" ColumnName="TotalCarb" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MealTransactionDetailAddOns">
+      <EntityTypeMapping TypeName="localprepdbModel.MealTransactionDetailAddOn">
+        <MappingFragment StoreEntitySet="MealTransactionDetailAddOns">
+          <ScalarProperty Name="MealTransactionDetailAddOnId" ColumnName="MealTransactionDetailAddOnId" />
+          <ScalarProperty Name="MealTransactionDetailId" ColumnName="MealTransactionDetailId" />
+          <ScalarProperty Name="MealAddOnId" ColumnName="MealAddOnId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MealTransactionDetails">
+      <EntityTypeMapping TypeName="localprepdbModel.MealTransactionDetail">
+        <MappingFragment StoreEntitySet="MealTransactionDetails">
+          <ScalarProperty Name="MealTransactionDetailId" ColumnName="MealTransactionDetailId" />
+          <ScalarProperty Name="MealTransactionId" ColumnName="MealTransactionId" />
+          <ScalarProperty Name="MealId" ColumnName="MealId" />
+          <ScalarProperty Name="MealQty" ColumnName="MealQty" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PickupDelivery" ColumnName="PickupDelivery" />
+          <ScalarProperty Name="PickupDeliveryDt" ColumnName="PickupDeliveryDt" />
+          <ScalarProperty Name="RemoveIngredients" ColumnName="RemoveIngredients" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MealTransactions">
+      <EntityTypeMapping TypeName="localprepdbModel.MealTransaction">
+        <MappingFragment StoreEntitySet="MealTransactions">
+          <ScalarProperty Name="MealTransactionId" ColumnName="MealTransactionId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CreateDt" ColumnName="CreateDt" />
+          <ScalarProperty Name="TransactionId" ColumnName="TransactionId" />
+          <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+          <ScalarProperty Name="ResponseDescription" ColumnName="ResponseDescription" />
+          <ScalarProperty Name="AuthCode" ColumnName="AuthCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShoppingCartAddOns">
+      <EntityTypeMapping TypeName="localprepdbModel.ShoppingCartAddOn">
+        <MappingFragment StoreEntitySet="ShoppingCartAddOns">
+          <ScalarProperty Name="CartAddOnId" ColumnName="CartAddOnId" />
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+          <ScalarProperty Name="MealAddOnId" ColumnName="MealAddOnId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShoppingCarts">
+      <EntityTypeMapping TypeName="localprepdbModel.ShoppingCart">
+        <MappingFragment StoreEntitySet="ShoppingCarts">
+          <ScalarProperty Name="CartId" ColumnName="CartId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="MealId" ColumnName="MealId" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PickupDelivery" ColumnName="PickupDelivery" />
+          <ScalarProperty Name="PickupDeliveryDt" ColumnName="PickupDeliveryDt" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="RemoveIngredients" ColumnName="RemoveIngredients" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="localprepdbModel.State">
+        <MappingFragment StoreEntitySet="States">
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="StateShortName" ColumnName="StateShortName" />
+          <ScalarProperty Name="StateLongName" ColumnName="StateLongName" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VendorPayments">
+      <EntityTypeMapping TypeName="localprepdbModel.VendorPayment">
+        <MappingFragment StoreEntitySet="VendorPayments">
+          <ScalarProperty Name="VendorPaymentId" ColumnName="VendorPaymentId" />
+          <ScalarProperty Name="VendorId" ColumnName="VendorId" />
+          <ScalarProperty Name="PlanName" ColumnName="PlanName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="TransactionId" ColumnName="TransactionId" />
+          <ScalarProperty Name="ResponseCode" ColumnName="ResponseCode" />
+          <ScalarProperty Name="ResponseDescription" ColumnName="ResponseDescription" />
+          <ScalarProperty Name="AuthCode" ColumnName="AuthCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vendors">
+      <EntityTypeMapping TypeName="localprepdbModel.Vendor">
+        <MappingFragment StoreEntitySet="Vendors">
+          <ScalarProperty Name="VendorId" ColumnName="VendorId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="VendorName" ColumnName="VendorName" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="VendorDescription" ColumnName="VendorDescription" />
+          <ScalarProperty Name="DeliveryAvailable" ColumnName="DeliveryAvailable" />
+          <ScalarProperty Name="PickupAvailable" ColumnName="PickupAvailable" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="PlaceId" ColumnName="PlaceId" />
+          <ScalarProperty Name="FormattedAddress" ColumnName="FormattedAddress" />
+          <ScalarProperty Name="ImgSrc" ColumnName="ImgSrc" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="ApprovedById" ColumnName="ApprovedById" />
+          <ScalarProperty Name="SubmitDt" ColumnName="SubmitDt" />
+          <ScalarProperty Name="LicensedInState" ColumnName="LicensedInState" />
+          <ScalarProperty Name="LicenseNo" ColumnName="LicenseNo" />
+          <ScalarProperty Name="AboutYourself" ColumnName="AboutYourself" />
+          <ScalarProperty Name="FavoriteThingsToCook" ColumnName="FavoriteThingsToCook" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="localprepdbModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

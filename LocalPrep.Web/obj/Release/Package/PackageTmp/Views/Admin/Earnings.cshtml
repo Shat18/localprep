@@ -1,0 +1,92 @@
+﻿@model LocalPrep.Web.Models.ResponseData
+@{
+    ViewBag.Title = "Earnings";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 dashboard-right">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 ">
+        <div class="p-5 w-100">
+
+            <div class="mb-4 text24 fw-medium">Earnings</div>
+            @using (Html.BeginForm("Earnings", "Admin", FormMethod.Post, new { role = "form", style = "width: 100%;", @id = "frmCustomerFilter" }))
+            {
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 mb-5 col-lg-3">
+                        @Html.TextBoxFor(m => m.sub_amount, new { @class = "form-control first_name", placeholder = "Total Payment" })
+                        @*<input class="form-control search-input rounded-3" type="text" placeholder="Name, Email, PH">*@
+                    </div>
+                    <div class="col-lg-8 mb-5">
+                        <div class="row row-cols-md-auto g-3 align-items-center justify-content-end">
+                            <div class="col-12">
+                                @Html.TextBoxFor(m => m.start_date, new { @class = "form-control form_date ", type = "date" })
+                                @*<input type="date" class="form-control form_date" id="">*@
+                            </div>
+
+                            <div class="col-12">
+                                @Html.TextBoxFor(m => m.end_date, new { @class = "form-control form_date ", type = "date" })
+                                @*<input type="date" class="form-control form_date" id="">*@
+                            </div>
+
+                            <div class="col-12">
+                                <input type="submit" class="btn btn-orange" value="Go" id="btnCustomerFilter" />
+                                @*<button type="submit" class="btn btn-orange">Go</button>*@
+                            </div>
+                            <div class="col-12">
+                                <button type="button" class="btn btn-outline-info ms-4" onclick="location.href='@Url.Action("Dashboard", "Admin")'"><img src="~/images/filter.svg"> Filter</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            }
+            <div class="table-responsive">
+                <table class="table table-sm table-list" cellpadding="10">
+                    <thead>
+                        <tr>
+                            <th scope="col">Preppers Listing</th>
+                            <th scope="col">Due Payment</th>
+                            <th scope="col">Total Payment</th>
+
+
+
+
+                            <th scope="col" width="100">View Details</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var earning in Model.data)
+                        {
+                            <tr>
+                                <td><p>@earning.Preppers.first_name @earning.Preppers.first_name</p> </td>
+                                <td>Null</td>
+                                <td>@earning.sub_amount</td>
+
+
+
+                                <td class="text-center">
+                                    <a class="link-more" href="@Url.Action("EarningDetail", "Admin",new { Order_id = @earning.id})">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="7.198" height="12.589" viewBox="0 0 7.198 12.589">
+                                            <path id="ios-arrow-back" d="M16.278,12.486,11.515,7.727a.9.9,0,0,1,1.274-1.27l5.4,5.393a.9.9,0,0,1,.026,1.24l-5.419,5.43a.9.9,0,1,1-1.274-1.27Z" transform="translate(-11.251 -6.194)" fill="#CB6319" />
+                                        </svg>
+
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</main>
+

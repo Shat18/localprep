@@ -1,0 +1,5 @@
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\bin\x64\Release\LocalPrep.Entity.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\bin\x64\Release\LocalPrep.Entity.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\x64\Release\LocalPrep.Entity.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\x64\Release\LocalPrep.Entity.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\x64\Release\LocalPrep.Entity.pdb

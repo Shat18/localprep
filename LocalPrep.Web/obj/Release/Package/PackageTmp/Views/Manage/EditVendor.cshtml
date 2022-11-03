@@ -1,0 +1,167 @@
+﻿@model Vendor
+@{
+    ViewBag.Title = "Edit Prepper Profile";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (ViewBag.SuccessMessage != null && ViewBag.SuccessMessage.Length > 0)
+{
+    <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+}
+
+@if (ViewBag.FailureMessage != null && ViewBag.FailureMessage.Length > 0)
+{
+    <div class="alert alert-danger">@ViewBag.FailureMessage</div>
+}
+
+@using (Html.BeginForm("EditVendor", "Manage", FormMethod.Post, new { enctype = "multipart/form-data",  @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.VendorName, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.VendorName, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.CompanyName, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-12"></label>
+        <div class="col-md-12">
+            <div class="checkbox">
+                @Html.CheckBoxFor(m => m.LicensedInState)
+                @Html.LabelFor(m => m.LicensedInState)
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.LicenseNo, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.LicenseNo, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.VendorDescription, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextAreaFor(m => m.VendorDescription, new { @class = "form-control", rows = 6 })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Address1, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.Address1, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Address2, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.Address2, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.City, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.StateId, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.DropDownListFor(m => m.StateId, new SelectList(Model.States, "StateId", "StateShortName", "35"), new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Zip, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.Zip, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.PhoneNumber, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.EmailAddress, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextBoxFor(m => m.EmailAddress, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.AboutYourself, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextAreaFor(m => m.AboutYourself, new { @class = "form-control", rows = 6 })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.FavoriteThingsToCook, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12">
+            @Html.TextAreaFor(m => m.FavoriteThingsToCook, new { @class = "form-control", rows = 6 })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-12"></label>
+        <div class="col-md-12">
+            <div class="checkbox">
+                @Html.CheckBoxFor(m => m.DeliveryAvailable)
+                @Html.LabelFor(m => m.DeliveryAvailable)
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-md-12"></label>
+        <div class="col-md-12">
+            <div class="checkbox">
+                @Html.CheckBoxFor(m => m.PickupAvailable)
+                @Html.LabelFor(m => m.PickupAvailable)
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                @Html.LabelFor(m => m.ImageFile, new { @class = "col-md-12 control-label" })
+                @Html.TextBoxFor(m => m.ImageFile, new { @class = "form-control-file", @type = "file" })
+            </div>
+        </div>
+        <div class="col-md-6">
+            @if (Model.ImgSrc != string.Empty && Model.ImgSrc != null)
+            {
+                <p>
+                    <strong>Current Image</strong>
+                </p>
+                <img src="@Model.ImgSrc" class="img-fluid" />
+            }
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-12">
+            <input type="submit" class="btn btn-lp" value="Update" />
+        </div>
+    </div>
+}

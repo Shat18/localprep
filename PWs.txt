@@ -1,0 +1,36 @@
+Gmail:
+localprep23@gmail.com
+TMC1234*
+
+Azure:
+localprep23@gmail.com
+TMC1234*
+Local@prep$$!
+
+Azure DB:
+localprepdbsrvr.database.windows.net
+localprepsa
+afB=L3MwxwA?3GaZ
+
+Cloudflare:
+localprep23@gmail.com
+TMC1234*
+
+SendGrid + Gmail (for SendGrid):
+localprep.614@gmail.com
+P:Y$7wtT8rfgyEGqc
+
+Sandy's Kitchen
+Tmc1234*
+
+TheMediaCaptain
+Tmc1234*
+
+  <add name="localprepdbEntities" connectionString="metadata=res://*/LocalPrepModel.csdl|res://*/LocalPrepModel.ssdl|res://*/LocalPrepModel.msl;provider=System.Data.SqlClient;provider connection string='data source=tcp:localprepdbsrvr.database.windows.net,1433;initial catalog=localprepdb;persist security info=False;user id=localprepsa;password=&quot;afB=L3MwxwA?3GaZ&quot;;multipleactiveresultsets=False;connect timeout=30;encrypt=True;trustservercertificate=False;App=EntityFramework'" providerName="System.Data.EntityClient" />
+
+LocalPrepModel
+
+<!--<add name="DefaultConnection" connectionString="Server=tcp:localprepdbsrvr.database.windows.net,1433;Initial Catalog=localprepdb;Persist Security Info=False;User ID=localprepsa;Password=afB=L3MwxwA?3GaZ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" providerName="System.Data.SqlClient" />-->
+  <!--<add name="localprepdbEntities" connectionString="data source=localprepdbsrvr.database.windows.net;initial catalog=localprepdb;user id=localprepsa;password=&quot;afB=L3MwxwA?3GaZ&quot;;MultipleActiveResultSets=True;App=EntityFramework'" providerName="System.Data.SqlClient" />-->
+
+Data Source=tcp:localprepdbsrvr.database.windows.net,1433;Initial Catalog=localprepdb;User Id=@localprepdbsrvr;Password=

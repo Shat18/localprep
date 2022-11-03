@@ -1,0 +1,212 @@
+﻿@model LocalPrep.Web.Models.CardInforesult
+
+
+@{ ViewBag.Title = "Card Info";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+<link href="~/js/jquery.timepicker.css" rel="stylesheet" />
+<style type="text/css">
+    .ui-datepicker-calendar {
+        display: none;
+    }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="loader-container" style="display:none">
+            <div class="loader"></div>
+        </div>
+
+        <div class="col-lg-12">
+            <h4>Card</h4>
+            @if (Model != null)
+            {
+                foreach (var card in Model.cardProfile)
+                {
+                    <div class="shadow rounded position-relative p-3 mb-4">
+                        <div class="">
+                            <span>
+                                <input type="text" id="@card.customer_payment_profile_id" name="cusomercardinfo" class="custom-control-input">
+
+                                <label class="" for="@card.customer_payment_profile_id">
+                                    <span class="text-orange d-block font-weight-500">@card.card_holder_name</span>
+                                    Visa @card.card_number<br />
+                                    @card.expiration_date
+                                </label>
+                            </span>
+
+                        </div>
+                        <a class="position-absolute close-box" href="@Url.Action("DeleteCard", "Vendor", new { Id = card.customer_payment_profile_id })"><i class="fa fa-times"></i></a>
+                    </div>
+                }
+            }
+
+            <div class="text-right mb-4">
+                <a href="#" class="btn btn-primary add-addPay">Add New Card</a>
+            </div>
+            <div class="add-payment-form shadow p-2" style="display:none">
+                <form class="form-group">
+                    <div id="paymentSetup">
+                        <h4>Payment Setup</h4>
+                        <p>
+                            <img src="~/img/accepted_credit_cards.jpeg" style="max-width: 180px;" alt="Credit Cards Accepted" />
+                        </p>
+
+
+
+                        <div class="form-group">
+                            <label>Credit Card Number</label>
+                            <input type="text" id="CustomerCreditCardNumber" class="form-control" />                         
+
+                        </div>
+
+                        <div class="form-group">
+                            <label>Expiration Date</label>                            
+                            <input type="text" id="CustomerCreditCardYear" class="form-control" placeholder="MM/YYYY" maxlength="6" />
+                            @*@Html.LabelFor(m => m.expiration_date, new { @class = "form-label" })
+                                @Html.TextBoxFor(m => m.expiration_date, new { @class = "form-control " })*@
+                            @*<select id="CreditCardMonth" class="form-control">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>*@
+                        </div>
+
+                        @*<div class="form-group">
+                                                                    <label>Year</label>
+                                                                    <select id="CreditCardYear" class="form-control">
+                                                                        @for (int i = System.DateTime.Now.Year; i <= System.DateTime.Now.Year + 7; i++)
+                                                                        {
+                                                        <option value="@i">@i</option>
+                            }
+                                                                    </select>
+                                                                </div>*@
+
+                        <div class="form-group">
+                            <label>CVV</label>
+                            <input type="password" id="CustomerCreditCardCvv" class="form-control"/>
+                        </div>
+
+                        <div class="text-right">
+                            <input type="button" class="btn btn-lp" value="Submit" id="CustomerCardSave" />
+                        </div>
+                    </div>
+
+                    <div class="alert alert-success" role="alert" id="successfulPmt" style="display: none;"></div>
+                    <div class="alert alert-danger" role="alert" id="failedPmt" style="display: none; margin-top: 20px;"></div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+@section Scripts {
+
+
+    <script>
+
+
+        $("#CustomerCreditCardNumber").payform('formatCardNumber');
+        $("#CustomerCreditCardCvv").payform('formatCardCVC');
+
+
+
+        $("#CustomerCreditCardNumber").keyup(function () {
+
+            var cardnumber = $(this).val();
+            if ($.payform.validateCardNumber(cardnumber) == false) {
+                $("#CustomerCreditCardNumber").addClass('has-error');
+            } else {
+                $("#CustomerCreditCardNumber").removeClass('has-error');
+                $("#CustomerCreditCardNumber").addClass('has-error');
+
+            }
+        });
+
+        $('.add-addPay').click(function (e) {
+            $('.add-payment-form').slideToggle();
+            return false;
+        });
+
+        $(function () {
+
+            $('#CustomerCardSave').click(function (e) {
+                $('#CustomerCardSave').prop('disabled', true);
+
+                $.ajax({
+                    url: "/Vendor/CardSave",
+                    type: "POST",
+                    dataType: "json",
+                    traditional: true,
+                    //data: JSON.stringify({ 'CustomercardNumber': 10, 'CustomercardYear': 20, 'CustomercardCVV': 30 }),
+                    data: JSON.stringify({ 'CustomercardNumber': $('#CustomerCreditCardNumber').val(), 'CustomercardYear': $('#CustomerCreditCardYear').val(), 'CustomercardCVV': $('#CustomerCreditCardCvv').val() }),
+                    //data: JSON.stringify({ 'cardNumber': $('#CreditCardNumber').val(), 'cardMonth': $('#CreditCardMonth').val(), 'cardYear': $('#CreditCardYear').val(), 'cardCVV': $('#CreditCardCvv').val(), 'cardFirstName': $('#CreditCardFirstName').val(), 'cardLastName': $('#CreditCardLastName').val(), 'Id': $('#Id').val() }),
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        var newUrl = '@Url.Action("CardInfo", "Vendor")';
+                        if (data != "Credit Card payment failed.") {
+                            window.location.href = newUrl;
+                            $('#paymentSetup').hide();
+                            $('#failedPmt').hide();
+                            $('#successfulPmt').show();
+                            $('#successfulPmt').text(data);
+                        }
+                        else {
+                            $('#payNow').prop('disabled', false);
+                            $('#successfulPmt').hide();
+                            $('#failedPmt').show();
+                            $('#failedPmt').text(data);
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, errorThrown) {
+                        alert('nope!');
+                        //alert(xhr.responseText);
+                        $('#msg').show();
+                        $('#msg').addClass("alert-danger");
+                        $('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                    }
+                });
+            });
+
+
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+        $('#btnPurchase').on("click", function () {
+            $(".loader-container").show();
+
+            var form = jQuery("#frmPurchasePlan");
+            var status = form.valid();
+            if (status) {
+
+                $(".loader-container").hide();
+            }
+        });
+
+
+
+
+    </script>
+}
+

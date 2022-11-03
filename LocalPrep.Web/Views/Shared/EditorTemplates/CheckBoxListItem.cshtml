@@ -1,0 +1,14 @@
+﻿@model LocalPrep.Web.Models.CheckBoxListItem
+<div class="col-md-3">
+    
+      @Html.HiddenFor(x => x.ID)
+      @Html.HiddenFor(x => x.Display, new { @class = "CheckedDisplayValue" })
+      @Html.CheckBoxFor(x => x.IsChecked, new { @class = "CheckedValue" })
+      @Html.LabelFor(x => x.IsChecked, Model.Display, htmlAttributes: new { @class = "control-label text-green small-text" })
+   
+</div>
+<style>
+    label {
+        font-size: 13px;
+    }
+</style>

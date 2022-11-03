@@ -1,0 +1,10 @@
+﻿@model LocalPrep.Web.Models.ResponseActiveOrders1
+@foreach (var Order in Model.response.data.Where(a => a.id == Model.response.HiddenId))
+{
+    <div class="text12 fw-bold">@Order.created_at</div>
+    <div class="my-5 fw-medium">
+        <p>@Order.Customer.delivery_address.address_line_1  @Order.Customer.delivery_address.address_line_2 ,</p>
+        <p> @Order.Customer.delivery_address.city, @Order.Customer.delivery_address.state, @Order.Customer.delivery_address.zip_code</p>
+    </div>
+
+}

@@ -1,0 +1,37 @@
+﻿@model LocalPrep.Web.Models.ResponseActiveOrders1
+<div class="table-responsive">
+    <table class="table table-sm table-list" cellpadding="10">
+        <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Order ID</th>
+                <th scope="col">Price</th>
+                <th scope="col" width="100">View Details</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in Model.response.data)
+            {
+                <tr>
+                    <td>@data.created_at</td>
+                    <td>#@data.id</td>
+                    <td>@data.total</td>
+                    @*@Html.HiddenFor(m => m.HiddenId, new { Value =@data.id })*@
+                    @*@Html.HiddenFor(m => m.HiddenId)*@
+                <td class="text-center">
+                    @*<a href="" class="link-more view-detail">*@
+                        <a href="@Url.Action("CustomerActiveOrdersDetailbyId", "Admin",new { Order_id = data.id})" class="link-more view-detail">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7.198" height="12.589" viewBox="0 0 7.198 12.589">
+                            <path id="ios-arrow-back" d="M16.278,12.486,11.515,7.727a.9.9,0,0,1,1.274-1.27l5.4,5.393a.9.9,0,0,1,.026,1.24l-5.419,5.43a.9.9,0,1,1-1.274-1.27Z" transform="translate(-11.251 -6.194)" fill="#CB6319"></path>
+                        </svg>
+
+                    </a>
+                </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>

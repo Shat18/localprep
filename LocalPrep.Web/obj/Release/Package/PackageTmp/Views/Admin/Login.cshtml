@@ -1,0 +1,66 @@
+﻿@using LocalPrep.Web.Models
+@model LoginViewModel
+@{ Layout = "~/Views/Shared/_LayoutAdmin.cshtml"; }
+
+<main class="login-page">
+    <section class="h-100">
+        <div class="container h-100">
+
+            <div class="row justify-content-center h-100">
+
+                <div class="col-lg-6 col-xl-6 col-xxl-5 d-lg-flex align-items-center justify-content-center h-100">
+                    <div class="pt-5 w-100">
+
+                        <div class="login-section">
+                            <h1 class="text-center mb-5 pb-xxl-5">Log In</h1>
+                            @using (Html.BeginForm("Login", "Admin", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form", @id = "frmLogin" }))
+                            {
+                           @Html.AntiForgeryToken()
+                           @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="mb-5">                            
+                            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Email" })
+                            @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-5">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                            <div class="form-check col-md-6">
+                                @Html.LabelFor(m => m.RememberMe)
+                                @Html.CheckBoxFor(m => m.RememberMe, new { @class = "m-l-10" })
+                            </div>
+                            <div class="text-right col-md-6">
+                                @Html.ActionLink("Forgot Password?", "ForgotPassword")
+                            </div>
+                            @*<div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label fw-medium text-light-link" for="gridCheck">
+                Remember Me
+            </label>
+        </div>
+        <a href="forget-password.php" class="link-text text-light-link fw-medium">Forgot Password</a>*@
+                        </div>
+                        <div class="d-grid mb-5 py-0 ">
+                            <button class="btn btn-orange" type="submit">Log In</button>
+
+                        </div>}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+

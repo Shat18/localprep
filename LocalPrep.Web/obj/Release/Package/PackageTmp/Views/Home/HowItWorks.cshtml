@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "How It Works";
+}
+
+<section id="page-content" style="padding: 0px;">
+    <div class="container-fullscreen">
+        <div class="col-md-12 orange-spec-bg">
+            <h1 class="text-center">HOW IT WORKS</h1>
+            @*<p class="text-center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                </p>*@
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+<section id="page-content" style="padding-bottom: 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 center">
+                <img src="~/img/create-account.png" alt="Create Account" class="img-fluid" />
+
+                <h4 class="orange" style="margin-top: 12px;">1. CREATE A LOCAL PREP ACCOUNT</h4>
+
+                <p>
+                    We'll need some information to connect you with nearby meal preppers.
+                </p>
+            </div>
+
+            <div class="col-md-6 center">
+                <img src="~/img/select-location.png" alt="Create Account" class="img-fluid" />
+
+                <h4 class="orange" style="margin-top: 12px;">2. SELECT LOCATION &amp; PICK A PREPPER</h4>
+
+                <p>
+                    Find a nearby meal prepper that specializes in the diet and cuisine preference of your liking.
+                </p>
+            </div>
+
+            <div class="col-md-6 center">
+                <img src="~/img/order-food.png" alt="Create Account" class="img-fluid" />
+
+                <h4 class="orange" style="margin-top: 12px;">3. ORDER YOUR FOOD</h4>
+
+                <p>
+                    Order from a trusted meal prepper nearby that's been vetted by our staff. You’ll be able to view their menu options and order directly from their profile.
+                </p>
+            </div>
+
+            <div class="col-md-6 center">
+                <img src="~/img/pickup-delivery.png" alt="Create Account" class="img-fluid" />
+
+                <h4 class="orange" style="margin-top: 12px;">
+                    4. PICK-UP OR DELIVERY
+                </h4>
+
+                <p>
+                    Confirm whether you want to pick-up your food or if you'd prefer for it to be delivered to your home or office.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fullscreen">
+        <div class="row">
+            <div class="col-md-12 blue-spec-bg">
+                <h1 class="text-center">LET'S GET STARTED</h1>
+                <p class="text-center">
+                    Below is a list of Local Prep's top rated meal preppers. You can also search for a meal prepper by name or by
+                    city, state or zip using the search bars below!
+                </p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 center">
+                            <a href="@Url.Action("Register", "Account")" class="btn btn-default fullwidth">CREATE AN ACCOUNT</a>
+                        </div>
+
+                        <div class="col-md-6 center">
+                            <a href="@Url.Action("BecomePrepper", "Account")" class="btn btn-default fullwidth">BECOME A MEAL PREPPER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

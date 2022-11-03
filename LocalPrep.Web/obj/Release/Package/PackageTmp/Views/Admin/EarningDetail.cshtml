@@ -1,0 +1,96 @@
+﻿@model LocalPrep.Web.Models.Earnings
+@{
+    ViewBag.Title = "EarningDetail";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 dashboard-right">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 ">
+        <div class="p-5 w-100">
+
+            <div class="mb-4 text24 fw-medium">
+                <a class="me-4" href="@Url.Action("Earnings", "Admin")">
+                    @*<a href="earnings.php" class="me-4">*@
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.243" height="13.501" viewBox="0 0 20.243 13.501">
+                        <path id="round-back" d="M15.216,11.51a.919.919,0,0,1,.007,1.294l-4.268,4.282H27.218a.914.914,0,0,1,0,1.828H10.955L15.23,23.2a.925.925,0,0,1-.007,1.294.91.91,0,0,1-1.287-.007L8.142,18.647h0a1.026,1.026,0,0,1-.19-.288.872.872,0,0,1-.07-.352.916.916,0,0,1,.26-.64l5.794-5.836A.9.9,0,0,1,15.216,11.51Z" transform="translate(-7.882 -11.252)" />
+                    </svg>
+                </a> Earnings Detail
+            </div>
+            <div class=" content-box">
+                <div class="row">
+
+
+                    <div class="col-md-12 ">
+                        @foreach (var Order in Model.Response.data.Where(a=>a.id==Model.Response.Hidden_id))                       
+                        {
+
+                        <div class="white-shadow h-100 rounded-0 pt-0">
+                            <div class="d-flex justify-content-between bg-orange p-4 text-white mb-5">
+                                <div class="fw-bold text-uppercase text14">Total Earning</div>
+                                <div class="fw-bold text-uppercase text20">$2222.99</div>
+                            </div>
+                            @*<div class="mx-5 mb-5">
+                                <canvas class="my-4 w-100" id="myChart" width="900" height="270"></canvas>
+                            </div>*@
+                            @foreach (var meal in Order.orders.meals)
+                            {
+                                <div class="mx-5">
+
+                                    <div class="border-bottom border-secondary pb-5 mb-5">
+                                        <div class="fw-medium text12 text-black-50 mb-4">17 Feb 2022, 11:00 AM</div>
+                                        <div class="row gy-5">
+                                            <div class="col-md-3">
+                                                <img src="@meal.image" class="img-fluid w-100">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <div class="text12 fw-medium mb-5 text-black-50">Order No: @Order.id</div>
+                                                <div class="d-flex justify-content-between mb-3">
+                                                    <div class="text12 fw-medium text-black-50"></div>
+                                                    <div class="fw-bold text18"><span class="fw-bold text-orange">Meal: @meal.name</span></div>
+                                                </div>                                               
+                                                <div class="d-flex justify-content-between mb-3">
+                                                    <div class="text12 fw-medium text-black-50">7 Feb 2022 at 11:30 AM</div>
+                                                    <div class="fw-bold text18"><span class="fw-bold text-orange">$@meal.price</span></div>
+                                                </div>
+
+
+
+                                                <div class="mb-4 fw-medium">
+                                                    @{ Html.RenderAction("_deliveryaddress", "Admin");}
+                                                    @*2088 Easthaven Dr,<br>
+                                                    Columbus, Ohio, 43232*@
+                                                </div>
+                                                <div class="text-end">
+                                                    @*<a href="#" class="d-inline-block link">View Details <img src="../images/arrow-down.svg" class="ms-2"></a>*@
+                                                    <div class="special-text text-start">
+                                                        <div class="fw-semi-blod mb-2">Special Request</div>
+                                                        <p class="text14 mb-5">@meal.description</p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+
+                                </div>
+                            }
+
+                        </div>
+
+
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</main>
+

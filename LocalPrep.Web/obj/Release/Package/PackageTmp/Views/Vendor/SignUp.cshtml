@@ -1,0 +1,253 @@
+﻿@model Vendor
+@{ ViewBag.Title = "Sign Up to be a Vendor"; }
+
+<!-- Content -->
+<section id="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+
+                @using (Html.BeginForm("SignUp", "Vendor", FormMethod.Post, new { @class = "form-horizontal", role = "form", @id = "frmSignUp" }))
+                {
+    <div class="loader-container" style="display:none">
+        <div class="loader"></div>
+    </div>
+                    @Html.AntiForgeryToken()
+
+                                    @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="row">
+                <div class="form-group col-md-6">
+                    @Html.LabelFor(m => m.VendorName, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextBoxFor(m => m.VendorName, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    @Html.LabelFor(m => m.CompanyName, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="checkbox">
+                        @*@Html.CheckBoxFor(m => m.LicensedInState, new { @class = "col-md-12 control-label", onclick = "Checked()" })*@
+                        <input type="checkbox" name="chkbox" class="a" onclick="Checked()" />
+                        @Html.LabelFor(m => m.LicensedInState)
+                    </div>
+                    <div class="form-group" id="divLicenseNo" style="display:none;">
+                        @Html.LabelFor(m => m.LicenseNo, new { @class = "control-label" })
+                        <div class="">
+                            @Html.TextBoxFor(m => m.LicenseNo, new { @class = "form-control" })
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group col-md-12">
+                    @Html.LabelFor(m => m.VendorDescription, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextAreaFor(m => m.VendorDescription, new { @class = "form-control", rows = 6 })
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    @Html.LabelFor(m => m.Address1, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextBoxFor(m => m.Address1, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    @Html.LabelFor(m => m.Address2, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextBoxFor(m => m.Address2, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    @Html.LabelFor(m => m.City, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    @Html.LabelFor(m => m.short_code, new { @class = "control-label" })
+                    <div class="">
+                        @Html.DropDownListFor(m => m.short_code, ViewData["State"] as List<SelectListItem>, new { @id = "State" })
+                        @*@Html.DropDownListFor(m => m.StateName, new SelectList(Model.States, "id", "short_code", "35"), new { @class = "form-control" })*@
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    @Html.LabelFor(m => m.Zip, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextBoxFor(m => m.Zip, new { @class = "form-control", onkeypress = "return ValidNumeric()", maxlength = "10" })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-4">
+                    @Html.LabelFor(m => m.PhoneNumber, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", maxlength = "25", id = "phnnumber", onkeypress = "return ValidNumeric()" })
+                       
+                    </div>
+                </div>
+
+
+                <div class="form-group col-md-4">
+                    @Html.LabelFor(m => m.EmailAddress, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextBoxFor(m => m.EmailAddress, new { @class = "form-control" })
+                    </div>
+                </div>
+               
+                <div class="form-group col-md-4">
+                      @Html.LabelFor(m => m.Website,new { @class = "control-label" })
+                   
+                    <div class="">
+                        @Html.TextBoxFor(m => m.Website, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    @Html.LabelFor(m => m.AboutYourself, new { @class = "control-label" })
+                    <div class="">
+                        @Html.TextAreaFor(m => m.AboutYourself, new { @class = "form-control", rows = 6 })
+                    </div>
+                </div>
+
+                <div class="form-group col-md-6">
+                    @Html.LabelFor(m => m.FavoriteThingsToCook, new { @class = " control-label" })
+                    <div class="">
+                        @Html.TextAreaFor(m => m.FavoriteThingsToCook, new { @class = "form-control", rows = 6 })
+                    </div>
+                </div>
+            </div>
+
+                 <div class="row">
+                    <div class="col-md-12">
+                        @Html.LabelFor(m => m.DietsSelected)
+                        <div class="row">
+                            <br />
+                            @Html.EditorFor(x => x.Diets, new { @required = "required" })
+                            <div class="col-md-3">
+                                @Html.TextBoxFor(m => m.Otherdiet, new { @class = "form-control", @id = "OtherDiets", style = "display:none" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5" style="margin-top: 24px;">
+                    <div class="col-md-12">
+                        @Html.LabelFor(m => m.CuisinesSelected)
+                        <div class="row">
+
+                            <br />
+                            @Html.EditorFor(x => x.Cuisines, new { @required = "required" })
+                            <div class="col-md-3">
+                                @Html.TextBoxFor(m => m.Othercuisine, new { @class = "form-control", @id = "OtherCuisines", style = "display:none" })
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="form-group row pb-0">
+                    
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.CheckBoxFor(m => m.DeliveryAvailable)
+                            @Html.LabelFor(m => m.DeliveryAvailable)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row pb-5">
+                    
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.CheckBoxFor(m => m.PickupAvailable)
+                            @Html.LabelFor(m => m.PickupAvailable)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="">
+                        <input type="submit" class="btn btn-lp" value="Continue" id="btnsignup" />
+                    </div>
+                </div>}
+
+            </div>
+        </div>
+    </div>
+</section>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+
+        $('body').on('click', '#Diets_5__IsChecked', function () {
+            //alert("heloo");
+            //$('.CustCreditCardCvv).hide();
+
+            if ($('#Diets_5__IsChecked').is(':checked')) {
+                $("#OtherDiets").css("display", "block");
+            }
+            else {
+                $("#OtherDiets").css("display", "none");
+            }
+
+            //$(".expdate").css("display", "block")
+            //var value = $(this).attr("data-id");
+            //$('#CreditCardCvv_' + value).show();
+            //$('#expdate_' + value).hide();
+        })
+
+        $('body').on('click', '#Cuisines_6__IsChecked', function () {
+            //alert("heloo");
+            //$('.CustCreditCardCvv).hide();
+
+            if ($('#Cuisines_6__IsChecked').is(':checked')) {
+                $("#OtherCuisines").css("display", "block");
+            }
+            else {
+                $("#OtherCuisines").css("display", "none");
+            }
+
+            //$(".expdate").css("display", "block")
+            //var value = $(this).attr("data-id");
+            //$('#CreditCardCvv_' + value).show();
+            //$('#expdate_' + value).hide();
+        })
+
+        $('#btnsignup').on("click", function () {
+            $(".loader-container").show();
+
+            var form = jQuery("#frmSignUp");
+            var status = form.valid();
+            if (status) {
+
+                $(".loader-container").hide();
+            }
+        });
+
+        $("input[name='chkbox']").on("change", function () {
+            $("#divLicenseNo").toggle(this.checked);
+        });
+
+        $(document).on('keyup', '#phnnumber', function (e) {
+
+
+            let text = $(this).val()
+            text = text.replace(/\D/g, '')
+
+            text = text.replace(/.{0}/, '$& ( ')
+            text = text.replace(/.{6}/, '$& ) '); //Add hyphen at pos.4
+            text = text.replace(/.{12}/, '$&-')   //Add hyphen at pos.8
+            $(this).val(text.substring(0, 17)); //Set the new text
+        });
+
+        function ValidNumeric() {
+
+            var charCode = (event.which) ? event.which : event.keyCode;
+            if (charCode >= 48 && charCode <= 57) { return true; }
+            else { return false; }
+        }
+    </script>
+}
+

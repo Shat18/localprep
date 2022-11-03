@@ -1,0 +1,189 @@
+﻿@model LocalPrep.Web.Models.CardInforesult
+
+
+@{ ViewBag.Title = "Card Info";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+<link href="~/js/jquery.timepicker.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<style type="text/css">
+    .ui-datepicker-calendar {
+        display: none;
+    }
+</style>
+<style type="text/css">
+    .has-error input {
+        border-width: 2px;
+    }
+
+    .validation.text-danger:after {
+        content: 'Validation failed';
+    }
+
+    .validation.text-success:after {
+        content: 'Validation passed';
+    }
+</style>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="loader-container" style="display:none">
+            <div class="loader"></div>
+        </div>
+
+        <div class="col-lg-12">
+            <h4>Card</h4>
+            @if (Model != null)
+            {
+                foreach (var card in Model.cardProfile)
+                {
+                    <div class="shadow rounded position-relative p-3 mb-4">
+                        <div class="custom-control custom-radio">
+                            <span>
+                                <input type="radio" id="@card.customer_payment_profile_id" name="cusomercardinfo" class="custom-control-input">
+
+                                <label class="custom-control-label" for="@card.customer_payment_profile_id">
+                                    <span class="text-orange d-block font-weight-500">@card.card_holder_name</span>
+                                    <p>@card.card_number</p>
+                                    <p>@card.expiration_date</p>
+                                </label>
+                            </span>
+
+                        </div>
+                        <a class="position-absolute close-box" href="@Url.Action("DeleteCard", "Vendor", new { Id = card.customer_payment_profile_id })"><i class="fa fa-times"></i></a>
+                    </div>
+                }
+            }
+
+            <div class="text-right mb-4">
+                <a href="#" class="btn btn-primary add-addPay">Add New Card</a>
+            </div>
+            <div class="add-payment-form shadow p-2" style="display:none">
+                <form class="form-group">
+                    <div id="paymentSetup">
+                        <h4>Payment Setup</h4>
+                        <p>
+                            <img src="~/img/accepted_credit_cards.jpeg" style="max-width: 180px;" alt="Credit Cards Accepted" />
+                        </p>
+                        <div class="form-group">
+                            <label>Credit Card Number</label>
+                            <input type="tel" id="CustomerCreditCardNumber" autocomplete="cc-number" placeholder="•••• •••• •••• ••••"  class="form-control cc-number" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Expiration Date</label>
+                            <input type="tel" id="CustomerCreditCardYear" class="form-control cc-exp " autocomplete="cc-exp" placeholder="•• / ••" required />
+                           
+                        </div>                     
+
+                        <div class="form-group">
+                            <label>CVV</label>
+                            <input type="tel" id="CustomerCreditCardCvv" class="form-control cc-cvc " autocomplete="off" placeholder="•••" required />
+                        </div>
+
+                        <div class="text-right">
+                            <input type="button" class="btn btn-lp" value="Submit" id="CustomerCardSave" />
+                        </div>
+                    </div>
+                    <h2 class="validation"></h2>
+                    <div class="alert alert-success" role="alert" id="successfulPmt" style="display: none;"></div>
+                    <div class="alert alert-danger" role="alert" id="failedPmt" style="display: none; margin-top: 20px;"></div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/jquery.payment.js"></script>
+    <script>
+
+
+        //$("#CustomerCreditCardNumber").payform('formatCardNumber');
+        //$("#CustomerCreditCardCvv").payform('formatCardCVC');
+
+
+
+        //$("#CustomerCreditCardNumber").keyup(function () {
+
+        //    var cardnumber = $(this).val();
+        //    if ($.payform.validateCardNumber(cardnumber) == false) {
+        //        $("#CustomerCreditCardNumber").addClass('has-error');
+        //    } else {
+        //        $("#CustomerCreditCardNumber").removeClass('has-error');
+        //        $("#CustomerCreditCardNumber").addClass('has-error');
+
+        //    }
+        //});
+
+        $('.add-addPay').click(function (e) {
+            $('.add-payment-form').slideToggle();
+            return false;
+        });
+
+        $(function ($) {
+            
+            $('[data-numeric]').payment('restrictNumeric');
+            $('.cc-number').payment('formatCardNumber');
+            $('.cc-exp').payment('formatCardExpiry');
+            $('.cc-cvc').payment('formatCardCVC');
+
+            $.fn.toggleInputError = function (erred) {
+                this.parent('.form-group').toggleClass('has-error', erred);
+                return this;
+            };
+
+            $('#CustomerCardSave').on("click", function (e) {
+                // your stuff
+                
+                e.preventDefault();
+                var cardType = $.payment.cardType($('.cc-number').val());
+               
+                $('.cc-number').toggleInputError(!$.payment.validateCardNumber($('.cc-number').val()));
+                $('.cc-exp').toggleInputError(!$.payment.validateCardExpiry($('.cc-exp').payment('cardExpiryVal')));
+                $('.cc-cvc').toggleInputError(!$.payment.validateCardCVC($('.cc-cvc').val(), cardType));
+                $('.cc-brand').text(cardType);
+
+                $('.validation').removeClass('text-danger text-success');
+                $('.validation').addClass($('.has-error').length ? 'text-danger' : 'text-success');
+                if ($('.validation').hasClass("text-danger")) {
+                    alert("I am fail");
+                }
+                else {
+                    alert("I am Pass");
+                }
+            });
+
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+        $('#btnPurchase').on("click", function () {
+            $(".loader-container").show();
+
+            var form = jQuery("#frmPurchasePlan");
+            var status = form.valid();
+            if (status) {
+
+                $(".loader-container").hide();
+            }
+        });
+
+
+
+
+    </script>
+}
+

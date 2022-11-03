@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="The Media Captain" />
+    <meta name="description" content="Local Prep">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>@ViewBag.Title - Local Prep</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    @Styles.Render("~/bundles/css")
+</head>
+
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Topbar -->
+        <div id="topbar" class="topbar-colored topbar-fullwidth">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-none d-sm-block">
+                        <div class="social-icons social-icons-colored-hover">
+                            <ul>
+                                <li class="social-facebook"><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-twitter"><a href="https://twitter.com/shoplocalprep" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li class="social-pinterest"><a href="" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="top-menu right">
+                            @{Html.RenderAction("CartCount", "Layout");}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Topbar -->
+        <!-- Header -->
+        <header id="header">
+            <div class="header-inner">
+                <div class="container">
+                    <!--Logo-->
+                    <div id="logo">
+                        <a href="@Url.Action("Index", "Home")">
+                            <img src="~/img/local_prep_logo.png" class="logo-default" />
+                        </a>
+                    </div>
+                    <!--End: Logo-->
+                    <!--Navigation Responsive Trigger-->
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x"><span class="lines"></span></a>
+                    </div>
+                    <!--end: Navigation Resposnive Trigger-->
+                    <!--Navigation-->
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="@Url.Action("HowItWorks", "Home")">How It Works</a></li>
+                                    <li><a href="@Url.Action("About", "Home")">About</a></li>
+                                    <li class="dropdown">
+                                        <a href="#">Get Started</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-submenu">
+                                                <span>ORDER FROM A MEAL PREPPER</span>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="@Url.Action("Register", "Account")">Create Account</a></li>
+                                                    <li><a href="@Url.Action("Login", "Account")">Sign In</a></li>
+                                                    <li><a href="@Url.Action("Index", "Home")">Order From Nearby Prepper</a></li>
+                                                    @*<li><a href="@Url.Action("OurMealPreppers", "Home")">Order From Nearby Prepper</a></li>*@
+                                                </ul>
+                                            </li>
+                                            <li><a href="@Url.Action("BecomePrepper", "Account")">Become a Meal Prepper</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="@Url.Action("Contact", "Home")">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--end: Navigation-->
+                </div>
+            </div>
+        </header>
+        <!-- end: Header -->
+        @*@if (!((string)ViewContext.RouteData.Values["controller"] == "Home" && (string)ViewContext.RouteData.Values["action"] == "Index") && !((string)ViewContext.RouteData.Values["controller"] == "Account" && (string)ViewContext.RouteData.Values["action"] == "Login") && !((string)ViewContext.RouteData.Values["controller"] == "Home" && (string)ViewContext.RouteData.Values["action"] == "OurMealPreppers"))
+            {
+                <section id="page-title">
+                    <div class="container">
+                        <div class="page-title">
+                            <h1>@ViewBag.Title</h1>
+                            <span>@ViewBag.Span</span>
+                        </div>
+                    </div>
+                </section>
+            }*@
+
+        @RenderBody()
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4">
+                            <img src="~/img/local_prep_footer_logo.png" class="img-fluid" alt="Local Prep" />
+                        </div>
+                    </div>
+
+                    <div class="row m-25">
+                        <div class="col-md-8 col-md-offset-2">
+                            <p class="center">
+                                Local Prep helps individuals ﬁnd speciﬁc types of meal preppers, home chefs and caterers in their LOCAL area.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row m-25">
+                        <div class="col-md-3 center"><a href="@Url.Action("Index", "Home")" class="footer-links">Home</a></div>
+                        <div class="col-md-3 center"><a href="@Url.Action("HowItWorks", "Home")" class="footer-links">How It Works</a></div>
+                        <div class="col-md-3 center"><a href="@Url.Action("About", "Home")" class="footer-links">About Us</a></div>
+                    </div>
+
+                    <div class="row m-25">
+                        <div class="col-md-6 col-md-offset-3 center">
+                            <div class="widget clearfix widget-newsletter">
+                                <h4 class="widget-title"><i class="fa fa-envelope"></i> Sign Up For our Newsletter</h4>
+
+                                <form class="widget-subscribe-form p-r-40" action="include/subscribe-form.php" role="form" method="post" novalidate="novalidate">
+
+                                    <div class="input-group">
+                                        <input aria-required="true" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email" type="email">
+                                        <span class="input-group-btn">
+                                            <button type="submit" id="widget-subscribe-submit-button" class="btn"><i class="fa fa-paper-plane"></i></button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- Social icons -->
+                            <div class="social-icons social-icons">
+                                <ul>
+                                    <li class="social-facebook"><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="social-twitter"><a href="https://twitter.com/shoplocalprep" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="social-pinterest"><a href="" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- end: Social icons -->
+                        </div>
+
+                        <div class="col-lg-6 text-right">
+                            <div class="copyright-text">&copy; @DateTime.Now.Year Local Prep. All Rights Reserved. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end: Footer -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    @Scripts.Render("~/bundles/js")
+    @RenderSection("scripts", required: false)
+
+</body>
+
+</html>
+
+
+

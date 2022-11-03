@@ -1,0 +1,176 @@
+﻿@model BankAccount
+@{ ViewBag.Title = "Payments";
+    //ViewBag.Span = Html.ActionLink("Add Meal", "EditMeal", "Manage");
+    //ViewBag.Span = Html.ActionLink("Add Meal", "AddMeal", "Manage");
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (ViewBag.SuccessMessage != null && ViewBag.SuccessMessage.Length > 0)
+{
+    <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+}
+
+@if (ViewBag.FailureMessage != null && ViewBag.FailureMessage.Length > 0)
+{
+    <div class="alert alert-danger">@ViewBag.FailureMessage</div>
+}
+
+<link href="~/js/jquery.timepicker.css" rel="stylesheet" />
+<style type="text/css">
+    .ui-datepicker-calendar {
+        display: none;
+    }
+</style>
+<div id="page-content" class="pt-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="loader-container" style="display:none">
+                <div class="loader"></div>
+            </div>            
+            <div class="col-md-12 col-lg-12">
+                <div class="shadow rounded p-4">
+                    @*<h3 class="text-green mb-3">Purchase Plan</h3>*@
+                    @using (Html.BeginForm("Earnings", "Account", FormMethod.Post, new { role = "form", @id = "frmBanks" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                        <div id="cd-detail">
+                            @*<h3 class="mb-4">Card Information</h3>*@
+                            <div class="row ">
+                                <div class="col-md-12 mb-4">
+
+                                    @Html.LabelFor(m => m.name_on_account, new { @class = "form-label" })
+                                    @*@Html.TextBoxFor(m => m.card_number, new { @class = "form-control " })*@
+                                    @Html.TextBoxFor(m => m.name_on_account, new { @required = "required", @class = "form-control", @id = "txtname_on_account" })
+                                    @*@Html.ValidationMessageFor(model => model.name_on_account, "", new { @required = "required", @class = "error text-danger" })*@
+
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    @Html.LabelFor(m => m.bank_account_number, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.bank_account_number, new { @class = "form-control " })
+
+                                </div>
+
+
+                                <div class="col-md-6 mb-4">
+                                    @Html.LabelFor(m => m.re_type_bank_account_number, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.re_type_bank_account_number, new { @class = "form-control " })
+                                </div>
+
+
+
+
+
+
+                                <div class="col-md-12 mb-4">
+                                    <div class="form-group" id="dvcardcode">
+                                        @Html.LabelFor(m => m.routing_number, new { @class = "form-label" })
+                                        @*<input type="text" size="25" class="js-routing-transit-number" pattern="\d*" x-autocompletetype="routing-transit-number" placeholder="Routing transit number" required>*@
+                                        @Html.TextBoxFor(m => m.routing_number, new { @required = "required", @class = "form-control js-routing-transit-number", size = "25", @id = "txtcreditcardcode" })
+                                        @*@Html.ValidationMessageFor(m => m.routing_number, "", new { @required = "required", @class = "error text-danger" })*@
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <div class="form-group" id="dvcardcode">
+                                        @Html.LabelFor(m => m.bank_name, new { @class = "form-label" })
+                                        @Html.TextBoxFor(m => m.bank_name, new { @required = "required", @class = "form-control", @id = "txtcreditcardcode" })
+                                        @*@Html.ValidationMessageFor(m => m.bank_name, "", new { @required = "required", @class = "error text-danger" })*@
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="text-start">
+                                <button type="submit" class="btn btn-primary" id="btnbank">Save</button>
+                            </div>
+                        </div>
+
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@Scripts.Render("~/bundles/jqueryval")
+@*<script src="~/js/jquery.bank.js"></script>*@
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+
+            //To set front-end input restrictions:
+            ////$input.bank('RoutingTransitNumber', 'US');
+
+            //////To validate before submitting a form:
+            ////$input.toggleClass('valid', $.bank.validate('RoutingTransitNumber', 'US', $input.val()));
+
+            ////$("#txtCrdNumber").payform('formatCardNumber');
+            ////$("#txtcreditcardcode").payform('formatCardCVC');
+
+
+
+            //$("#txtCrdNumber").keyup(function () {
+            //    var cardnumber = $(this).val();
+            //    if ($.payform.validateCardNumber(cardnumber) == false) {
+            //        $("#txtCrdNumber").addClass('has-error');
+            //    } else {
+            //        $("#txtCrdNumber").removeClass('has-error');
+            //        $("#txtCrdNumber").addClass('has-error');
+
+            //    }
+            //});
+
+        });
+
+
+
+        ////jQuery(function ($) {
+        ////    $('.js-routing-transit-number').bank('RoutingTransitNumber', 'US');
+
+        ////    $('form').submit(function (e) {
+        ////        e.preventDefault();
+        ////        $('input').removeClass('invalid');
+        ////        $('.validation').removeClass('passed failed');
+
+        ////        $('.js-routing-transit-number').toggleClass('invalid', !$.bank.validate('RoutingTransitNumber', 'US', $('.js-routing-transit-number').val()));
+
+        ////        if ($('input.invalid').length) {
+        ////            $('.validation').addClass('failed');
+        ////        } else {
+        ////            $('.validation').addClass('passed');
+        ////        }
+        ////    });
+        ////});
+
+
+
+
+
+        $('#btnbank').on("click", function () {
+            $(".loader-container").show();
+            var form = jQuery("#frmBanks");
+            var status = form.valid();
+            if (status) {
+                $(".loader-container").hide();
+            }
+        });
+
+
+    </script>
+}
+
+

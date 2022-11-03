@@ -1,0 +1,76 @@
+﻿@using LocalPrep.Web.Models
+@model LoginViewModel
+@{ ViewBag.Title = "Log In";
+                ViewBag.DisplayTitle = false; }
+
+<section id="page-content" style="background-image: url('/img/login-bg2.jpg');">
+    <div class="container">
+
+            <div class="loader-container" style="display:none">
+                    <div class="loader"></div>
+                    </div>
+        <div class="row">
+            <div class="col-lg-5 center p-50 background-white b-r-6">
+                <h2 class="center orange text-uppercase">@ViewBag.Title</h2>
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" , @id = "frmLogin" }))
+                {
+
+    @Html.AntiForgeryToken()
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Email" })
+                                        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                                    </div>
+                                                    <div class="form-group m-b-5">
+                                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Password" })
+                                                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                                    </div>
+                                                                    <div class="form-group form-inline text-left">
+                                                                        <div class="form-check col-md-6">
+                                                                            @Html.LabelFor(m => m.RememberMe)
+                                                                            @Html.CheckBoxFor(m => m.RememberMe, new { @class = "m-l-10" })
+                                                                        </div>
+                                                                        <div class="text-right col-md-6">
+                                                                            @Html.ActionLink("Forgot Password?", "ForgotPassword")
+                                                                        </div>
+                                                                    </div>
+
+                                                                                    <div class="text-left form-group">
+                                                                                        <input type="submit" value="Log in" class="btn btn-green-bg fullwidth" id="btnlogin" />
+                                                                                    </div>}
+                <div class="center orange">
+                    <div style="margin-bottom: 20px;">
+                        Don't have an account?  <strong>@Html.ActionLink("Sign Up >", "Register")</strong>
+                    </div>
+                    <p>
+                        <a href="@Url.Action("BecomePrepper", "Account")">
+                            <input type="button" value="Become a Meal Prepper >>" class="btn btn-default fullwidth" />
+                        </a>
+                    </p>
+                    <p>
+                        <a href="@Url.Action("Register", "Account")">
+                            <input type="button" value="Customer Sign Up >>" class="btn btn-default fullwidth"/>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $('#btnlogin').on("click", function () {
+            $(".loader-container").show();
+
+            var form = jQuery("#frmLogin");
+            var status = form.valid();
+            if (status) {
+
+                $(".loader-container").hide();
+            }
+        });
+    </script>
+}

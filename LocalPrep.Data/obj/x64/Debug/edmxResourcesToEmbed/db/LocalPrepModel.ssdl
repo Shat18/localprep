@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="localprepdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Address1" Type="nvarchar(max)" />
+    <Property Name="Address2" Type="nvarchar(max)" />
+    <Property Name="City" Type="nvarchar(max)" />
+    <Property Name="StateId" Type="int" Nullable="false" />
+    <Property Name="Zip" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar(max)" />
+    <Property Name="LastName" Type="nvarchar(max)" />
+    <Property Name="Website" Type="nvarchar(max)" />
+    <Property Name="CuisinesSelected" Type="nvarchar(max)" />
+    <Property Name="DietsSelected" Type="nvarchar(max)" />
+    <Property Name="CookingStyle" Type="nvarchar(max)" />
+    <Property Name="ProfilePic" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Contacts">
+    <Key>
+      <PropertyRef Name="ContactId" />
+    </Key>
+    <Property Name="ContactId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ContactName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="50" />
+    <Property Name="ContactText" Type="nvarchar" MaxLength="1000" />
+    <Property Name="SubmitDt" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Countries">
+    <Key>
+      <PropertyRef Name="CountryId" />
+    </Key>
+    <Property Name="CountryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CountryName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryNameLong" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cuisines">
+    <Key>
+      <PropertyRef Name="CuisineId" />
+    </Key>
+    <Property Name="CuisineId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CuisineName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ImgSrc" Type="varchar" MaxLength="256" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreateDt" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="database_firewall_rules">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="start_ip_address" />
+      <PropertyRef Name="end_ip_address" />
+      <PropertyRef Name="create_date" />
+      <PropertyRef Name="modify_date" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="start_ip_address" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="end_ip_address" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="create_date" Type="datetime" Nullable="false" />
+    <Property Name="modify_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Diets">
+    <Key>
+      <PropertyRef Name="DietId" />
+    </Key>
+    <Property Name="DietId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DietShortName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DietLongName" Type="varchar" MaxLength="120" />
+    <Property Name="DietDescription" Type="varchar" MaxLength="4000" />
+    <Property Name="ImgSrc" Type="varchar" MaxLength="256" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreateDt" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MealAddOns">
+    <Key>
+      <PropertyRef Name="MealAddOnId" />
+    </Key>
+    <Property Name="MealAddOnId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MealId" Type="int" Nullable="false" />
+    <Property Name="MealAddOnName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MealAddOnPrice" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MealIngredients">
+    <Key>
+      <PropertyRef Name="MealIngredientId" />
+    </Key>
+    <Property Name="MealIngredientId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MealId" Type="int" Nullable="false" />
+    <Property Name="IngredientName" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MealPics">
+    <Key>
+      <PropertyRef Name="MealPicId" />
+    </Key>
+    <Property Name="MealPicId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MealId" Type="int" Nullable="false" />
+    <Property Name="ImgSrc" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="BriefDescription" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UploadDt" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MealRatings">
+    <Key>
+      <PropertyRef Name="MealRatingId" />
+    </Key>
+    <Property Name="MealRatingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MealId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="StarRating" Type="int" Nullable="false" />
+    <Property Name="RatingComments" Type="nvarchar" MaxLength="4000" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreateDt" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Meals">
+    <Key>
+      <PropertyRef Name="MealId" />
+    </Key>
+    <Property Name="MealId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VendorId" Type="int" Nullable="false" />
+    <Property Name="MealName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="MealPrice" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+    <Property Name="CuisineId" Type="int" Nullable="false" />
+    <Property Name="DietId" Type="int" />
+    <Property Name="SubmitDt" Type="datetime" Nullable="false" />
+    <Property Name="UpdateDt" Type="datetime" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="MealDescription" Type="varchar" MaxLength="4000" />
+    <Property Name="HeatingInstructions" Type="varchar" MaxLength="4000" />
+    <Property Name="Servings" Type="varchar" MaxLength="50" />
+    <Property Name="CaloriesServing" Type="varchar" MaxLength="50" />
+    <Property Name="Calories" Type="varchar" MaxLength="50" />
+    <Property Name="Fat" Type="varchar" MaxLength="50" />
+    <Property Name="Protein" Type="varchar" MaxLength="50" />
+    <Property Name="Sugar" Type="varchar" MaxLength="50" />
+    <Property Name="Sodium" Type="varchar" MaxLength="50" />
+    <Property Name="Cholesterol" Type="varchar" MaxLength="50" />
+    <Property Name="TotalCarb" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MealTransactionDetailAddOns">
+    <Key>
+      <PropertyRef Name="MealTransactionDetailAddOnId" />
+    </Key>
+    <Property Name="MealTransactionDetailAddOnId" Type="int" Nullable="false" />
+    <Property Name="MealTransactionDetailId" Type="int" Nullable="false" />
+    <Property Name="MealAddOnId" Type="int" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MealTransactionDetails">
+    <Key>
+      <PropertyRef Name="MealTransactionDetailId" />
+    </Key>
+    <Property Name="MealTransactionDetailId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MealTransactionId" Type="int" Nullable="false" />
+    <Property Name="MealId" Type="int" Nullable="false" />
+    <Property Name="MealQty" Type="int" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+    <Property Name="PickupDelivery" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PickupDeliveryDt" Type="datetime" Nullable="false" />
+    <Property Name="RemoveIngredients" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="MealTransactions">
+    <Key>
+      <PropertyRef Name="MealTransactionId" />
+    </Key>
+    <Property Name="MealTransactionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="CreateDt" Type="datetime" Nullable="false" />
+    <Property Name="TransactionId" Type="varchar" MaxLength="50" />
+    <Property Name="ResponseCode" Type="varchar" MaxLength="20" />
+    <Property Name="ResponseDescription" Type="varchar" MaxLength="250" />
+    <Property Name="AuthCode" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ShoppingCartAddOns">
+    <Key>
+      <PropertyRef Name="CartAddOnId" />
+    </Key>
+    <Property Name="CartAddOnId" Type="int" Nullable="false" />
+    <Property Name="CartId" Type="int" Nullable="false" />
+    <Property Name="MealAddOnId" Type="int" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ShoppingCarts">
+    <Key>
+      <PropertyRef Name="CartId" />
+    </Key>
+    <Property Name="CartId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="MealId" Type="int" Nullable="false" />
+    <Property Name="Qty" Type="int" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+    <Property Name="PickupDelivery" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PickupDeliveryDt" Type="datetime" />
+    <Property Name="DateAdded" Type="datetime" Nullable="false" />
+    <Property Name="RemoveIngredients" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="States">
+    <Key>
+      <PropertyRef Name="StateId" />
+    </Key>
+    <Property Name="StateId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StateShortName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StateLongName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VendorPayments">
+    <Key>
+      <PropertyRef Name="VendorPaymentId" />
+    </Key>
+    <Property Name="VendorPaymentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VendorId" Type="int" Nullable="false" />
+    <Property Name="PlanName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="9" Scale="2" Nullable="false" />
+    <Property Name="ExpirationDate" Type="datetime" Nullable="false" />
+    <Property Name="TransactionId" Type="varchar" MaxLength="50" />
+    <Property Name="ResponseCode" Type="varchar" MaxLength="20" />
+    <Property Name="ResponseDescription" Type="varchar" MaxLength="250" />
+    <Property Name="AuthCode" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Vendors">
+    <Key>
+      <PropertyRef Name="VendorId" />
+    </Key>
+    <Property Name="VendorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="VendorName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="50" />
+    <Property Name="Address1" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="Address2" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StateId" Type="int" Nullable="false" />
+    <Property Name="Zip" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="16" Nullable="false" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="VendorDescription" Type="varchar" MaxLength="2500" />
+    <Property Name="DeliveryAvailable" Type="bit" Nullable="false" />
+    <Property Name="PickupAvailable" Type="bit" Nullable="false" />
+    <Property Name="Latitude" Type="decimal" Precision="9" Scale="6" Nullable="false" />
+    <Property Name="Longitude" Type="decimal" Precision="9" Scale="6" Nullable="false" />
+    <Property Name="PlaceId" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="FormattedAddress" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="ImgSrc" Type="varchar" MaxLength="256" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="ApprovedById" Type="nvarchar" MaxLength="128" />
+    <Property Name="SubmitDt" Type="datetime" Nullable="false" />
+    <Property Name="LicensedInState" Type="bit" Nullable="false" />
+    <Property Name="LicenseNo" Type="varchar" MaxLength="50" />
+    <Property Name="AboutYourself" Type="varchar" MaxLength="2500" />
+    <Property Name="FavoriteThingsToCook" Type="varchar" MaxLength="2500" />
+  </EntityType>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Meal_Cuisine">
+    <End Role="Cuisines" Type="Self.Cuisines" Multiplicity="1" />
+    <End Role="Meals" Type="Self.Meals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuisines">
+        <PropertyRef Name="CuisineId" />
+      </Principal>
+      <Dependent Role="Meals">
+        <PropertyRef Name="CuisineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Meal_Diet">
+    <End Role="Diets" Type="Self.Diets" Multiplicity="0..1" />
+    <End Role="Meals" Type="Self.Meals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Diets">
+        <PropertyRef Name="DietId" />
+      </Principal>
+      <Dependent Role="Meals">
+        <PropertyRef Name="DietId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Meal_Vendor">
+    <End Role="Vendors" Type="Self.Vendors" Multiplicity="1" />
+    <End Role="Meals" Type="Self.Meals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendors">
+        <PropertyRef Name="VendorId" />
+      </Principal>
+      <Dependent Role="Meals">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealAddOn_Meal">
+    <End Role="Meals" Type="Self.Meals" Multiplicity="1" />
+    <End Role="MealAddOns" Type="Self.MealAddOns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meals">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="MealAddOns">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealIngredient_Meal">
+    <End Role="Meals" Type="Self.Meals" Multiplicity="1" />
+    <End Role="MealIngredients" Type="Self.MealIngredients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meals">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="MealIngredients">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealPic_Meal">
+    <End Role="Meals" Type="Self.Meals" Multiplicity="1" />
+    <End Role="MealPics" Type="Self.MealPics" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meals">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="MealPics">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealRating_Meal">
+    <End Role="Meals" Type="Self.Meals" Multiplicity="1" />
+    <End Role="MealRatings" Type="Self.MealRatings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meals">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="MealRatings">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealTransaction_Id">
+    <End Role="Meals" Type="Self.Meals" Multiplicity="1" />
+    <End Role="MealTransactionDetails" Type="Self.MealTransactionDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meals">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="MealTransactionDetails">
+        <PropertyRef Name="MealTransactionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealTransaction_Id1">
+    <End Role="MealTransactions" Type="Self.MealTransactions" Multiplicity="1" />
+    <End Role="MealTransactionDetails" Type="Self.MealTransactionDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MealTransactions">
+        <PropertyRef Name="MealTransactionId" />
+      </Principal>
+      <Dependent Role="MealTransactionDetails">
+        <PropertyRef Name="MealTransactionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealTransactionDetail_Meal">
+    <End Role="Meals" Type="Self.Meals" Multiplicity="1" />
+    <End Role="MealTransactionDetails" Type="Self.MealTransactionDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meals">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="MealTransactionDetails">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealTransactionDetail_MealId">
+    <End Role="Meals" Type="Self.Meals" Multiplicity="1" />
+    <End Role="MealTransactionDetails" Type="Self.MealTransactionDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meals">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="MealTransactionDetails">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealTransactionDetailAddOn_MealAddOn">
+    <End Role="MealAddOns" Type="Self.MealAddOns" Multiplicity="1" />
+    <End Role="MealTransactionDetailAddOns" Type="Self.MealTransactionDetailAddOns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MealAddOns">
+        <PropertyRef Name="MealAddOnId" />
+      </Principal>
+      <Dependent Role="MealTransactionDetailAddOns">
+        <PropertyRef Name="MealAddOnId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MealTransactionDetailAddOn_MealTransactionDetail">
+    <End Role="MealTransactionDetails" Type="Self.MealTransactionDetails" Multiplicity="1" />
+    <End Role="MealTransactionDetailAddOns" Type="Self.MealTransactionDetailAddOns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MealTransactionDetails">
+        <PropertyRef Name="MealTransactionDetailId" />
+      </Principal>
+      <Dependent Role="MealTransactionDetailAddOns">
+        <PropertyRef Name="MealTransactionDetailId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShoppingCart_Meal">
+    <End Role="Meals" Type="Self.Meals" Multiplicity="1" />
+    <End Role="ShoppingCarts" Type="Self.ShoppingCarts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meals">
+        <PropertyRef Name="MealId" />
+      </Principal>
+      <Dependent Role="ShoppingCarts">
+        <PropertyRef Name="MealId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShoppingCartAddOn_MealAddOn">
+    <End Role="MealAddOns" Type="Self.MealAddOns" Multiplicity="1" />
+    <End Role="ShoppingCartAddOns" Type="Self.ShoppingCartAddOns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MealAddOns">
+        <PropertyRef Name="MealAddOnId" />
+      </Principal>
+      <Dependent Role="ShoppingCartAddOns">
+        <PropertyRef Name="MealAddOnId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShoppingCartAddOn_ShoppingCart">
+    <End Role="ShoppingCarts" Type="Self.ShoppingCarts" Multiplicity="1" />
+    <End Role="ShoppingCartAddOns" Type="Self.ShoppingCartAddOns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShoppingCarts">
+        <PropertyRef Name="CartId" />
+      </Principal>
+      <Dependent Role="ShoppingCartAddOns">
+        <PropertyRef Name="CartId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_State_Country">
+    <End Role="Countries" Type="Self.Countries" Multiplicity="1" />
+    <End Role="States" Type="Self.States" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="CountryId" />
+      </Principal>
+      <Dependent Role="States">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vendor_State">
+    <End Role="States" Type="Self.States" Multiplicity="1" />
+    <End Role="Vendors" Type="Self.Vendors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="States">
+        <PropertyRef Name="StateId" />
+      </Principal>
+      <Dependent Role="Vendors">
+        <PropertyRef Name="StateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorPayment_Vendor">
+    <End Role="Vendors" Type="Self.Vendors" Multiplicity="1" />
+    <End Role="VendorPayments" Type="Self.VendorPayments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendors">
+        <PropertyRef Name="VendorId" />
+      </Principal>
+      <Dependent Role="VendorPayments">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="localprepdbModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Contacts" EntityType="Self.Contacts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Countries" EntityType="Self.Countries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cuisines" EntityType="Self.Cuisines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="database_firewall_rules" EntityType="Self.database_firewall_rules" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Diets" EntityType="Self.Diets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MealAddOns" EntityType="Self.MealAddOns" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MealIngredients" EntityType="Self.MealIngredients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MealPics" EntityType="Self.MealPics" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MealRatings" EntityType="Self.MealRatings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Meals" EntityType="Self.Meals" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MealTransactionDetailAddOns" EntityType="Self.MealTransactionDetailAddOns" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MealTransactionDetails" EntityType="Self.MealTransactionDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MealTransactions" EntityType="Self.MealTransactions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ShoppingCartAddOns" EntityType="Self.ShoppingCartAddOns" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ShoppingCarts" EntityType="Self.ShoppingCarts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="States" EntityType="Self.States" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendorPayments" EntityType="Self.VendorPayments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vendors" EntityType="Self.Vendors" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Meal_Cuisine" Association="Self.FK_Meal_Cuisine">
+      <End Role="Cuisines" EntitySet="Cuisines" />
+      <End Role="Meals" EntitySet="Meals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Meal_Diet" Association="Self.FK_Meal_Diet">
+      <End Role="Diets" EntitySet="Diets" />
+      <End Role="Meals" EntitySet="Meals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Meal_Vendor" Association="Self.FK_Meal_Vendor">
+      <End Role="Vendors" EntitySet="Vendors" />
+      <End Role="Meals" EntitySet="Meals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealAddOn_Meal" Association="Self.FK_MealAddOn_Meal">
+      <End Role="Meals" EntitySet="Meals" />
+      <End Role="MealAddOns" EntitySet="MealAddOns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealIngredient_Meal" Association="Self.FK_MealIngredient_Meal">
+      <End Role="Meals" EntitySet="Meals" />
+      <End Role="MealIngredients" EntitySet="MealIngredients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealPic_Meal" Association="Self.FK_MealPic_Meal">
+      <End Role="Meals" EntitySet="Meals" />
+      <End Role="MealPics" EntitySet="MealPics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealRating_Meal" Association="Self.FK_MealRating_Meal">
+      <End Role="Meals" EntitySet="Meals" />
+      <End Role="MealRatings" EntitySet="MealRatings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealTransaction_Id" Association="Self.FK_MealTransaction_Id">
+      <End Role="Meals" EntitySet="Meals" />
+      <End Role="MealTransactionDetails" EntitySet="MealTransactionDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealTransaction_Id1" Association="Self.FK_MealTransaction_Id1">
+      <End Role="MealTransactions" EntitySet="MealTransactions" />
+      <End Role="MealTransactionDetails" EntitySet="MealTransactionDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealTransactionDetail_Meal" Association="Self.FK_MealTransactionDetail_Meal">
+      <End Role="Meals" EntitySet="Meals" />
+      <End Role="MealTransactionDetails" EntitySet="MealTransactionDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealTransactionDetail_MealId" Association="Self.FK_MealTransactionDetail_MealId">
+      <End Role="Meals" EntitySet="Meals" />
+      <End Role="MealTransactionDetails" EntitySet="MealTransactionDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealTransactionDetailAddOn_MealAddOn" Association="Self.FK_MealTransactionDetailAddOn_MealAddOn">
+      <End Role="MealAddOns" EntitySet="MealAddOns" />
+      <End Role="MealTransactionDetailAddOns" EntitySet="MealTransactionDetailAddOns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MealTransactionDetailAddOn_MealTransactionDetail" Association="Self.FK_MealTransactionDetailAddOn_MealTransactionDetail">
+      <End Role="MealTransactionDetails" EntitySet="MealTransactionDetails" />
+      <End Role="MealTransactionDetailAddOns" EntitySet="MealTransactionDetailAddOns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShoppingCart_Meal" Association="Self.FK_ShoppingCart_Meal">
+      <End Role="Meals" EntitySet="Meals" />
+      <End Role="ShoppingCarts" EntitySet="ShoppingCarts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShoppingCartAddOn_MealAddOn" Association="Self.FK_ShoppingCartAddOn_MealAddOn">
+      <End Role="MealAddOns" EntitySet="MealAddOns" />
+      <End Role="ShoppingCartAddOns" EntitySet="ShoppingCartAddOns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShoppingCartAddOn_ShoppingCart" Association="Self.FK_ShoppingCartAddOn_ShoppingCart">
+      <End Role="ShoppingCarts" EntitySet="ShoppingCarts" />
+      <End Role="ShoppingCartAddOns" EntitySet="ShoppingCartAddOns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_State_Country" Association="Self.FK_State_Country">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="States" EntitySet="States" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vendor_State" Association="Self.FK_Vendor_State">
+      <End Role="States" EntitySet="States" />
+      <End Role="Vendors" EntitySet="Vendors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorPayment_Vendor" Association="Self.FK_VendorPayment_Vendor">
+      <End Role="Vendors" EntitySet="Vendors" />
+      <End Role="VendorPayments" EntitySet="VendorPayments" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

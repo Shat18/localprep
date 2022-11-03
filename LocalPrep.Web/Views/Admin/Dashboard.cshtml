@@ -1,0 +1,127 @@
+﻿@model LocalPrep.Web.Models.Responsedashboard
+
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 dashboard-right">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 ">
+        <div class="p-5 w-100">
+
+
+            <div class="row">
+                <div class="col-lg-7 mb-5">
+                    @*<div class="white-shadow p-4 h-100">
+            <h5 class="mb-5">Total Sales</h5>
+            <canvas class="my-4 w-100" id="myChart" width="900" height="270"></canvas>
+        </div>*@
+                    <div class="white-shadow p-4 h-100">
+                        @*<h5 class="mb-5">Total Sales</h5>*@
+                        @*<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>*@
+                        <div class="my-4 w-100" id="container" width="900" height="270"> </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-5 mb-5">
+                    <div class="row gy-4">
+                        <div class="col-md-6">
+                            <div class="white-shadow  p-4  h-100 text-center">
+                                <img src="~/images/user-all.svg" class="img-fluid mb-4">
+                                <div class="text14 fw-medium text-black-50 text-uppercase">Total Customers</div>
+                                <div class="text46 fw-light">@Model.response.counts.customers_counts</div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="white-shadow  p-4  h-100 text-center">
+                                <img src="~/images/sale.svg" class="img-fluid mb-4">
+                                <div class="text14 fw-medium text-black-50 text-uppercase">TOTAL ORDERS</div>
+                                <div class="text46 fw-light">@Model.response.counts.order_counts</div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="white-shadow  p-4  h-100 text-center">
+                                <img src="~/images/shop_check.svg" class="img-fluid mb-4">
+                                <div class="text14 fw-medium text-black-50 text-uppercase">Active Orders</div>
+                                <div class="text46 fw-light">@Model.response.counts.active_order_counts</div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="white-shadow  p-4  h-100 text-center">
+                                <img src="~/images/cook.svg" class="img-fluid mb-4">
+                                <div class="text14 fw-medium text-black-50 text-uppercase">Total Preppers</div>
+                                <div class="text46 fw-light">@Model.response.counts.preppers_counts</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="white-shadow  p-4  ">
+                <div class="d-flex  mb-5 justify-content-between">
+                    <div class="text22 fw-semi-blod">Recent Customer Registrations</div>
+                    <a href="@Url.Action("customers", "Admin")" class="btn btn-primary btn-small">View more</a>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-sm table-list" cellpadding="10">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Phone Number</th>
+
+                                <th scope="col">Subscription Date</th>
+
+                                <th scope="col" width="100">Status</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach(var cust in Model.response.Customers)
+                            {
+                            <tr>
+                                <td><p>@cust.first_name @cust.first_name</p></td>
+                                <td>
+                                    @*<p>@cust.Customer.a</p>*@
+                                    123 Main Street<br>
+                                    Columbus Ohio, 43215
+                                <td><p>@cust.email</p> </td>
+                                <td><p>@cust.phone</p> </td>
+
+                                <td>30 Jun 2021</td>
+
+                                <td>
+                                    <div class="ms-5">
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+                            }
+                            
+                            
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</main>
+@*@section scripts {
+        <script src="~/js/popper.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+    }*@

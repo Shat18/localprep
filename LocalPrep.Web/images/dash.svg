@@ -1,0 +1,10 @@
+<svg id="dash" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icon_dashboard_active" data-name="Icon/dashboard/active">
+    <rect id="Rectangle" width="24" height="24" fill="none"/>
+    <g id="layout" transform="translate(3 3)">
+      <rect id="Rectangle-2" data-name="Rectangle" width="18" height="18" rx="2" fill="none" stroke="#92b277" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path" d="M0,.5H18" transform="translate(0 5.5)" fill="none" stroke="#92b277" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-2" data-name="Path" d="M.5,12V0" transform="translate(5.5 6)" fill="none" stroke="#92b277" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,721 @@
+﻿@{ ViewBag.Title = "Home";
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+
+
+<section id="page-content" style="padding: 0px;">
+    <div class="container-fullscreen">
+        <div class="col-md-12 blue-spec-bg">
+            <h1 class="text-center">Find Your Local Meal Prepper</h1>
+            <p class="text-center">
+                Local Prep makes eating healthy fun, fast and easy. Connect with one of our local preppers in your area and have a healthy, delicious home-cooked meal delivered to your home, or ready for weekly pickup near you.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="page-content" style="padding-top: 4px; padding-bottom: 0px;">
+    <div class="container-fullscreen">
+        <div class="row">
+            <div class="col-md-4 solid-green-bg">
+                <h4>Start Your Search</h4>
+                <p class="text-white">Local Prep makes eating healthy fun, fast and easy</p>
+                <div class="my-4 ">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input class="custom-control-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="name" checked>
+                        <label class="custom-control-label text-white" for="inlineRadio1">Meal</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline ">
+                        <input class="custom-control-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="prepper_name">
+                        <label class="custom-control-label text-white" for="inlineRadio2">Prepper</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input class="custom-control-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="city">
+                        <label class="custom-control-label text-white" for="inlineRadio3">Location Name</label>
+                    </div>
+
+
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <input type="text" class="form-control" id="citystatezipsearch" placeholder="Enter your search here" />
+                </div>
+                <div>
+                    @*<input type="button" id="submitSearch" class="btn btn-default fullwidth" value="Search by Location" onclick="location.href='@Url.Action("Search", "Home",new { id = 1})'" />*@
+                    @*<input type="button" id="submitSearch" class="btn btn-default fullwidth" value="Search by Location" />*@
+                    <input type="button" id="submitSearch" class="btn btn-default fullwidth" value="Search" />
+                </div>
+
+
+
+
+                <!--<div style="margin-bottom: 8px; margin-top: 28px;">
+        <input type="text" class="form-control" id="preppernamesearch" placeholder="Search Name" />
+    </div>
+    <div>
+        <input type="button" id="submitNameSearch" class="btn btn-default fullwidth" value="Search by Meal Prepper" />-->
+                @*<input type="button" id="submitNameSearch12" class="btn btn-default fullwidth" value="Search by Meal Prepper" />*@
+                <!--</div>-->
+
+                <div class="mb-4 d-flex align-items-center mt-4">
+
+                    <div class="flex-grow-1">
+                        <div id="slider-range-min"></div>
+                    </div>
+                    <p class="flex-shrink-1 ml-3 mb-0">
+                        <label for="amountM" class="text-white">Mile:</label>
+                        <input type="text" id="amountM" readonly style="border:0; color:#fff; font-weight:bold; width:100px; background:none;">
+                    </p>
+                </div>
+                <div class="mt-0 pb-5 d-flex align-items-center">
+
+                    <div class="flex-grow-1">
+                        <div id="slider-range"></div>
+                    </div>
+                    <p class="flex-shrink-1 ml-3 mb-0">
+                        <label for="amount" class="text-white d-none">Price range:</label>
+                        <input type="text" id="amount" readonly style="border:0; color:#fff; font-weight:bold; width:100px; background:none;">
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-8" style="padding-left: 0px;">
+                <div id="map" style="min-height: 400px; width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Content -->
+<section id="page-content" style="padding-top: 0px; padding-bottom: 0px;">
+    <div class="container">
+        <div id="locations" class="row gy-5"></div>
+    </div>
+</section> <!-- end: Content -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2><span class="green-bold">ABOUT</span> <span class="orange">LOCAL PREP</span></h2>
+
+            <hr style="margin: 0 auto; width: 80px; border-width: 6px; border-color: #31a9b8;" />
+
+            <p style="padding-top: 20px;">
+                Local Prep helps individuals find specific types of meal preppers, home chefs and caterers in their LOCAL
+                area. There’s no limit to the amount of cuisines offered on Local Prep. New menus and ideas are added
+                daily. Some of the favorites include keto, vegetarian, paleo, vegan, macros, & specific types of ethnic foods
+                (Mexican, Ethiopian, Indian and many more). Local Prep is geared towards helping meal preppers
+                expand their business by reaching new customers in their local area.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <div class="col-md-10 col-md-offset-1" style="border: 1px solid #93B278; padding-top: 8px;">
+                <div class="col-md-4">
+                    <img src="~/img/icon-01.png" class="img-fluid" />
+                </div>
+                <div class="col-md-8">
+                    <h5>Become a Meal Prepper</h5>
+
+                    <p>
+                        If you're a talented chef/cook looking to expand your business and reach new customers in your local area, Local Prep is the perfect option for you.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12" style="background-color: #93b278;">
+                        <a href="@Url.Action("BecomePrepper", "Account")">
+                            <h3 class="text-white">SIGN UP &#187;</h3>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-6 text-center">
+            <div class="col-md-10 col-md-offset-1" style="border: 1px solid #CB6318; padding-top: 8px;">
+                <div class="col-md-4">
+                    <img src="~/img/icon-02.png" class="img-fluid" />
+                </div>
+                <div class="col-md-8" style="min-height: 162px;">
+                    <h5>Order from a Meal Prepper</h5>
+
+                    <p>
+                        If you're looking to order from a nearby meal prepper, you'll simply need to create an account.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12" style="background-color: #CB6318;">
+                        <a href="@Url.Action("Register", "Account")">
+                            <h3 class="text-white">SIGN UP &#187;</h3>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="padding-top: 16px;">
+    <div class="row">
+        <div class="col-md-12 orange-bg" style="padding: 10px 0px;">
+            <h2 class="text-center">
+                Get Connected to Local & Trusted Meal Preppers
+            </h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 resp-bg-img">
+            <img src="~/img/sarah.jpg" style="width: 100%;" />
+            <div class="meet-prepper">
+                <span class="meet-text orange">Meet Sarah</span><br />
+                Specialty: Atkins & Paleo<br />
+                Location: Grandview, OH<br />
+                <a href="#">FIND PREPPER »</a>
+            </div>
+        </div>
+
+        <div class="col-md-3 resp-bg-img">
+            <img src="~/img/lauren.jpg" style="width: 100%;" />
+            <div class="meet-prepper">
+                <span class="meet-text orange">Meet Lauren</span><br />
+                Specialty: Keto<br />
+                Location: Clintonville, OH<br />
+                <a href="#">FIND PREPPER »</a>
+            </div>
+        </div>
+
+        <div class="col-md-3 resp-bg-img">
+            <img src="~/img/dave.jpg" style="width: 100%;" />
+            <div class="meet-prepper">
+                <span class="meet-text orange">Meet Dave</span><br />
+                Specialty: Vegan & Vegetarian<br />
+                Location: Dublin, OH<br />
+                <a href="#">FIND PREPPER »</a>
+            </div>
+        </div>
+
+        <div class="col-md-3 resp-bg-img">
+            <img src="~/img/heather-tyler.jpg" style="width: 100%;" />
+            <div class="meet-prepper">
+                <span class="meet-text orange">
+                    Meet Heather & Tyler
+                </span><br />
+                Specialty: Gluten Free<br />
+                Location: Grandview, OH<br />
+                <a href="#">FIND PREPPER »</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script>
+        $(function () {
+
+            var markers = [];
+            var salons = [];
+            var searchMarker;
+            var infoWindow = new google.maps.InfoWindow();
+
+            initMap();
+
+            $('#diets').change(function () {
+                initMap();
+            });
+
+            $('#cuisines').change(function () {
+                initMap();
+            });
+
+            function initMap() {
+                $('#map').css('padding-bottom', '40px');
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: new google.maps.LatLng(39.8097343, -98.5556199),
+                });
+                markers = [];
+                salons = [];
+                var diet = $('#diets').val();
+                var cuisine = $('#cuisines').val();
+                var search = $("input[name='inlineRadioOptions']:checked").val();
+                var Code = $('#citystatezipsearch').val();
+                $.ajax({
+                    url: '@Url.Action("Getdashboard", "Account")',
+                    data: '',
+                    success: function (data) {
+                        for (i = 0; i < data.length; i++) {
+                            //alert(JSON.stringify(data[i].name));
+                            $("#locations").append("<div class=\"col-lg-3 col-md-4 mb-5\"><a href=\"@Url.Action("Meal", "Order")?mealId=" + data[i].id + "\" class=\"shadow text-center d-block\"><div class=\"list-img\"><img src=\"" + data[i].image + "\" alt=\"" + data[i].name + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"list-detail p-2\"><h3 class=\"orange my-3\">" + data[i].name + "</h3><div class=\"rateit\" data-rateit-mode=\"font\" data-rateit-value=" + data[i].rating + " data-rateit-ispreset=\"true\" data-rateit-readonly=\"true\"></div><p>0.36 miles</p></div><div></div></a></div>");
+                        }
+
+                        for (var i = 0; i < markers.length; i++) {
+                            markers[i].setVisible(false);
+                        }
+                    },
+                    statusCode: {
+                        404: function (content) { alert('cannot find resource'); },
+                        500: function (content) { alert('internal server error'); }
+                    },
+                    error: function (req, status, errorObj) {
+                        console.log(req.responseText);
+                    }
+                });
+
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function (position) {
+                        var pos = {
+                            lat: position.coords.latitude,
+                            lng: position.coords.longitude
+                        };
+
+                        //infoWindow.setPosition(pos);
+                        //infoWindow.setContent('Location found.');
+                        //infoWindow.open(map);
+                        map.setCenter(pos);
+                        map.setZoom(9);
+                    }, function () {
+                        handleLocationError(true, infoWindow, map.getCenter());
+                    });
+                } else {
+                    // Browser doesn't support Geolocation
+                    handleLocationError(false, infoWindow, map.getCenter());
+                }
+
+                function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+                    infoWindow.setPosition(pos);
+                    infoWindow.setContent(browserHasGeolocation ?
+                        'Error: The Geolocation service failed.' :
+                        'Error: Your browser doesn\'t support geolocation.');
+                    //infoWindow.open(map);
+                }
+
+                @*google.maps.event.addListener(map, 'idle', function () {
+                    $("#locations").html("");
+                    if (markers.length != 0 && map.getZoom() > 8) {
+                        var bounds = map.getBounds();
+
+                        for (var i = 0; i < markers.length; i++) {
+                            var marker = markers[i];
+                            markers[i].setVisible(true);
+
+                            if (bounds.contains(marker.getPosition()) === true) {
+                                var val = salons[i];
+
+                                var distance = getMiles(google.maps.geometry.spherical.computeDistanceBetween(map.getCenter(), marker.getPosition()));
+
+                                var img = "/img/empty-profile-image.jpg";
+                                if (val.ImgSrc != null && val.ImgSrc != "") {
+                                    img = val.ImgSrc;
+                                }
+
+                                $("#locations").append("<div data-mileage=\"" + distance.toFixed(2) + "\" class=\"row lp-row info-" + i + "\"><div class=\"col-lg-2\"><img src=\"" + img + "\" alt=\"" + val.VendorName + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"col-lg-8\"><h3 class=\"orange\">" + val.VendorName + "</h3>" + val.FormattedAddress + "<br />" + val.PhoneNumber + "</div><div class=\"col-lg-2 distance-" + i + "\"><a href=\"@Url.Action("Profile", "Vendor")?vendorId=" + val.VendorId + "\"><input type=\"button\" class=\"btn btn-green-bg fullwidth\" value=\"View Profile\"></a><p>" + distance.toFixed(2) + " miles</p></div></div>");
+                            }
+                        }
+
+                        var $wrapper = $('#locations');
+
+                        $wrapper.find('.row').sort(function (a, b) {
+                            return +a.dataset.mileage - +b.dataset.mileage;
+                        }).appendTo($wrapper);
+
+                        $("#locations").css("background-color", "#fff");
+                        $("#locations").css("color", "#000");
+                    }
+                    else {
+                        for (var i = 0; i < markers.length; i++) {
+                            markers[i].setVisible(false);
+                        }
+                    }
+                });*@
+
+                document.getElementById('submitSearch').addEventListener('click', function () {
+                    $("#locations").html("");
+
+                    if ($('#citystatezipsearch').val() == "") {
+                        alert('Please enter a valid zip code or address.');
+                    } else {
+
+
+        $('#map').css('padding-bottom', '40px');
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: new google.maps.LatLng(39.8097343, -98.5556199),
+                });
+                markers = [];
+                salons = [];
+                //var diet = $('#diets').val();
+                //var cuisine = $('#cuisines').val();
+                        var search = $("input[name='inlineRadioOptions']:checked").val();
+                        var Code = $('#citystatezipsearch').val();
+                        var miles = $('#amountM').val();
+                        var minmax = $('#amount').val()
+                        var minmaxarray = minmax.split('-');
+                        var minval = minmaxarray[0];
+                        var maxval = minmaxarray[1];
+                $.ajax({
+                    url :'@Url.Action("Get", "Vendor")',
+                    data: { Search: search, code: Code, miles: miles, mini_price: minval, max_price: maxval},
+                    success: function (data) {
+                        //alert(JSON.stringify(data));
+                        @*$.each(data, function (i, val) {
+                            alert(JSON.stringify(val.name));
+
+                            $("#locations").append("<div class=\"col-lg-8\"><h3 class=\"orange\">" + val.name + "</h3>" + val.name + "<br />" + val.name + "</div><a href=\"@Url.Action("Profile", "Vendor")?vendorId=" + val.name + "\"><input type=\"button\" class=\"btn btn-green-bg fullwidth\" value=\"View Profile\"></a></div></div>");
+                        });*@
+
+
+
+                        if (search == 'name') {
+                            
+                            for (i = 0; i < data.length; i++) {
+                            //alert(JSON.stringify(data[i].name));
+                                $("#locations").append("<div class=\"col-lg-3 col-md-4 mb-5\"><a href=\"@Url.Action("Meal", "Order")?mealId=" + data[i].id  + "\" class=\"shadow text-center d-block\"><div class=\"list-img\"><img src=\"" + data[i].image + "\" alt=\"" + data[i].name + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"list-detail p-2\"><h3 class=\"orange my-3\">" + data[i].name + "</h3><div class=\"rateit\" data-rateit-mode=\"font\" data-rateit-value=" + data[i].rating + " data-rateit-ispreset=\"true\" data-rateit-readonly=\"true\"></div><p>0.36 miles</p></div><div></div></a></div>");
+                            @*$("#locations").append("<div><div class=\"col-lg-2\"><img src=\"" + data[i].image  + "\" alt=\"" + data[i].name + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"col-lg-8\"><h3 class=\"orange\">" + data[i].name+ "</h3></div><div><a href=\"@Url.Action("Meal", "Order")?mealId=" + data[i].id + "\"> <input type=\"button\" class=\"btn btn-green-bg fullwidth\" value=\"View Profile\"></a></div></div>");*@
+                        }
+                        }
+                        if (search == 'prepper_name') {
+                            for (i = 0; i < data.length; i++) {
+                            //alert(JSON.stringify(data[i].name));
+                                $("#locations").append("<div class=\"col-lg-3 col-md-4 mb-5\"><a href=\"@Url.Action("PrepperDetails", "Vendor")?prepper_id=" + data[i].id + "&img=" + "//work.splitreef.com/client/development/local_prep/public/storage/prepper/1.jpg" + "&rating=" + data[i].rating + "&name=" + data[i].name + "\" class=\"shadow text-center d-block\"><div class=\"list-img\"><img src=\"" + data[i].image + "\" alt=\"" + data[i].name + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"list-detail p-2\"><h3 class=\"orange my-3\">" + data[i].name + "</h3><div class=\"rateit\" data-rateit-mode=\"font\" data-rateit-value=" + data[i].rating + " data-rateit-ispreset=\"true\" data-rateit-readonly=\"true\"></div><p>0.36 miles</p></div><div></div></a></div>");
+                            @*$("#locations").append("<div><div class=\"col-lg-2\"><img src=\"" + data[i].image  + "\" alt=\"" + data[i].name + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"col-lg-8\"><h3 class=\"orange\">" + data[i].name+ "</h3></div><div><a href=\"@Url.Action("Meal", "Order")?mealId=" + data[i].id + "\"> <input type=\"button\" class=\"btn btn-green-bg fullwidth\" value=\"View Profile\"></a></div></div>");*@
+                        }
+
+
+                        }
+                        if (search == 'city') {
+                            for (i = 0; i < data.length; i++) {
+
+                                var marker = new google.maps.Marker({
+                                    position: new google.maps.LatLng(data[i].latitude, data[i].longitude),
+                                    map: map,
+                                    title: data[i].name,
+                                    icon: data[i].image
+                                });
+
+                                marker.setMap(map);
+
+                                markers.push(marker);
+                            //alert(JSON.stringify(data[i].name));
+                                 $("#locations").append("<div class=\"col-lg-3 col-md-4 mb-5\"><a href=\"@Url.Action("PrepperDetails", "Vendor")?prepper_id=" + data[i].id + "&img=" + data[i].image + "&rating=" + data[i].rating + "&name=" + data[i].name + "\" class=\"shadow text-center d-block\"><div class=\"list-img\"><img src=\"" + data[i].image + "\" alt=\"" + data[i].name + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"list-detail p-2\"><h3 class=\"orange my-3\">" + data[i].name + "</h3><div class=\"rateit\" data-rateit-mode=\"font\" data-rateit-value=" + data[i].rating + " data-rateit-ispreset=\"true\" data-rateit-readonly=\"true\"></div><p>0.36 miles</p></div><div></div></a></div>");
+                            @*$("#locations").append("<div><div class=\"col-lg-2\"><img src=\"" + data[i].image  + "\" alt=\"" + data[i].name + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"col-lg-8\"><h3 class=\"orange\">" + data[i].name+ "</h3></div><div><a href=\"@Url.Action("Meal", "Order")?mealId=" + data[i].id + "\"> <input type=\"button\" class=\"btn btn-green-bg fullwidth\" value=\"View Profile\"></a></div></div>");*@
+                        }
+
+                        }
+
+
+
+
+
+                    },
+                    statusCode: {
+                        404: function (content) { alert('cannot find resource'); },
+                        500: function (content) { alert('internal server error'); }
+                    },
+                    error: function (req, status, errorObj) {
+                        console.log(req.responseText);
+                    }
+                });
+
+                        var geocoder = new google.maps.Geocoder();
+                        //alert(geocoder);
+                        map = new google.maps.Map(document.getElementById('map'));
+                        map.setZoom(9);
+                        geocodeAddress(geocoder, map);
+                    }
+                });
+
+                //document.getElementById('submitNameSearch').addEventListener('click', function () {
+                //    if ($('#preppernamesearch').val() == "") {
+                //        alert('Please enter a valid Prepper name.');
+                //    } else {
+                //        $("#locations").html("");
+                //        var bounds = new google.maps.LatLngBounds();
+                //        var prepperName = $('#preppernamesearch').val();
+                //        var matchCount = 0;
+                //        for (i = 0; i < markers.length; i++) {
+                //            console.log(markers[i]);
+                //            markers[i].setVisible(true);
+                //            // If is same category or category not picked
+                //            if (markers[i].title.toLowerCase().includes(prepperName.toLowerCase())) {
+                //                matchCount++;
+                //                bounds.extend(markers[i].position);
+                //            }
+                //            // Categories don't match
+                //            else {
+                //                markers[i].setVisible(false);
+                //            }
+                //        }
+
+                //        if (matchCount > 0) {
+                //            map.fitBounds(bounds);
+                //        } else {
+                //            alert('No Preppers were found matching the name: ' + prepperName + '.  Please try again.');
+                //        }
+                //    }
+                //});
+
+                google.maps.event.addListenerOnce(map, 'bounds_changed', function (event) {
+                    this.setZoom(map.getZoom() - 1);
+
+                    if (this.getZoom() > 15) {
+                        this.setZoom(15);
+                    }
+                });
+
+            }
+
+            $('#address').keypress(function (e) {
+                if (e.keyCode == 13)
+                    $('#submitSearch').click();
+            });
+
+            function geocodeAddress(geocoder, map) {
+                var address = document.getElementById('citystatezipsearch').value;
+                //alert(address);
+                geocoder.geocode({ 'address': address }, function (results, status) {
+                    if (status === 'OK') {
+                        //alert(0);
+                        if (searchMarker != null)
+                            searchMarker.setMap(null);
+                        map.setCenter(results[0].geometry.location);
+                        searchMarker = new google.maps.Marker({
+                            map: map,
+                            position: results[0].geometry.location
+                        });
+                    } else {
+                        alert('Geocode was not successful for the following reason: ' + status);
+                    }
+                });
+            }
+
+            function getMiles(i) {
+                return i * 0.000621371192;
+            }
+
+            function hideAllInfoWindows(map) {
+                markers.forEach(function (marker) {
+                    marker.infowindow.close(map, marker);
+                });
+            }
+
+            $(document)
+                .ajaxStart(function () {
+                    //ajax request went so show the loading image
+                    $('#loading').show();
+                })
+                .ajaxStop(function () {
+                    //got response so hide the loading image
+                    $('#loading').hide();
+                });
+
+
+
+
+
+            $("#slider-range").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [75, 300],
+                slide: function (event, ui) {
+                    $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+                }
+            });
+            $("#amount").val("$" + $("#slider-range").slider("values", 0) +
+                " - $" + $("#slider-range").slider("values", 1));
+
+
+            $("input[type=radio]").click(function () {
+                if ($(this).prop("checked")) {
+
+                    var dataSrc = [];
+                    $.ajax({
+                        type: "Post",
+                        url: "/Account/GetLocalData",
+                        data: '',
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (response) {
+                            //dataSrc = JSON.stringify(response.message.meals);
+
+                            var RedioVal = $("input[name='inlineRadioOptions']:checked").val()
+                            //alert(RedioVal);
+
+                            if (RedioVal == 'name') {
+                                $("#citystatezipsearch").val("");
+                                    //dataSrc = JSON.stringify(response.message.meals);
+                                var dataSrc = response.message.meals;
+                                var Items = [];
+                                for (var i = 0; i < dataSrc.length; i++) {
+                                    //console.log(data[i].com)
+                                    Items.push(dataSrc[i].name);
+                                }
+
+                                    $("#citystatezipsearch").autocomplete({
+                                        source: Items
+                                    });
+                                }
+                            if (RedioVal == 'prepper_name') {
+                                //alert(RedioVal);
+                                //dataSrc = JSON.stringify(response.message.preppers);
+
+                                $("#citystatezipsearch").val("");
+                                var dataSrc = response.message.preppers;//["Prakash Sharma", "Pawan Panday", "Vijendra Kumar", "Neha Chauhan", "Shat Singh"];
+                                var Items = [];
+                                for (var i = 0; i < dataSrc.length; i++) {
+                                    //console.log(data[i].com)
+                                    Items.push(dataSrc[i].name);
+                                }
+                                $("#citystatezipsearch").autocomplete({
+                                    source: Items
+                                });
+
+
+                                }
+                            if (RedioVal == 'city') {
+                                 //dataSrc = JSON.stringify(response.message.cities);
+                                //alert(RedioVal);
+                                $("#citystatezipsearch").val("");
+                                var dataSrc = response.message.cities;//["Kundeville", "Wolfmouth", "North Tracey", "Olsonfort", "Wiegandview", "Wolfmouth", "Wolfmouth", "Lake Everette", "Columbus", "test"];
+                                var Items = [];
+                                for (var i = 0; i < dataSrc.length; i++) {
+                                    //console.log(data[i].com)
+                                    Items.push(dataSrc[i].name);
+                                }
+
+                                $("#citystatezipsearch").autocomplete({
+                                    source: Items
+                                });
+
+                                    //dataSrc = JSON.stringify(response.message.meals);
+                                }
+                                //alert(test);
+
+
+
+
+                            //for (var i = 0; i < 50; i++) {
+                            //    //alert(dataSrc.push(dataSrc[i].name))
+                            //    dataSrc.forEach(dataSrc.)
+                            //}
+                            /* alert(dataSrc);*/
+                            /*alert(JSON.stringify(response.message.meals));*/
+                            /* var dataSrc = JSON.stringify(response.message.meals);*/
+                            //$("#citystatezipsearch").autocomplete({
+                            //    source: dataSrc
+                            //});
+                            //alert("Hi");
+                            //alert(JSON.stringify(response));
+
+                            /*alert("Hello: " + response + " .\nCurrent Date and Time: " + response.DateTime);*/
+                        },
+                        failure: function (response) {
+                            alert(response.responseText);
+                        },
+                        error: function (response) {
+                            alert(response.responseText);
+                        }
+                    });
+
+                }
+            });
+
+
+
+
+
+
+
+
+            /*});*/
+
+
+            var dataSrc = [];
+                    $.ajax({
+                        type: "Post",
+                        url: "/Account/GetLocalData",
+                        data: '',
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (response) {
+                            //dataSrc = JSON.stringify(response.message.meals);
+
+                            if ($("#inlineRadio1").prop("checked")) {
+                                var RedioVal = $("input[name='inlineRadioOptions']:checked").val()
+                                //alert(RedioVal);
+                                if (RedioVal == 'name') {
+                                    //alert(RedioVal);
+                                    $("#citystatezipsearch").val("");
+                                    dataSrc = response.message.meals;
+                                    //var dataSrc = ["Yessenia", "Wade", "Henry", "Pinkie", "Eleonore", "Tate", "Ebony", "Yvonne", "Kavon", "Isaiah"];
+                                    var Items = [];
+                                    for (var i = 0; i < dataSrc.length; i++) {
+                                        //console.log(data[i].com)
+                                        Items.push(dataSrc[i].name);
+                                    }
+
+                                    $("#citystatezipsearch").autocomplete({
+                                        source: Items
+                                    });
+                                }
+                            }
+
+                            //for (var i = 0; i < 50; i++) {
+                            //    //alert(dataSrc.push(dataSrc[i].name))
+                            //    dataSrc.forEach(dataSrc.)
+                            //}
+                           /* alert(dataSrc);*/
+                            /*alert(JSON.stringify(response.message.meals));*/
+                           /* var dataSrc = JSON.stringify(response.message.meals);*/
+                            //$("#citystatezipsearch").autocomplete({
+                            //    source: dataSrc
+                            //});
+                            //alert("Hi");
+                            //alert(JSON.stringify(response));
+
+                            /*alert("Hello: " + response + " .\nCurrent Date and Time: " + response.DateTime);*/
+                        },
+                        failure: function (response) {
+                            alert(response.responseText);
+                        },
+                        error: function (response) {
+                            alert(response.responseText);
+                        }
+                    });
+
+
+
+
+
+
+
+        });
+        $("#slider-range-min").slider({
+            range: "min",
+            value: 37,
+            min: 1,
+            max: 700,
+            slide: function (event, ui) {
+                $("#amountM").val(ui.value);
+            }
+        });
+        $("#amountM").val($("#slider-range-min").slider("value"));
+
+
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdFxZ8uWWp8TVVkbv3TUsiNrI0Vbk44uU&libraries=geometry"></script>
+
+
+}

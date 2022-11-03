@@ -1,0 +1,54 @@
+﻿@model List<Contact>
+@{
+    ViewBag.Title = "Manage Contact Us";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (Model.Count() == 0)
+{
+    <p>
+        No Contact Us entries found.
+    </p>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Phone
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Date
+            </th>
+        </tr>
+        @foreach (var contact in Model)
+        {
+            <tr>
+                <td>
+                    @contact.ContactName
+                </td>
+                <td>
+                    @contact.PhoneNumber
+                </td>
+                <td>
+                    @contact.EmailAddress
+                </td>
+                <td>
+                    @contact.SubmitDt
+                </td>
+            </tr>
+            <tr style="border-bottom: 1px solid #93B278;">
+                <td colspan="4">
+                    <strong>Contact Message:</strong><br />
+                    @contact.ContactText
+                </td>
+            </tr>
+        }
+    </table>
+}

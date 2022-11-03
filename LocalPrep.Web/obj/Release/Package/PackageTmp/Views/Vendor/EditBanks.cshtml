@@ -1,0 +1,119 @@
+﻿@model BankAccount
+@{ ViewBag.Title = "Payments";
+    //ViewBag.Span = Html.ActionLink("Add Meal", "EditMeal", "Manage");
+    //ViewBag.Span = Html.ActionLink("Add Meal", "AddMeal", "Manage");
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<link href="~/js/jquery.timepicker.css" rel="stylesheet" />
+<style type="text/css">
+    .ui-datepicker-calendar {
+        display: none;
+    }
+</style>
+
+
+@if (ViewBag.SuccessMessage != null && ViewBag.SuccessMessage.Length > 0)
+{
+    <div class="alert alert-success">@ViewBag.SuccessMessage</div>
+}
+
+@if (ViewBag.FailureMessage != null && ViewBag.FailureMessage.Length > 0)
+{
+    <div class="alert alert-danger">@ViewBag.FailureMessage</div>
+}
+
+
+<div id="page-content" class="pt-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="loader-container" style="display:none">
+                <div class="loader"></div>
+            </div>
+
+            <div class="col-md-12 col-lg-12">
+                <div class="shadow rounded p-4">
+                    @*<h3 class="text-green mb-3">Purchase Plan</h3>*@
+                    @using (Html.BeginForm("EditBanks", "Vendor", FormMethod.Post, new { role = "form", @id = "frmPurchasePlan" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+                        @Html.HiddenFor(m => m.customer_payment_profile_id)
+
+                        <div id="cd-detail">
+                            @*<h3 class="mb-4">Card Information</h3>*@
+                            <div class="row ">
+                                <div class="col-md-12 mb-4">
+
+                                    @Html.LabelFor(m => m.name_on_account, new { @class = "form-label" })
+                                    @*@Html.TextBoxFor(m => m.card_number, new { @class = "form-control " })*@
+                                    @Html.TextBoxFor(m => m.name_on_account, new { @required = "required", @class = "form-control", @id = "txtname_on_account" })
+                                    @*@Html.ValidationMessageFor(model => bankAccount.name_on_account, "", new { @required = "required", @class = "error text-danger" })*@
+
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    @Html.LabelFor(m => m.bank_account_number, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.bank_account_number, new { @class = "form-control " })
+                                    @Html.HiddenFor(m => m.account_number)
+                                </div>
+
+
+                                <div class="col-md-6 mb-4">
+                                    @Html.LabelFor(m => m.re_type_bank_account_number, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.re_type_bank_account_number, new { @class = "form-control " })
+                                    @*@Html.HiddenFor(m => m.re_type_bank_account_number)*@
+                                </div>
+
+
+
+
+
+
+                                <div class="col-md-12 mb-4">
+                                    <div class="form-group" id="dvcardcode">
+                                        @Html.LabelFor(m => m.routing_number, new { @class = "form-label" })
+                                        @Html.TextBoxFor(m => m.routing_number, new { @required = "required", @class = "form-control", @id = "txtcreditcardcode" })
+                                        @*@Html.ValidationMessageFor(m => bankAccount.routing_number, "", new { @required = "required", @class = "error text-danger" })*@
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="col-md-8 mb-4">
+                                    <div class="form-group" id="dvcardcode">
+                                        @Html.LabelFor(m => m.bank_name, new { @class = "form-label" })
+                                        @Html.TextBoxFor(m => m.bank_name, new { @required = "required", @class = "form-control", @id = "txtcreditcardcode" })
+                                        @*@Html.ValidationMessageFor(m => bankAccount.bank_name, "", new { @required = "required", @class = "error text-danger" })*@
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="text-start">
+                                <button type="submit" class="btn btn-primary" id="btnPurchase">Edit</button>
+                            </div>
+                        </div>
+
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

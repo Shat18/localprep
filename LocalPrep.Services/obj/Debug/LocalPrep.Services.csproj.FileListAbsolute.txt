@@ -1,0 +1,153 @@
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.dll
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.xml
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.xml
+G:\Git13072021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.dll
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.dll
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.xml
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.xml
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+E:\loaclprep210921\loaclprep190921\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.xml
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.xml
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\AutoMapper.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\Debug\EntityFramework.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\AutoMapper.Net4.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\LocalPrep.Services.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\LocalPrep.Services.pdb
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\AutoMapper.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\LocalPrep.Entity.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\EntityFramework.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\LocalPrep.Data.pdb
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\LocalPrep.Data.dll.config
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\LocalPrep.Entity.pdb
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\AutoMapper.xml
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\bin\Debug\EntityFramework.xml
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\obj\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\obj\Debug\LocalPrep.Services.csproj.CopyComplete
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\obj\Debug\LocalPrep.Services.dll
+D:\Working-Copy\Development\Latest Code LocalPrepStg Without Firebase_01_06_2022\LocalPrepLatest\LocalPrep.Services\obj\Debug\LocalPrep.Services.pdb

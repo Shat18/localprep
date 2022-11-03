@@ -1,0 +1,32 @@
+﻿@model LocalPrep.Web.Models.ResponseNotifications
+<li class="nav-item text-nowrap dropdown">
+    <a class="nav-link px-3 position-relative dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+        <svg xmlns="http://www.w3.org/2000/svg" width="21.883" height="21.996" viewBox="0 0 21.883 21.996">
+            <g id="bell" transform="translate(1 1)">
+                <path id="Shape" d="M9.993,20a2.005,2.005,0,0,1-1.73-1h3.46A2.005,2.005,0,0,1,9.993,20Zm9.89-5H0a3,3,0,0,0,2.993-3V7a7,7,0,1,1,14,0v5a3,3,0,0,0,2.889,3Z" fill="none" stroke="#535875" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" />
+            </g>
+        </svg>
+        @*@{Html.RenderAction("CartCount", "Layout");}*@
+        <span class="countN">@Model.count</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end notification-dropdown" aria-labelledby="navbarDropdown">
+        @foreach (var Notiy in Model.response)
+        {
+            <li>
+                <h6 class="dropdown-header">@Notiy.title</h6>
+                <p>@Notiy.content.message</p>
+            </li>
+            
+
+        }
+
+        @*<li>
+            <h6 class="dropdown-header">Dropdown header</h6>
+            <p>dsghdsjjfgjjkjhhjllhlh</p>
+        </li>
+        <li>
+            <h6 class="dropdown-header">Dropdown header</h6>
+            <p>dsghdsjjfgjjkjhhjllhlh</p>
+        </li>*@
+    </ul>
+</li>

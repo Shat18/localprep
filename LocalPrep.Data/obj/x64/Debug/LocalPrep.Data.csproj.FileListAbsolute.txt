@@ -1,0 +1,12 @@
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\x64\Debug\LocalPrep.Data.dll.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\x64\Debug\LocalPrep.Data.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\x64\Debug\LocalPrep.Data.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\x64\Debug\EntityFramework.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\x64\Debug\EntityFramework.SqlServer.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\x64\Debug\EntityFramework.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\bin\x64\Debug\EntityFramework.SqlServer.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\x64\Debug\LocalPrep.Data.csprojAssemblyReference.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\x64\Debug\LocalPrep.Data.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\x64\Debug\LocalPrep.Data.csproj.CopyComplete
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\x64\Debug\LocalPrep.Data.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Data\obj\x64\Debug\LocalPrep.Data.pdb

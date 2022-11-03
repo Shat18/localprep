@@ -1,0 +1,21 @@
+﻿@model IList<LocalPrep.Web.Models.AddIngredient>
+<table class="table table-borderless" id="tblIngredients">
+    @foreach (var ingredient in Model)
+    {
+        if (Model.Count== 1)
+        {
+            <tr id="noIngredients">
+                <td><strong>No ingredients have been added.</strong></td>
+            </tr>
+           }
+        <tr class="item">
+            <td>
+                @Html.TextBoxFor(m => ingredient.IngredientName, new { @class = "form-control", @id = "txtingredientname", placeholder = "Add Ingredient" }) 
+            </td>
+
+            @*<td>
+                    <input type="button" id="btnIngredient" class="btn btningridient" value="Add Ingredient" />
+                </td>*@
+        </tr>
+    }
+</table>

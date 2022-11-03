@@ -1,0 +1,17 @@
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\AutoMapper.Net4.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\LocalPrep.Services.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\LocalPrep.Services.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\AutoMapper.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\LocalPrep.Data.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\LocalPrep.Entity.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\EntityFramework.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\LocalPrep.Data.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\LocalPrep.Data.dll.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\LocalPrep.Entity.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\AutoMapper.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\bin\x64\Debug\EntityFramework.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\x64\Debug\LocalPrep.Services.csprojAssemblyReference.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\x64\Debug\LocalPrep.Services.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\x64\Debug\LocalPrep.Services.csproj.CopyComplete
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\x64\Debug\LocalPrep.Services.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Services\obj\x64\Debug\LocalPrep.Services.pdb

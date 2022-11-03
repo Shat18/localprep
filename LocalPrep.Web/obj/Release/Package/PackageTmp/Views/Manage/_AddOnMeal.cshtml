@@ -1,0 +1,25 @@
+﻿@model IList<LocalPrep.Web.Models.AddOn>
+<table class="table table-borderless" id="tblAddOns">
+    @foreach (var addon in Model)
+    {
+        if (Model.Count==1)
+        {
+            <tr id="noAddOns">
+                <td><strong>No Add-Ons have been added.</strong></td>
+            </tr>
+         }
+        <tr class="item">
+            <td>
+                @Html.TextBoxFor(m => addon.add_on_name, new { @class = "form-control", @id = "txtaddonname", placeholder = "Add-On" })
+            </td>
+            <td>
+                @Html.TextBoxFor(m => addon.add_on_price, new { @class = "form-control", @id = "txtaddonprice", placeholder = "Price" })
+            </td>
+            @*<td>
+                    <input type="button" id="btnAddon" class="btn btnAddAddOn" value="Add Add-On" />
+                </td>*@
+        </tr>
+
+    }
+</table>
+

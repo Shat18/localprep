@@ -1,0 +1,284 @@
+﻿@model LocalPrep.Web.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="css/style.css" />
+<section id="page-content" style="padding: 0px;">
+    <div class="container-fullscreen">
+        <div class="col-md-12 orange-spec-bg">
+            <h1 class="text-center">CREATE YOUR LOCAL PREP ACCOUNT</h1>
+            <p class="text-center">
+                After creating an account, simply check your email to confirm that you have been approved and then you can login to your account to order from a meal prepper!
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+<section id="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="~/img/create-account.png" class="img-fluid" style="max-width: 128px;" alt="Create Account" />
+                    </div>
+
+                    <div class="col-md-8">
+                        <h4 class="orange">CREATE A LOCAL PREP ACCOUNT</h4>
+                        <p>
+                            We’ll need some information to connect you with nearby meal preppers.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 28px;">
+                    <div class="col-md-4">
+                        <img src="~/img/select-location.png" class="img-fluid" style="max-width: 128px;" alt="Select Location" />
+                    </div>
+
+                    <div class="col-md-8">
+                        <h4 class="orange">SELECT LOCATION & PICK A PREPPER</h4>
+                        <p>
+                            Find a nearby meal prepper that specializes in the diet and cuisine preference of your liking.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 28px;">
+                    <div class="col-md-4">
+                        <img src="~/img/order-food.png" class="img-fluid" style="max-width: 128px;" alt="Order Food" />
+                    </div>
+
+                    <div class="col-md-8">
+                        <h4 class="orange">ORDER YOUR FOOD</h4>
+                        <p>
+                            Order from a trusted meal prepper nearby that’s been vetted by our staff. You’ll be able to view their menu options and order directly from their proﬁle.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 28px;">
+                    <div class="col-md-4">
+                        <img src="~/img/pickup-delivery.png" class="img-fluid" style="max-width: 128px;" alt="Pickup or Delivery" />
+                    </div>
+
+                    <div class="col-md-8">
+                        <h4 class="orange">
+                            PICK-UP OR DELIVERY
+                        </h4>
+                        <p>
+                            Conﬁrm whether you want to pick-up your food or if you’d prefer for it to be delivered to your home or ofﬁce.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="orange">LET'S GET STARTED</h2>
+
+                @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { enctype = "multipart/form-data",role = "form", style = "width: 100%;" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    @Html.ValidationSummary("", new { @class = "text-danger" })
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(m => m.FirstName)
+                            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control " })
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.LabelFor(m => m.LastName)
+                            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control " })
+                        </div>
+                    </div>
+
+                    @*<div class="form-group">
+                        @Html.LabelFor(m => m.UserName)
+                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control " })
+                    </div>*@
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Email)
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Password)
+                        <div class="input-group">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", id = "password" })
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="bi bi-eye-slash" id="togglePasswordCust"></i></span>
+
+                            </div>
+                        </div>                       
+                        
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.ConfirmPassword)
+                        <div class="input-group">
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", id = "confirmpassword" })
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="bi bi-eye-slash" id="togglePasswordConfirmCust"></i></span>
+
+                            </div>
+                        </div>
+                        
+                       
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Address1)
+                        @Html.TextBoxFor(m => m.Address1, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Address2)
+                        @Html.TextBoxFor(m => m.Address2, new { @class = "form-control" })
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-md-5">
+                            @Html.LabelFor(m => m.City)
+                            @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group col-md-4">
+                            @Html.LabelFor(m => m.short_code)
+                            @*@Html.DropDownListFor(m => m.short_code, new SelectList(Model.States, "id", "short_code", "35"), new { @class = "form-control" })*@
+                            @Html.DropDownListFor(m => m.short_code, ViewData["State"] as List<SelectListItem>, new { @id = "State", placeholder = "Select State" })
+                        </div>
+
+                        @*<div class="form-group col-md-4">
+            @Html.LabelFor(m => m.StateId)
+            @Html.DropDownListFor(m => m.StateId, new SelectList(Model.States, "id", "short_code", "35"), new { @class = "form-control" })
+        </div>*@
+
+                        <div class="form-group col-md-3">
+                            @Html.LabelFor(m => m.Zip)
+                            @Html.TextBoxFor(m => m.Zip, new { @class = "form-control" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.PhoneNumber)
+                        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", maxlength = "25", id = "phnnumber", onkeypress = "return ValidNumeric()" })
+                    </div>
+
+                  
+
+                    <div class="form-group">
+                    <div class="form-group custom-file">
+                        @Html.LabelFor(m => m.ImageFile, new { @class = "custom-file-label" })
+                        @Html.TextBoxFor(m => m.ImageFile, new { @class = "form-control-file custom-file-input", @id = "imgInp", @type = "file" })
+                        @Html.HiddenFor(x => x.filepath, new { @id = "hdnfilepath" })                        
+                    </div>
+                    <div class="">
+                        <img id="blah" src="#" alt="" class="img-fluid" style="max-width: 200px;"  />                       
+                    </div>
+                   
+                    
+                </div>
+
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-lp" value="Register" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval");
+<script>
+
+    $('#flduploadDL').on('change', function () {
+        const [file] = flduploadDL.files
+        if (file) {
+            blahDL.src = URL.createObjectURL(file)
+        }
+    });
+
+        const togglePasswordCust = document.querySelector('#togglePasswordCust');
+        const password = document.querySelector('#password');
+        const togglePasswordConfirmCust = document.querySelector('#togglePasswordConfirmCust');
+        const confirmpassword = document.querySelector('#confirmpassword');
+
+
+    $('#imgInp').on('change', function () {
+        const [file] = imgInp.files
+        if (file) {
+            blah.src = URL.createObjectURL(file)
+        }
+    });
+
+
+
+
+
+    $('#btnsave').on("click", function () {
+        $(".loader-container").show();
+
+        var form = jQuery("#frmBecomePrepper");
+        var status = form.valid();
+        if (status) {
+
+            $(".loader-container").hide();
+        }
+    });
+
+    $(document).ready(function () {
+        bsCustomFileInput.init()
+    })
+
+    function ValidNumeric() {
+
+        var charCode = (event.which) ? event.which : event.keyCode;
+        if (charCode >= 48 && charCode <= 57) { return true; }
+        else { return false; }
+    }
+
+    togglePasswordCust.addEventListener('click', function (e) {
+        // toggle the type attribute
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        // toggle the eye / eye slash icon
+        this.classList.toggle('bi-eye');
+    });
+
+    togglePasswordConfirmCust.addEventListener('click', function (e) {
+        // toggle the type attribute
+        const type = confirmpassword.getAttribute('type') === 'password' ? 'text' : 'password';
+        confirmpassword.setAttribute('type', type);
+        // toggle the eye / eye slash icon
+        this.classList.toggle('bi-eye');
+    });
+
+
+
+    $(document).on('keyup', '#phnnumber', function (e) {
+
+
+        let text = $(this).val()
+        text = text.replace(/\D/g, '')
+
+        text = text.replace(/.{0}/, '$& ( ')
+        text = text.replace(/.{6}/, '$& ) '); //Add hyphen at pos.4
+        text = text.replace(/.{12}/, '$&-')   //Add hyphen at pos.8
+        $(this).val(text.substring(0, 17)); //Set the new text
+    });
+
+
+
+
+
+
+
+
+
+
+</script>
+}

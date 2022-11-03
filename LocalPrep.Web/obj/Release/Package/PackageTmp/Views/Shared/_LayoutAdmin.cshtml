@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>Local Prep</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    @*<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">*@
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link href="~/css/owl.carousel.css" rel="stylesheet" />
+    <link href="~/style.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    @*<link href="style.css" rel="stylesheet">*@
+</head>
+@*<body class="">*@
+
+    <body>
+        <!-- Body Inner -->
+        <div class="body-inner">
+            <!-- Topbar -->
+           
+            <!-- end: Topbar -->
+            <!-- Header -->
+            <nav class="navbar navbar-expand-md navbar-light bg-white mb-04">
+                <div class="container position-relative justify-content-center">
+                    <a class="navbar-brand" href="#">                        
+                        <img src="~/images/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#FA5F33" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                        </span>
+                    </button>
+
+
+                </div>
+            </nav>
+            <!-- end: Header -->
+
+
+            @RenderBody()
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start">
+                            <p class="text-dark ft-text mb-0">
+                                © 2022 Local Prep. All Rights Reserved.
+                            </p>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="d-inline-block ft-text ft-link">
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Terms of Service</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end: Footer -->
+        </div>
+        <!-- end: Body Inner -->
+        <!-- Scroll top -->
+        <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+        @Scripts.Render("~/bundles/js")
+        @RenderSection("scripts", required: false)
+
+    </body>
+
+</html>
+
+
+

@@ -1,0 +1,563 @@
+﻿@model LocalPrep.Web.Models.MealViewModel
+@{ ViewBag.Title = "AddMeal";
+    //ViewBag.Span = Html.ActionLink("Add Meal", "AddMeal", "Manage");
+    ViewBag.Span = Html.ActionLink("Add Meal", "AddMeal", "Manage",new { style = "font-size:18px;" });
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+@if (ViewBag.SuccessMessage != null && ViewBag.SuccessMessage.Length > 0)
+{
+<div class="alert alert-success">@ViewBag.SuccessMessage</div>}
+
+@if (ViewBag.FailureMessage != null && ViewBag.FailureMessage.Length > 0)
+{
+<div class="alert alert-danger">@ViewBag.FailureMessage</div>}
+
+@using (Html.BeginForm("AddMeal", "Manage", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal", role = "form", @id = "frmAddMeal" }))
+{
+<div class="loader-container" style="display:none">
+    <div class="loader"></div>
+</div>
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary("", new { @class = "text-danger" })
+                    @Html.HiddenFor(m => m.meal.MealId)
+                    @Html.HiddenFor(m => m.meal.SubmitDt)
+                    @Html.HiddenFor(m => m.meal.VendorId)
+
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.meal.MealName, new { @class = "col-md-12 control-label" })
+                        <div class="col-md-12 mb-4">
+                            @Html.TextBoxFor(m => m.meal.MealName, new { @class = "form-control", @id = "MealName" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.meal.MealDescription, new { @class = "col-md-12 control-label" })
+                        <div class="col-md-12 mb-4">
+                            @Html.TextAreaFor(m => m.meal.MealDescription, new { @class = "form-control", rows = "8", @id = "MealDescription" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(m => m.meal.MealPrice, new { @class = "col-md-12 control-label" }) 
+                        <div class="col-md-12 mb-4">
+                            @{var formated = String.Format("${0:0.00}", Model.meal.MealPrice);}
+                            @*@Html.TextBoxFor(m => m.Bank.Amount, formated, new { id = "tbAmount" })
+            @Html.EditorFor(m => m.meal.MealPrice, new { @class = "form-control", @id = "MealPrice" })*@
+                            @Html.TextBoxFor(m => m.meal.MealPrice, formated, new { @class = "form-control", @id = "MealPrice" })
+                        </div>
+                    </div>
+                    <div class="p-3 rounded mb-5" style="background:#fae9bb;">
+                        <div class="form-group row">
+                            <label class="col-md-12 control-label">Ingredients</label>
+                            <div id="divIngredients">
+                                @Html.Partial("~/Views/Manage/_Ingredient.cshtml", @Model.AddIngredient)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div id="divIngredientsbutton">
+                                <input type="button" id="btnIngredient" class="btn btningridient" value="Add Ingredient" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3 rounded mb-5" style="background:#fae9bb;">
+                        <div class="form-group row">
+                            <label class="col-md-12 control-label">Meal Add-Ons</label>
+                            <div id="divAddon">
+                                @Html.Partial("~/Views/Manage/_AddOnMeal.cshtml", Model.AddON)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div id="divAddonbutton">
+                                <input type="button" id="btnAddon" class="btn btnAddAddOn" value="Add Add-On" />
+                            </div>
+                        </div>
+
+                    </div>
+    <div class="p-3 rounded mb-5" style="background:#fae9bb;">
+
+        <div class="form-group row">
+            <label class="col-md-12 control-label">Nutritional Information</label>
+
+            <div class="col-md-6">
+                <table class="table table-borderless">
+                    <tr>
+                        <td>
+                            Servings
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.Servings, new { @class = "form-control", @id = "Servings" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Calories/Serving
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.CaloriesServing, new { @class = "form-control", @id = "CaloriesServing" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Calories
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.Calories, new { @class = "form-control", @id = "Calories" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Fat
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.Fat, new { @class = "form-control", @id = "Fat" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Protein
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.Protein, new { @class = "form-control", @id = "Protein" })
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="col-md-6">
+                <table class="table table-borderless">
+                    <tr>
+                        <td>
+                            Sugar
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.Sugar, new { @class = "form-control", @id = "Sugar" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Sodium
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.Sodium, new { @class = "form-control", @id = "Sodium" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Cholesterol
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.Cholesterol, new { @class = "form-control", @id = "Cholesterol" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Total Carbohydrates
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.meal.TotalCarb, new { @class = "form-control", @id = "TotalCarb" })
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        @Html.LabelFor(m => m.meal.HeatingInstructions, new { @class = "col-md-12 control-label" })
+        <div class="col-md-12 mb-4">
+            @Html.TextAreaFor(m => m.meal.HeatingInstructions, new { @class = "form-control", rows = "8", @id = "HeatingInstructions" })
+        </div>
+    </div> 
+<div class="form-group row">
+    <div class="col-md-12 mb-4">
+        @Html.LabelFor(m => m.DietsSelected)
+        <br />
+        <div class="row">
+            @Html.EditorFor(x => x.Diets, new { @id = "DietsSelected_test", @required = "required" })
+            <div class="col-md-3">
+                @Html.TextBoxFor(m => m.Otherdiet, new { @class = "form-control", @id = "OtherDiets", style = "display:none" })
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="form-group row" style="margin-top: 24px;">
+    <div class="col-md-12 mb-4">
+        @Html.LabelFor(m => m.CuisinesSelected)
+        <br />
+        <div class="row">
+            @Html.EditorFor(x => x.Cuisines, new { @required = "required" })
+            <div class="col-md-3">
+                @Html.TextBoxFor(m => m.Othercuisine, new { @class = "form-control", @id = "OtherCuisines", style = "display:none" })
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="form-group">
+    <div class="form-group custom-file mb-5">
+        @Html.LabelFor(m => m.ImageFile, new { @class = "custom-file-label" })
+        @Html.TextBoxFor(m => m.ImageFile, new { @class = "form-control-file custom-file-input", @id = "flduploadDL", @type = "file" })
+        @*@Html.HiddenFor(x => x.filepathDL, new { @id = "hdnfilepathDL" })*@
+    </div>
+    <div class="">
+        <img id="blahDL" src="#" alt="" class="img-fluid" style="max-width: 200px;" />
+    </div>
+ </div>
+
+    <div class="form-group row">
+        <label class="col-md-12"></label>
+        <div class="col-md-12 mb-5">
+            <div class="checkbox">
+                @Html.CheckBoxFor(m => m.meal.IsActive)
+                @Html.LabelFor(m => m.meal.IsActive)
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-md-12">
+            <input type="submit" class="btn btn-lp" value="Add Meal" id="btnSavemeal" />
+        </div>
+    </div>
+    }
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    @section Scripts {
+
+        <script type="text/javascript">
+            $('#flduploadDL').on('change', function () {
+                const [file] = flduploadDL.files
+                if (file) {
+                    blahDL.src = URL.createObjectURL(file)
+                }
+            });
+
+            $('body').on('click', '#Diets_5__IsChecked', function () {
+                if ($('#Diets_5__IsChecked').is(':checked')) {
+                    $("#OtherDiets").css("display", "block");
+                }
+                else {
+                    $("#OtherDiets").css("display", "none");
+                }
+
+
+            })
+
+            $('body').on('click', '#Cuisines_6__IsChecked', function () {
+                //alert("heloo");
+                //$('.CustCreditCardCvv).hide();
+
+                if ($('#Cuisines_6__IsChecked').is(':checked')) {
+                    $("#OtherCuisines").css("display", "block");
+                }
+                else {
+                    $("#OtherCuisines").css("display", "none");
+                }
+
+                //$(".expdate").css("display", "block")
+                //var value = $(this).attr("data-id");
+                //$('#CreditCardCvv_' + value).show();
+                //$('#expdate_' + value).hide();
+            })
+
+            $(function () {
+                $('.btnAddIngredient').click(function (e) {
+                    //    $('.btnAddIngredient').prop('disabled', true);
+
+                    //    if ($('#txtAddIngredient').val().length > 0) {
+
+                    //        $.ajax({
+                    //            url: "/Manage/AddIngredient",
+                    //            type: "POST",
+                    //            dataType: "json",
+                    //            traditional: true,
+                    //            data: JSON.stringify({ 'mealId': $('#meal_MealId').val(), 'ingredientName': $('#txtAddIngredient').val() }),
+                    //            contentType: "application/json; charset=utf-8",
+                    //            success: function (data) {
+                    //                $('#noIngredients').hide();
+                    //                $('#tblIngredients').append("<tr><td>" + data.IngredientName + "</td><td><input type=\"button\" class=\"btn btn-sm btn-danger rmvIng\" value=\"Remove\" data-id=\"" + data.MealIngredientId + "\" /></td></tr>");
+                    //                $('#txtAddIngredient').val("");
+                    //                $('.btnAddIngredient').prop('disabled', false);
+                    //            },
+                    //            error: function (xhr, ajaxOptions, errorThrown) {
+                    //                alert('nope!');
+                    //                //alert(xhr.responseText);
+                    //                $('#msg').show();
+                    //                $('#msg').addClass("alert-danger");
+                    //                $('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                    //            }
+                    //        });
+                    //    } else {
+                    //        alert('Please add an ingredient before submitting.');
+                    //        $('.btnAddIngredient').prop('disabled', false);
+                    //    }
+                    //});
+
+                    var customers = new Array();
+                    $('.btnAddIngredient').prop('disabled', true);
+
+                    if ($('#txtAddIngredient').val().length > 0) {
+                        var mealId = 1
+                        var ingredientName = $('#txtAddIngredient').val();
+                        $('#noIngredients').hide();
+                        $('#tblIngredients').append("<tr><td>" + ingredientName + "</td><td><input type=\"button\" class=\"btn btn-sm btn-danger rmvIng\" value=\"Remove\" data-id=\"" + mealId + "\" /></td></tr>");
+                        $('#txtAddIngredient').val("");
+                        $('.btnAddIngredient').prop('disabled', false);
+
+                    }
+                });
+
+
+
+                $(document).ready(function () {
+                    bsCustomFileInput.init()
+                })
+
+
+                $('.rmvIng').click(function (e) {
+                    var remIng = $(this);
+                    $.ajax({
+                        url: "/Manage/RemoveIngredient",
+                        type: "POST",
+                        //dataType: "json",
+                        traditional: true,
+                        data: JSON.stringify({ 'mealIngredientId': $(this).data("id") }),
+                        contentType: "application/json; charset=utf-8",
+                        success: function (data) {
+                            if (data == "success") {
+                                remIng.closest('tr').remove();
+                            }
+                        },
+                        error: function (xhr, ajaxOptions, errorThrown) {
+
+                            //alert(xhr.responseText);
+                            $('#msg').show();
+                            $('#msg').addClass("alert-danger");
+                            $('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                        }
+                    });
+                });
+
+
+
+
+
+                $("#divIngredientsbutton .btningridient").on("click", function () {
+                    $('.btnAddIngredient').prop('disabled', true);
+
+                    if ($('#txtingredientname').val().length > 0) {
+
+                        var listIngredients = [];
+                        $("#tblIngredients tr.item").each(function () {
+                            lstIngredient = { IngredientName: $(this).find("#txtingredientname").val() };
+                            listIngredients.push(lstIngredient);
+                            //alert(JSON.stringify(lstIngredient));
+                        });
+                        lstaddIngredient = JSON.stringify({ 'lstaddIngredient': listIngredients });
+
+                        /* alert(JSON.stringify(lstaddIngredient));*/
+
+                        $.ajax({
+                            url: "/Manage/AddIngredients",
+                            type: "Post",
+                            dataType: "text",
+                            traditional: true,
+                            data: lstaddIngredient,
+                            contentType: "application/json; charset=utf-8",
+                            success: function (data) {
+                                $('.noIngredients').hide();
+                                $("#divIngredients").html(data);
+                            },
+                            error: function (xhr, ajaxOptions, errorThrown) {
+
+                            }
+                        });
+                    }
+                    else {
+                        alert('Please add an ingredient before submitting.');
+                        /*$('.btnAddIngredient').prop('disabled', false);*/
+                    }
+                });
+
+
+
+                $("#divAddonbutton .btnAddAddOn").on("click", function () {
+
+                    /*$('.btnAddAddOn').prop('disabled', true);*/
+
+                    if ($('#txtaddonname').val().length > 0 && $('#txtaddonprice').val().length > 0) {
+                        var listaddons = [];
+                        $("#tblAddOns tr.item").each(function () {
+                            lstaddon = { add_on_price: $(this).find("#txtaddonprice").val(), add_on_name: $(this).find("#txtaddonname").val() };
+                            listaddons.push(lstaddon);
+
+                        });
+
+                        lstaddons = JSON.stringify({ 'lstaddon': listaddons });
+
+
+                        $.ajax({
+                            contentType: 'application/json; charset=utf-8',
+                            dataType: 'text',
+                            type: 'POST',
+                            url: '/Manage/AddonMeal',
+                            data: lstaddons,
+                            success: function (data) {
+                                $('.noAddOns').hide();
+                                $("#divAddon").html(data);
+                            },
+                            error: function () {
+                                //alert('nope!');
+                                ////alert(xhr.responseText);
+                                //$('#msg').show();
+                                //$('#msg').addClass("alert-danger");
+                                //$('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                                //alert("dfhsdfh");
+                                //$("#divAddon").html(data);
+                            }
+                        });
+                    } else {
+                        alert('Please add an Add-On Name and Price before submitting.');
+                        /* $('.btnAddAddOn').prop('disabled', false);*/
+                    }
+                });
+
+
+            });
+
+            $('#btnSavemeal').on("click", function () {
+                $(".loader-container").show();
+
+                var form = jQuery("#frmAddMeal");
+                var status = form.valid();
+                if (status) {
+
+                    $(".loader-container").hide();
+                }
+            });
+
+
+            function OnSuccess() {
+                alert(0);
+                $('.loader-container').hide();
+                //$('#MealName').hide();
+                //$('#DivPostBuyResult').css("display", "block")
+                //$('#DivPostBuyResult').html(data);
+                //swal("", "Enter post to buy details save successfully !", "success");
+                $("#MealName").val("");
+                $("#MealDescription").val("");
+                $("#MealPrice").val("");
+                $("#Servings").val("");
+                $("#TotalCarb").val("");
+                $("#Cholesterol").val("");
+                $("#Sodium").val("");
+                $("#Sugar").val("");
+                $("#Protein").val("");
+                $("#Fat").val("");
+                $("#Calories").val("");
+                $("#CaloriesServing").val("");
+
+            }
+        </script>
+    }
+
+    @*@section Scripts {
+        <script type="text/javascript">
+        $(function () {
+            $('.btnAddIngredient').click(function (e) {
+                $('.btnAddIngredient').prop('disabled', true);
+
+                if ($('#txtAddIngredient').val().length > 0) {
+
+                    $.ajax({
+                        url: "/Manage/AddIngredient",
+                        type: "POST",
+                        dataType: "json",
+                        traditional: true,
+                        data: JSON.stringify({ 'mealId': $('#meal_MealId').val(), 'ingredientName': $('#txtAddIngredient').val() }),
+                        contentType: "application/json; charset=utf-8",
+                        success: function (data) {
+                            $('#noIngredients').hide();
+                            $('#tblIngredients').append("<tr><td>" + data.IngredientName + "</td><td><input type=\"button\" class=\"btn btn-sm btn-danger rmvIng\" value=\"Remove\" data-id=\"" + data.MealIngredientId + "\" /></td></tr>");
+                            $('#txtAddIngredient').val("");
+                            $('.btnAddIngredient').prop('disabled', false);
+                        },
+                        error: function (xhr, ajaxOptions, errorThrown) {
+                            alert('nope!');
+                            //alert(xhr.responseText);
+                            $('#msg').show();
+                            $('#msg').addClass("alert-danger");
+                            $('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                        }
+                    });
+                } else {
+                    alert('Please add an ingredient before submitting.');
+                    $('.btnAddIngredient').prop('disabled', false);
+                }
+            });
+
+            $('.rmvIng').click(function (e) {
+                var remIng = $(this);
+                $.ajax({
+                    url: "/Manage/RemoveIngredient",
+                    type: "POST",
+                    //dataType: "json",
+                    traditional: true,
+                    data: JSON.stringify({ 'mealIngredientId': $(this).data("id") }),
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        if (data == "success") {
+                            remIng.closest('tr').remove();
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, errorThrown) {
+                        alert('nope!');
+                        //alert(xhr.responseText);
+                        $('#msg').show();
+                        $('#msg').addClass("alert-danger");
+                        $('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                    }
+                });
+            });
+
+            $('.btnAddAddOn').click(function (e) {
+                $('.btnAddAddOn').prop('disabled', true);
+
+                if ($('#txtAddAddOn').val().length > 0 && $('#txtAddAddOnPrice').val().length > 0) {
+
+                    $.ajax({
+                        url: "/Manage/AddAddOn",
+                        type: "POST",
+                        dataType: "json",
+                        traditional: true,
+                        data: JSON.stringify({ 'mealId': $('#meal_MealId').val(), 'addOnName': $('#txtAddAddOn').val(), 'addOnPrice': $('#txtAddAddOnPrice').val() }),
+                        contentType: "application/json; charset=utf-8",
+                        success: function (data) {
+                            console.log(data);
+                            $('#noAddOns').hide();
+                            $('#tblAddOns').append("<tr><td>" + data.MealAddOnName + "</td><td>$" + data.MealAddOnPrice + "</td><td><input type=\"button\" class=\"btn btn-sm btn-danger rmvIng\" value=\"Remove\" data-id=\"" + data.MealIngredientId + "\" /></td></tr>");
+                            $('#txtAddAddOn').val("");
+                            $('#txtAddAddOnPrice').val("");
+                            $('.btnAddAddOn').prop('disabled', false);
+                        },
+                        error: function (xhr, ajaxOptions, errorThrown) {
+                            alert('nope!');
+                            //alert(xhr.responseText);
+                            $('#msg').show();
+                            $('#msg').addClass("alert-danger");
+                            $('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                        }
+                    });
+                } else {
+                    alert('Please add an Add-On Name and Price before submitting.');
+                    $('.btnAddAddOn').prop('disabled', false);
+                }
+            });
+        });
+        </script>
+        }*@

@@ -1,0 +1,68 @@
+﻿@model Contact
+@{
+    ViewBag.Title = "Contact Us";
+}
+
+<!-- Content -->
+<section id="page-content">
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="m-t-30">
+                @if (ViewBag.Success == "Yes")
+                {
+                    <p>
+                        Thank you for contacting <strong>Local Prep</strong>.
+                    </p>
+
+                    <p>
+                        We will be in touch with you shortly!
+                    </p>
+                }
+                else
+                {
+                    using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.ContactName, new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.ContactName, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EmailAddress, new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.EmailAddress, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.PhoneNumber, new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.ContactText, new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextAreaFor(m => m.ContactText, new { @class = "form-control", rows = "6" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" class="btn btn-lp" value="Submit" />
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,54 @@
+﻿@model List<Diet>
+@{
+    ViewBag.Title = "Diets";
+}
+
+<!-- Content -->
+<section id="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                We have one of the largest collections of diets, including the following:
+            </div>
+        </div>
+
+        @{ 
+            int i = 0;
+            string rowClass1 = string.Empty;
+            string rowClass2 = string.Empty;
+        }
+
+        @foreach (var diet in Model)
+        {
+            if(i % 2 == 0)
+            {
+            rowClass1 = "col-md-4";
+            rowClass2 = "col-md-8";
+            }
+            else
+            {
+            rowClass1 = "col-md-4 col-md-push-8";
+            rowClass2 = "col-md-8 col-md-pull-4";
+            }
+            <div class="row" style="margin-top: 40px;">
+                <div class="@rowClass1">
+                    @if (diet.ImgSrc != null)
+                    {
+                        <img src="@diet.ImgSrc" alt="@diet.DietShortName" class="img-fluid" />
+                    }
+                    else
+                    {
+                        <img src="~/img/coming_soon.jpg" alt="Image Coming Soon" class="img-fluid" />
+                    }
+                </div>
+
+                <div class="@rowClass2">
+                    <h3>@diet.DietShortName</h3>
+                    @diet.DietDescription
+                </div>
+            </div>
+            <hr />
+            i++;
+        }
+    </div>
+</section>

@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-03-18T05:00:19.780352Z"
+    }
+  },
+  "parameters": {
+    "localprep2020.resourceName": {
+      "Name": "localprep2020.resourceName",
+      "Type": null,
+      "Value": "localprep2020"
+    },
+    "localprep2020.resourceGroupLocation": {
+      "Name": "localprep2020.resourceGroupLocation",
+      "Type": null,
+      "Value": "centralus"
+    },
+    "localprep2020.subscriptionId": {
+      "Name": "localprep2020.subscriptionId",
+      "Type": "subscription",
+      "Value": "516b8005-170e-4e80-9dbf-16311964d964"
+    },
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "516b8005-170e-4e80-9dbf-16311964d964"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "LocalPrep"
+    },
+    "localprep2020.resourceGroupName": {
+      "Name": "localprep2020.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "LocalPrep"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "516b8005-170e-4e80-9dbf-16311964d964"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/localprepdbsrvr/databases/localprepdb",
+      "type": "mssql.azure",
+      "connectionId": "localprepdbEntities",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\bin\x64\Debug\LocalPrep.Entity.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\bin\x64\Debug\LocalPrep.Entity.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\x64\Debug\LocalPrep.Entity.csprojAssemblyReference.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\x64\Debug\LocalPrep.Entity.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\x64\Debug\LocalPrep.Entity.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\x64\Debug\LocalPrep.Entity.pdb

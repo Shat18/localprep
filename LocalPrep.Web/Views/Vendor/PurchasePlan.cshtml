@@ -1,0 +1,190 @@
+﻿@model PurchasePlan
+@{
+    ViewBag.Title = "PurchasePlan";
+}
+
+<link href="~/js/jquery.timepicker.css" rel="stylesheet" />
+<style type="text/css">
+    .ui-datepicker-calendar {
+        display: none;
+    }
+</style>
+<div id="page-content">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="loader-container" style="display:none">
+                <div class="loader"></div>
+            </div>
+            <div class="col-md-8 col-lg-6">
+                <div class="shadow rounded p-4">
+                    <h3 class="text-green mb-3">Purchase Plan</h3>
+                    @using (Html.BeginForm("PurchasePlan", "Vendor", FormMethod.Post, new { role = "form", @id = "frmPurchasePlan" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+                        <div class="row">
+                            <div class="col-md-auto mb-4">
+                                <div class="form-check cd-detail">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Credit/Debit Card
+                                    </label>
+                                </div>
+                                <div class="mb-4">
+                                    <a href="http://www.authnetsource.com" target="_blank">
+                                        <img src="~/img/v-mc-d-amex-small.gif" width="265" height="45" alt="Authorize.Net" border="0" />
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="cd-detail">
+                            <h3 class="mb-4">Card Information</h3>
+                            <div class="row ">
+                                <div class="col-md-8 mb-4">
+
+                                    @Html.LabelFor(m => m.card_number, new { @class = "form-label" })
+                                    @*@Html.TextBoxFor(m => m.card_number, new { @class = "form-control " })*@
+                                    @Html.TextBoxFor(m => m.card_number, new { @required = "required", @class = "form-control", @id = "txtCrdNumber" })
+                                    @Html.ValidationMessageFor(model => model.card_number, "", new { @required = "required", @class = "error text-danger" })
+                                   
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    @Html.LabelFor(m => m.expiration_date, new { @class = "form-label" })
+                                    @Html.TextBoxFor(m => m.expiration_date, new { @class = "form-control",placeholder = "MM/YYYY", MaxLength = "6", onkeydown = "numericOnly(this,event)" })
+                                  
+                                </div>
+                                  
+
+                                <div class="col-md-8 mb-4">
+                                    <label class="form-label">Cardholder Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+
+
+                              
+
+
+
+                                <div class="col-md-4 mb-4">
+                                    <div class="form-group" id="dvcardcode">
+                                        @Html.LabelFor(m => m.card_code, new { @class = "form-label" })
+                                        @Html.TextBoxFor(m => m.card_code, new { @required = "required", @class = "form-control", @id = "txtcreditcardcode", type = "password" })
+                                        @Html.ValidationMessageFor(m => m.card_code, "", new { @required = "required", @class = "error text-danger"})
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="text-start">
+                                <button type="submit" class="btn btn-primary" id="btnPurchase">Purchase</button>
+                            </div>
+                        </div>
+
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    
+
+    <script>
+
+        function numericOnly(element, e) {
+            //alert(1);
+            // Allow: backspace, delete, tab, escape, enter and .
+            if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                // Allow: Ctrl+A
+                (e.keyCode == 65 && e.ctrlKey === true) ||
+                // Allow: home, end, left, right
+                (e.keyCode >= 35 && e.keyCode <= 39)) {
+                // let it happen, don't do anything
+                return;
+            }
+            // Ensure that it is a number and stop the keypress
+            if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                e.preventDefault();
+            }
+        }
+
+
+        $(document).ready(function () {
+            $(function () {
+
+                $(".date-picker").datepicker({
+
+                    changeMonth: true,
+                    changeYear: true,
+                    showButtonPanel: true,
+                    ButtonClicked: true,
+                    dateFormat: 'mm/y',
+                    minDate: 'm',
+                    maxDate: "+60m",
+
+                    onClose: function (dateText, inst) {
+                        $(this).datepicker('setDate', new Date(inst.selectedYear, inst.selectedMonth, 1));
+                    }
+                });
+            });
+
+
+
+            $("#txtCrdNumber").payform('formatCardNumber');
+            $("#txtcreditcardcode").payform('formatCardCVC');
+            
+
+
+            $("#txtCrdNumber").keyup(function () {
+
+                var cardnumber = $(this).val();
+                if ($.payform.validateCardNumber(cardnumber) == false) {
+                    $("#txtCrdNumber").addClass('has-error');
+                } else {
+                    $("#txtCrdNumber").removeClass('has-error');
+                    $("#txtCrdNumber").addClass('has-error');
+
+                }
+            });
+
+
+            ///$("#txtcreditcardcode").payform('formatCardCVC');
+
+
+
+
+        });
+
+
+
+
+
+
+
+        $('#btnPurchase').on("click", function () {
+            $(".loader-container").show();
+
+            var form = jQuery("#frmPurchasePlan");
+            var status = form.valid();
+            if (status) {
+
+                $(".loader-container").hide();
+            }
+        });
+
+
+
+
+    </script>
+}
+

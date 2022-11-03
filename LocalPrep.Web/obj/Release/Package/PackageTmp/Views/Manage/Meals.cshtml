@@ -1,0 +1,46 @@
+﻿@model List<LocalPrep.Web.Models.data>
+@{
+    ViewBag.Title = "Meals";
+    //ViewBag.Span = Html.ActionLink("Add Meal", "EditMeal", "Manage");
+    ViewBag.Span = Html.ActionLink("Add Meal", "AddMeal", "Manage", new { style = "font-size:18px;font-weight: bold" });
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="loader-container" style="display:none">
+    <div class="loader"></div>
+</div>
+
+<div class="col-lg-12 mb-5">
+    <div class="shadow p-5 rounded-bottom ">
+
+        @if (Model.Count == 0)
+        {
+        <p>
+            Please click on Add Meals to continue.
+        </p> }
+                else
+                {
+    <table class="table table-hover">
+        <tr>
+            <th>Meal Name</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+
+        @foreach (var meal in Model)
+        {
+    <tr>
+        <td>
+            @meal.name
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditMeal", "Manage", new { mealId = meal.id }, null)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "DeleteMeal", "Manage", new { mealId = meal.id }, null)
+        </td>
+    </tr>}
+    </table>}
+    </div>
+
+</div>
+

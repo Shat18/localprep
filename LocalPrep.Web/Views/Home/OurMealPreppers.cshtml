@@ -1,0 +1,246 @@
+﻿
+@{
+    ViewBag.Title = "Our Meal Preppers";
+}
+
+<section id="page-content" style="padding: 0px;">
+    <div class="container-fullscreen">
+        <div class="col-md-12 blue-spec-bg">
+            <h1 class="text-center">SEARCH FOR MEAL PREPPERS</h1>
+            <p class="text-center">
+                Below is a list of Local Prep's top rated meal preppers. You can also search for a meal prepper by name or by
+                city, state or zip using the search bars below!
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="page-content" style="padding-top: 4px;">
+    <div class="container-fullscreen">
+        <div class="row">
+            <div class="col-md-4 solid-green-bg">
+                <h4>Start Your Search</h4>
+                <div style="margin-bottom: 8px;">
+                    <input type="text" class="form-control" id="citystatezipsearch" placeholder="City, State or Zip" />
+                </div>
+                <div>
+                    <input type="button" id="submitSearch" class="btn btn-default fullwidth" value="Search by Location" />
+                </div>
+
+                <div style="margin-bottom: 8px; margin-top: 28px;">
+                    <input type="text" class="form-control" id="preppernamesearch" placeholder="Search Name" />
+                </div>
+                <div>
+                    <input type="button" id="submitNameSearch" class="btn btn-default fullwidth" value="Search by Meal Prepper" />
+                </div>
+            </div>
+
+            <div class="col-md-8" style="padding-left: 0px;">
+                <div id="map" style="min-height: 400px; width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+<section id="page-content" style="padding-top: 0px;">
+    <div class="container">
+        <div id="locations"></div>
+    </div>
+</section> <!-- end: Content -->
+
+@section scripts {
+    <script>
+        $(function () {
+
+            var markers = [];
+            var salons = [];
+            var searchMarker;
+            var infoWindow = new google.maps.InfoWindow();
+
+            initMap();
+
+            $('#diets').change(function () {
+                initMap();
+            });
+
+            $('#cuisines').change(function () {
+                initMap();
+            });
+
+            function initMap() {
+                $('#map').css('padding-bottom', '40px');
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: new google.maps.LatLng(39.8097343, -98.5556199),
+                });
+                markers = [];
+                salons = [];
+                var diet = $('#diets').val();
+                var cuisine = $('#cuisines').val();
+
+                $.ajax({
+                    url: '@Url.Action("Get", "Vendor")',
+                    data: { diet: diet, cuisine: cuisine },
+                    success: function (data) {
+                        $.each(data, function (i, val) {
+                            salons.push(val);
+                            var marker = new google.maps.Marker({
+                                position: new google.maps.LatLng(val.Latitude, val.Longitude),
+                                map: map,
+                                title: val.VendorName,
+                                icon: '/img/orange_marker.png'
+                            });
+
+                            marker.setMap(map);
+
+                            markers.push(marker);
+
+                           marker['infowindow'] = new google.maps.InfoWindow({
+                                content: '<h3 class="orange">' + val.VendorName + '</h3>' + val.FormattedAddress + '<br />' + val.PhoneNumber + '<br /><br /><a href="@Url.Action("Profile", "Vendor")?vendorId=' + val.VendorId + '"><input type="button" class="btn btn-green-bg fullwidth" value="View Profile"></a>'
+                            });
+
+                            google.maps.event.addListener(marker, 'click', function () {
+                                hideAllInfoWindows(map);
+                                this['infowindow'].open(map, this);
+                            });
+                        });
+
+                        for (var i = 0; i < markers.length; i++) {
+                            markers[i].setVisible(false);
+                        }
+                    },
+                    statusCode: {
+                        404: function (content) { alert('cannot find resource'); },
+                        500: function (content) { alert('internal server error'); }
+                    },
+                    error: function (req, status, errorObj) {
+                        console.log(req.responseText);
+                    }
+                });
+
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(function (position) {
+                        var pos = {
+                            lat: position.coords.latitude,
+                            lng: position.coords.longitude
+                        };
+
+                        //infoWindow.setPosition(pos);
+                        //infoWindow.setContent('Location found.');
+                        //infoWindow.open(map);
+                        map.setCenter(pos);
+                        map.setZoom(9);
+                    }, function () {
+                        handleLocationError(true, infoWindow, map.getCenter());
+                    });
+                } else {
+                    // Browser doesn't support Geolocation
+                    handleLocationError(false, infoWindow, map.getCenter());
+                }
+
+                function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+                    infoWindow.setPosition(pos);
+                    infoWindow.setContent(browserHasGeolocation ?
+                        'Error: The Geolocation service failed.' :
+                        'Error: Your browser doesn\'t support geolocation.');
+                    //infoWindow.open(map);
+                }
+
+                google.maps.event.addListener(map, 'idle', function () {
+                    $("#locations").html("");
+                    if (markers.length != 0 && map.getZoom() > 8) {
+                        var bounds = map.getBounds();
+
+                        for (var i = 0; i < markers.length; i++) {
+                            var marker = markers[i];
+                            markers[i].setVisible(true);
+
+                            if (bounds.contains(marker.getPosition()) === true) {
+                                var val = salons[i];
+
+                                var distance = getMiles(google.maps.geometry.spherical.computeDistanceBetween(map.getCenter(), marker.getPosition()));
+
+                                var img = "/img/empty-profile-image.jpg";
+                                if (val.ImgSrc != null && val.ImgSrc != "") {
+                                    img = val.ImgSrc;
+                                }
+
+                                $("#locations").append("<div data-mileage=\"" + distance.toFixed(2) + "\" class=\"row lp-row info-" + i + "\"><div class=\"col-lg-2\"><img src=\"" + img + "\" alt=\"" + val.VendorName + "\" class=\"marker-pin-img img-fluid\" /></div><div class=\"col-lg-8\"><h3 class=\"orange\">" + val.VendorName + "</h3>" + val.FormattedAddress + "<br />" + val.PhoneNumber + "</div><div class=\"col-lg-2 distance-" + i + "\"><a href=\"@Url.Action("Profile", "Vendor")?vendorId=" + val.VendorId + "\"><input type=\"button\" class=\"btn btn-green-bg fullwidth\" value=\"View Profile\"></a><p>" + distance.toFixed(2) + " miles</p></div></div>");
+                            }
+                        }
+
+                        var $wrapper = $('#locations');
+
+                        $wrapper.find('.row').sort(function (a, b) {
+                            return +a.dataset.mileage - +b.dataset.mileage;
+                        }).appendTo($wrapper);
+
+                        $("#locations").css("background-color", "#fff");
+                        $("#locations").css("color", "#000");
+                    }
+                    else {
+                        for (var i = 0; i < markers.length; i++) {
+                            markers[i].setVisible(false);
+                        }
+                    }
+                });
+
+                document.getElementById('submitSearch').addEventListener('click', function () {
+                    if ($('#citystatezipsearch').val() == "") {
+                        alert('Please enter a valid zip code or address.');
+                    } else {
+                        //ga('send', 'event', 'SalonLocator', 'Search', 'Location', '1');
+                        var geocoder = new google.maps.Geocoder();
+                        //map = new google.maps.Map(document.getElementById('map'));
+                        map.setZoom(9);
+                        geocodeAddress(geocoder, map);
+                    }
+                });
+            }
+
+            $('#address').keypress(function (e) {
+                if (e.keyCode == 13)
+                    $('#submitSearch').click();
+            });
+
+            function geocodeAddress(geocoder, map) {
+                var address = document.getElementById('citystatezipsearch').value;
+                geocoder.geocode({ 'address': address }, function (results, status) {
+                    if (status === 'OK') {
+                        if (searchMarker != null)
+                            searchMarker.setMap(null);
+                        map.setCenter(results[0].geometry.location);
+                        searchMarker = new google.maps.Marker({
+                            map: map,
+                            position: results[0].geometry.location
+                        });
+                    } else {
+                        alert('Geocode was not successful for the following reason: ' + status);
+                    }
+                });
+            }
+
+            function getMiles(i) {
+                return i * 0.000621371192;
+            }
+
+            function hideAllInfoWindows(map) {
+            markers.forEach(function (marker) {
+                marker.infowindow.close(map, marker);
+            });
+        }
+
+            $(document)
+                .ajaxStart(function () {
+                    //ajax request went so show the loading image
+                    $('#loading').show();
+                })
+                .ajaxStop(function () {
+                    //got response so hide the loading image
+                    $('#loading').hide();
+                });
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdFxZ8uWWp8TVVkbv3TUsiNrI0Vbk44uU&libraries=geometry"></script>
+}

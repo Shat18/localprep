@@ -1,0 +1,10 @@
+﻿
+@model LocalPrep.Web.Models.Earnings
+
+@foreach (var Order in Model.Response.data.Where(a => a.id == Model.Response.Hidden_id))
+{
+<p>@Order.orders.Customer.delivery_address.address_line_1  @Order.orders.Customer.delivery_address.address_line_2 ,</p>
+<p> @Order.orders.Customer.delivery_address.city, @Order.orders.Customer.delivery_address.state, @Order.orders.Customer.delivery_address.zip_code</p>
+   
+
+}

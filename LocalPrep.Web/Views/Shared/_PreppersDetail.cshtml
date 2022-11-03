@@ -1,0 +1,105 @@
+﻿
+@model LocalPrep.Web.Models.Customers
+
+<div class="tab-pane fade show active" id="pills-info" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="mb-5">
+        <div class="text14 text-black-50">Name</div>
+        <div class="fw-bold">@Model.first_name  @Model.last_name</div>
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Address</div>
+        @foreach (var Add in Model.addresses)
+        {
+            if (Add.type == "PROFILE_ADDRESS")
+            {
+    <div class="fw-bold">
+        @Add.address_line_1 @Add.address_line_2<br>
+        @Add.city @Add.state, @Add.zip_code
+    </div>
+            }
+
+        }
+        
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Email</div>
+        <div class="fw-bold">@Model.email</div>
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Phone Number</div>
+        <div class="fw-bold">@Model.phone</div>
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Address</div>
+        @foreach (var Add in Model.addresses)
+        {
+            if (Add.type== "PREPPER_COMPANY_ADDRESS")
+            {
+    <div class="fw-bold">
+        @Add.address_line_1 @Add.address_line_2<br>
+        @Add.city @Add.state, @Add.zip_code
+    </div>
+            }
+
+        }
+
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Current Plan</div>
+        <span class="plan-text">Recurring/Pay As You Go</span>
+    </div>
+</div>
+
+<div class="tab-pane fade" id="pills-business" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <div class="mb-5">
+        <div class="text14 text-black-50">Vendor Name</div>
+        <div class="fw-bold">@Model.business.vendor_name</div>
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Company Name</div>
+        <div class="fw-bold">@Model.business.company_name</div>
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">License Number</div>
+        <div class="fw-bold">@Model.business.licence_number</div>
+    </div>
+    @*<div class="mb-5">
+        <div class="text14 text-black-50">License Name</div>
+        <div class="fw-bold">Lorem isome</div>
+    </div>*@
+    <div class="mb-5">
+        <div class="text14 text-black-50">Business Description</div>
+        <div class="fw-bold">
+            @Model.business.describe_business
+        </div>
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Phone Number</div>
+        <div class="fw-bold">614 123 4560</div>
+        @*<div class="fw-bold">614 123 4560</div>
+        <div class="fw-bold">614 123 4560</div>
+        <div class="fw-bold">614 123 4560</div>*@
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Website</div>
+        <div class="fw-bold">@Model.business.website</div>
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Delivery </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
+            <label class="form-check-label" for="flexCheckCheckedDisabled">
+                @Model.business.delivery_available
+            </label>
+        </div>
+    </div>
+    <div class="mb-5">
+        <div class="text14 text-black-50">Pickup</div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled2" checked disabled>
+            <label class="form-check-label" for="flexCheckCheckedDisabled2">
+                @Model.business.pickup_available
+            </label>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+﻿@model LocalPrep.Web.Models.ResponseProfile
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 dashboard-right">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 ">
+        <div class="p-5 w-100">
+
+            <div class="mb-4 text24 fw-medium">Profile</div>
+
+            <div class="row justify-content-between">
+                <div class="shadow p-5 rounded-bottom bg-white">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="loader-container" style="display:none">
+                                <div class="loader"></div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="row text-center">
+                                    <div class="col-12">
+                                        <img src="~/img/empty-profile-image.jpg" class="img-fluid" style="height:100px;"  alt="@Model.response.user.first_name" />
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="center" style="margin-top: 16px;">
+                                            <p>
+                                                <strong> @Model.response.user.first_name @Model.response.user.first_name<br /></strong>
+                                            </p>
+
+                                            @*@Model.response.user.first_name @Model.response.user.first_name<br />*@
+                                            @*@Model.response.user.addresses.FirstOrDefault().city , @Model.response.user.addresses.FirstOrDefault().state @Model.response.user.addresses.FirstOrDefault().zip_code*@
+                                        </div>
+
+
+
+
+                                       
+
+                                        @*<p class="text-uppercase" style="color: #CB6318;">
+            <strong>About</strong>
+        </p>*@
+                                        <p class="text-uppercase" style="color: #CB6318;">
+                                            <strong>e-mail</strong>
+                                        </p>
+
+                                        <p>
+                                            @(Model.response.user.email == string.Empty ? "Info Coming Soon!" : Model.response.user.email)
+                                        </p>
+
+                                        <p class="text-uppercase" style="color: #CB6318;">
+                                            <strong>Phone</strong>
+                                        </p>
+
+                                        <p>
+                                            @(Model.response.user.phone == string.Empty ? "Info Coming Soon!" : Model.response.user.phone)
+                                        </p>
+                                        <p class="text-uppercase" style="color: #CB6318;">
+                                            <strong>Status</strong>
+                                        </p>
+
+                                        <p>
+                                            @Model.response.user.status<br />
+                                        </p>
+                                        <p class="text-uppercase" style="color: #CB6318;">
+                                            <strong>Last Login</strong>
+                                        </p>
+                                        <p>
+                                            @Model.response.user.last_login_at<br />
+                                        </p>
+
+                                    </div>
+                                </div>
+                                
+
+                                @*<div class="center">
+            <div class="rateit" data-rateit-mode="font" data-rateit-value="@Model.response.user.rating" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+            <div>@Model.response.user.rating Reviews<br /><a href="@Url.Action("LeaveReview", "Vendor", new { vendorId = Model.response.user.id })">Leave a Review</a></div>
+        </div>*@
+
+                               
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                
+            </div>
+            
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+</main>
+

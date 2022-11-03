@@ -1,0 +1,11 @@
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Entity\bin\Release\LocalPrep.Entity.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Entity\bin\Release\LocalPrep.Entity.pdb
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Entity\obj\Release\LocalPrep.Entity.csprojAssemblyReference.cache
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Entity\obj\Release\LocalPrep.Entity.csproj.CoreCompileInputs.cache
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Entity\obj\Release\LocalPrep.Entity.dll
+D:\Working Copy\Development\LocalPrepStg\LocalPrep.Entity\obj\Release\LocalPrep.Entity.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\bin\Release\LocalPrep.Entity.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\bin\Release\LocalPrep.Entity.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\Release\LocalPrep.Entity.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\Release\LocalPrep.Entity.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Entity\obj\Release\LocalPrep.Entity.pdb

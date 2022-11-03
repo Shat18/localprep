@@ -1,0 +1,470 @@
+﻿@model LocalPrep.Web.Models.ResponseSearch
+@{ ViewBag.Title = "Shopping Cart";
+                decimal subTotal = 0; }
+
+<!-- Content -->
+<section id="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                @if (Model.response == null)
+                {
+    <div>
+        You do not have any items in your cart.  Please proceed with finding a Meal Prepper and add a meal to your cart!
+    </div> }
+                else
+                {
+    <section id="shop-cart">
+        <div class="container">
+            <div class="shop-cart">
+                <div class="table table-sm table-striped table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th class="cart-product-thumbnail"></th>
+                                <th class="cart-product-thumbnail">Meal</th>
+                                <th class="cart-product-name">Description</th>
+                                @*<th class="cart-ingredients-removal">Ingredients Removed</th>
+                        <th class="cart-add-ons">Add Ons</th>*@
+                                <th class="cart-product-quantity">Quantity</th>
+                                <th class="cart-product-subtotal">Item Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var meal in Model.response.items)
+                            {
+            <tr>
+                @*<td class="cart-product-remove">
+            <a href="#"><i class="fa fa-times"></i></a>
+        </td>*@
+                @*<td class="cart-product-remove">
+                    <a href="@Url.Action("DeleteConfirmed", "Cart", new { Id = meal.id })"><i class="fa fa-times"></i></a>
+                </td>*@
+                <td class="cart-product-remove">
+                    <a href="@Url.Action("DeleteConfirmed", "Cart", new { Id = meal.id })"><i class="fa fa-times"></i></a>
+                </td>
+
+ <td class="cart-product-thumbnail">
+     <div class="col-md-4 mb-4 mb-md-0">
+         <img src="@meal.meals.image" class="img-fluid" />
+         @*<a href="#">
+             <img alt="Consume Tshirt" src="@meal.meals.image">
+         </a>*@
+     </div>
+                   
+                   
+                </td>
+
+                <td class="cart-product-thumbnail">
+                    @*<a href="#">
+                <img alt="Consume Tshirt" src="@meal.meals.image">*@
+            @*</a>*@
+                    <div class="cart-product-thumbnail-name">@meal.meals.name</div>
+                </td>
+                <td class="cart-product-description">
+                    @meal.meals.description
+                </td>
+                @*<td class="cart-product-description">
+                            @Model.response.meals.data.FirstOrDefault().ingredients
+                        </td>
+                        <td class="cart-product-description">
+                            @if (meal.ShoppingCartAddOns.Count() > 0)
+                            {
+                                foreach (var addOn in meal.ShoppingCartAddOns)
+                                {
+        <span>@addOn.MealAddOn.MealAddOnName (@addOn.MealAddOn.MealAddOnPrice)</span> }
+        }
+        else
+        {
+        <strong>N/A</strong>}
+                        </td>*@
+                <td class="cart-product-quantity">
+                    <div class="quantity">
+                        <input type="text" class="qty" value="@meal.meals.quantity" name="quantity">
+                    </div>
+                </td>
+                <td class="cart-product-price">
+                    <span class="amount">$@meal.meals.price</span>
+                </td>
+            </tr>
+}
+                        </tbody>
+                    </table>
+                </div>
+                @*<div class="row">
+            <div class="col-lg-4">
+                <form class="form-inline">
+                    <div class="input-group">
+                        <input type="text" placeholder="Coupon Code" id="CouponCode" class="form-control">
+                        <div class="input-group-append">
+                            <button type="submit" id="widget-subscribe-submit-button" class="btn">Apply</button>
+                        </div>
+                    </div>
+                    <p class="small">Enter any valid coupon or promo code here to redeem your discount.</p>
+                </form>
+            </div>
+            <div class="col-lg-8 text-right">
+                <button type="button" class="btn">Update Cart</button>
+            </div>
+        </div>*@
+            <div class="row">
+                <div class="col-md-6">
+                    @foreach (var Add in Model.response.address)
+                    {
+            <div class="shadow rounded p-3 mb-4">
+                <div class="custom-control custom-radio">
+                    <span>
+                        @if (Add.type == "PROFILE_ADDRESS")
+                        {
+            <input type="radio" id="@Add.id" name="customRadio" class="custom-control-input" checked>
+                                    <label class="custom-control-label" for="@Add.id">
+                                        <span class="text-orange d-block font-weight-500">Save as profile address</span>
+                                        @Html.Hidden("Id", @Add.id)
+                                        @Add.address_line_1&nbsp;@Add.city, @Add.zip_code&nbsp;
+                                        @Add.state
+                                    </label> }
+                                                        else
+                                                        {
+                                    <input type="radio" id="@Add.id" name="customRadio" class="custom-control-input">
+                                                            <label class="custom-control-label" for="@Add.id">
+                                                                <span class="text-orange d-block font-weight-500"></span>
+                                                                @Add.address_line_1&nbsp;@Add.city, @Add.zip_code&nbsp;
+                                                                @Add.state
+                                                            </label>}
+
+
+                    </span>
+
+                </div>
+            </div>}
+                    <div class="text-right mb-4">
+                        <a href="#" class="btn btn-primary add-add">Add Address</a>
+                    </div>
+                    <div class="add-address-form shadow p-2" style="display:none">
+                        <div class="form-group">
+                            <label>Address Line 1</label>
+                            <input type="text" id="address_line_1" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Address Line 2</label>
+                            <input type="text" id="address_line_2" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>State</label>
+                            <input type="text" id="state" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>City</label>
+                            <input type="text" id="city" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Zip Code</label>
+                            <input type="text" id="zip_code" class="form-control" />
+                        </div>
+                        <div class="text-right">
+                            <input type="button" class="btn btn-lp" value="Submit" id="SaveAddress" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    @*<div class="row">
+                        <div class="col-md-6">
+                            <div class="shadow rounded p-3 mb-4">
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio11" name="selectAdd" class="custom-control-input" checked>
+                                    <label class="custom-control-label" for="customRadio11">
+                                        <span class="font-weight-500">EXPRESS</span>
+
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="shadow rounded p-3 mb-4">
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio12" name="selectAdd" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio12">
+                                        <span class="font-weight-500">REGULER</span>
+
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>*@
+                    <div class="form-group">
+                        <label style="clear: both;">Pickup / Delivery</label>
+                        <select id="pickupDelivery" class="form-control">
+                            <option value="Pickup">Pickup</option>
+                            <option value="Delivery">Delivery</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Pickup / Delivery Date</label>
+                        <input class="form-control" type="date" id="pickupDeliveryDt" value="@DateTime.Now.AddDays(3).ToString("yyyy-MM-dd")">
+                    </div>
+                </div>
+                
+
+            </div>
+                    <div class="row">
+                        <hr class="space">
+                        <div class="col-lg-6  p-r-10">
+                            <div class="table-responsive">
+                                <h4>Cart Subtotal</h4>
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="cart-product-name">
+                                                <strong>Cart Subtotal</strong>
+                                            </td>
+                                            @*@{ foreach (var meal in Model)
+                                    {
+                                        subTotal += (meal.Price);
+                                    } }*@
+                                            <td class="cart-product-name text-right">
+                                                <span class="amount">$@string.Format("{0:C}", Model.response.total)</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cart-product-name">
+                                                <strong>Total</strong>
+                                            </td>
+                                            <td class="cart-product-name text-right">
+                                                <span class="amount color lead"><strong>$@string.Format("{0:C}", Model.response.total)</strong></span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 ">
+                            @if (Model.response.cardProfile != null)
+                            {
+                        <div>
+                            <h4>Card</h4>
+                            @foreach (var card in Model.response.cardProfile)
+                            {
+                        <div class="shadow rounded p-3 mb-4">
+                            <div class="custom-control custom-radio">
+                                <span>
+                                    <input type="radio" id="@card.customer_payment_profile_id" name="Custrt" data-id="@card.customer_payment_profile_id" class="custom-control-input Custrtredio" checked>
+                                    <label class="custom-control-label" for="@card.customer_payment_profile_id">
+                                        <span class="text-orange d-block font-weight-500">@card.card_holder_name</span>
+                                        <p>Visa @card.card_number</p>
+                                        <p id="expdate_@card.customer_payment_profile_id" class="expdate">@card.expiration_date</p>
+                                        <input type="text" id="CreditCardCvv_@card.customer_payment_profile_id" class="form-control pay CustCreditCardCvv" style="display:none;" />
+                                        @Html.Hidden("customer_payment_profile_id", @card.customer_payment_profile_id)
+                                    </label>
+                                </span>
+
+                            </div>
+                        </div>}
+
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary add-addPay">Add New Card</a>
+                                <input type="button" class="btn btn-lp paymentNow" value="Pay Now" id="payNow" />
+                            </div>
+
+                        </div> }
+                                        else
+                                        {
+                        <a href="#" class="btn btn-primary add-addPay">Add New Card</a>}
+
+
+
+                            <div class="text-right mb-4">
+
+                            </div>
+                            <div class="add-payment-form shadow p-2" style="display:none">
+                                <form class="form-group">
+                                    <div id="paymentSetup">
+                                        <h4>Payment Setup</h4>
+                                        <p>
+                                            <img src="~/img/accepted_credit_cards.jpeg" style="max-width: 180px;" alt="Credit Cards Accepted" />
+                                        </p>
+
+                                        @Html.AntiForgeryToken()
+
+                                        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                                        <div class="form-group">
+                                            <label>Credit Card Number</label>
+                                            <input type="text" id="CreditCardNumber" required="required" class="form-control" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Expiration Date</label>
+                                            <input type="text" id="CreditCardYear" required="required" class="form-control" placeholder="MM/YYYY" maxlength="6" />
+
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label>CVV</label>
+                                            <input type="password" id="CreditCardCvvpay" required="required" class="form-control CustCreditCardCvv" />
+                                        </div>
+                                        <div class="form-group pl-4">
+                                            <input type="checkbox" id="save_card" name="Custrt" class="custom-control-input">
+                                            <label class="custom-control-label" for="save_card">
+                                                Save Card
+                                            </label>
+                                            <div class="text-right">
+                                                <input type="button" class="btn btn-lp paymentNow" value="Pay Now" id="payNow" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="alert alert-success" role="alert" id="successfulPmt" style="display: none;"></div>
+                                    <div class="alert alert-danger" role="alert" id="failedPmt" style="display: none; margin-top: 20px;"></div>
+                                </form>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+    </section>}
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $("#CreditCardNumber").payform('formatCardNumber');
+        $(".CustCreditCardCvv").payform('formatCardCVC');
+        $("#CreditCardNumber").keyup(function () {
+            var cardnumber = $(this).val();
+            if ($.payform.validateCardNumber(cardnumber) == false) {
+                $("#CreditCardNumber").addClass('has-error');
+            } else {
+                $("#CreditCardNumber").removeClass('has-error');
+                $("#CreditCardNumber").addClass('has-error');
+
+            }
+        });
+
+        $('body').on('click', '.Custrtredio', function () {
+            //$('.CustCreditCardCvv).hide();
+            $(".CustCreditCardCvv").css("display", "none");
+            $(".expdate").css("display", "block")           
+            var value = $(this).attr("data-id");
+            $('#CreditCardCvv_' + value).show();
+            $('#expdate_' + value).hide();
+        })
+
+
+
+        $('.add-add').click(function (e) {
+            $('.add-address-form').slideToggle();
+            return false;
+        });
+
+        $('.add-addPay').click(function (e) {
+            $('.add-payment-form').slideToggle();
+            return false;
+        });
+
+        //$(".custom-radio input:radio").click(function () {
+        //    ("#expdate").css("display", "none");
+        //    //$("#CreditCardCvv").css("display", "block");
+
+        //    if ($(".pay").css("display", "block")) {
+        //        $(".pay").css("display", "none");
+        //        $(".pay").css("display", "block");
+        //    }
+        //    if ($(".pay").css("display", "none")) {
+        //        $(".pay").css("display", "block");
+        //       // $("#CreditCardCvv").css("display", "block");
+        //    }
+        //    //alert("hi");
+        //});
+
+        $(function () {
+            $('.paymentNow').click(function (e) {
+                //alert(0);
+                //alert($('#save_card').val());
+                $('#payNow').prop('disabled', true);
+
+                $.ajax({
+                    url: "/Order/Pay",
+                    type: "POST",
+                    dataType: "json",
+                    traditional: true,
+                    data: JSON.stringify({ 'cardNumber': $('#CreditCardNumber').val(), 'cardYear': $('#CreditCardYear').val(), 'cardCVV': $('.CustCreditCardCvv').val(), 'Id': $('#Id').val(), 'customerpaymentprofileid': $('#customer_payment_profile_id').val(), 'pickupDelivery': $('#pickupDelivery').val(), 'pickupDeliveryDt': $('#pickupDeliveryDt').val(), 'paymentFlag': false }),
+                    //data: JSON.stringify({ 'cardNumber': $('#CreditCardNumber').val(), 'cardMonth': $('#CreditCardMonth').val(), 'cardYear': $('#CreditCardYear').val(), 'cardCVV': $('#CreditCardCvv').val(), 'cardFirstName': $('#CreditCardFirstName').val(), 'cardLastName': $('#CreditCardLastName').val(), 'Id': $('#Id').val() }),
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        //alert(data);
+                         var newUrl = '@Url.Action("Index", "Home")';
+                        if (data == "Order successfully placed.") {
+                            alert(JSON.stringify(data));
+                            window.location.href = newUrl;
+                            $('#paymentSetup').hide();
+                            $('#failedPmt').hide();
+                            $('#successfulPmt').show();
+                            $('#successfulPmt').text(data);
+                        }
+                        else {
+                            alert(data);
+                            $('#payNow').prop('disabled', false);
+                            $('#successfulPmt').hide();
+                            $('#failedPmt').show();
+                            $('#failedPmt').text(data);
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, errorThrown) {
+                        alert('nope!');
+                        //alert(xhr.responseText);
+                        $('#msg').show();
+                        $('#msg').addClass("alert-danger");
+                        $('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                    }
+                });
+            });
+
+            $('#SaveAddress').click(function (e) {
+                $('#SaveAddress').prop('disabled', true);
+
+                $.ajax({
+                    url: "/Cart/SaveCustomerAddress",
+                    type: "POST",
+                    dataType: "html",
+                    traditional: true,
+                    data: JSON.stringify({ 'address_line_1': $('#address_line_1').val(), 'address_line_2': $('#address_line_2').val(), 'state': $('#state').val(), 'city': $('#city').val(), 'zip_code': $('#zip_code').val() }),
+                    //data: JSON.stringify({ 'cardNumber': $('#CreditCardNumber').val(), 'cardMonth': $('#CreditCardMonth').val(), 'cardYear': $('#CreditCardYear').val(), 'cardCVV': $('#CreditCardCvv').val(), 'cardFirstName': $('#CreditCardFirstName').val(), 'cardLastName': $('#CreditCardLastName').val(), 'Id': $('#Id').val() }),
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        var newUrl = '@Url.Action("Index", "Cart")';
+                        if (data != "Credit Card payment failed.") {
+                            window.location.href = newUrl;
+                            $('#paymentSetup').hide();
+                            $('#failedPmt').hide();
+                            $('#successfulPmt').show();
+                            $('#successfulPmt').text(data);
+                        }
+                        else {
+                            $('#payNow').prop('disabled', false);
+                            $('#successfulPmt').hide();
+                            $('#failedPmt').show();
+                            $('#failedPmt').text(data);
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, errorThrown) {
+                        alert('nope!');
+                        //alert(xhr.responseText);
+                        $('#msg').show();
+                        $('#msg').addClass("alert-danger");
+                        $('#msg').html("<strong>Error:</strong> " + xhr.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+}

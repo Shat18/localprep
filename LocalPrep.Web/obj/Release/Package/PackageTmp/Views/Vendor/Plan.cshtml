@@ -1,0 +1,155 @@
+﻿
+@{ ViewBag.Title = "For Vendors"; }
+
+<!-- Content -->
+<section id="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+            </div>
+        </div>
+        <div class="row pricing-table">
+
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="plan border h-100">
+                    <div class="plan-header" style="background: #CB6318; color: #fff; border-top-left-radius:5px; border-top-right-radius:5px;">
+                        <h4 class="text-white">Pay-As-You-Go Plan</h4>
+                        <p class="text-white">GREAT FOR NEWCOMERS</p>
+                        <div class="plan-price mb-5">Free<br /><span class="text-white">Free to sign up!</span></div>
+                    </div>
+                    <div class="plan-list">
+                        <ul class="d-block about-blocks">
+                            <li><i class="fa fa-percentage"></i>10%/Meal Fee</li>
+                            <li><i class="fa fa-money-bill"></i>Direct Deposit</li>
+                            @*<li><i class="fa fa-envelope"></i>Customer Communication</li>*@
+                            <li><i class="fa fa-user"></i>Custom Profile/Menu</li>
+                            <li><i class="fa fa-people-carry"></i>Available to All</li>
+                        </ul>
+                        <div class="plan-button mx-5">
+                            <a href="@Url.Action("PurchasePlan", "Vendor")" class="btn btn-lp btn-block">Select</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="plan border h-100">
+                    <div class="plan-header" style="background:#4ab4c7; color: #fff; border-top-left-radius:5px; border-top-right-radius:5px;">
+                        <h4 class="text-white">Basic Plan</h4>
+                        <p class="text-white">GREAT FOR EXISTING PREPPERS</p>
+                        <div class="plan-price"><sup class="text-white">$</sup>4.99<span class="text-white">/mo</span></div>
+                        <p class="text-white">
+                            ONE-YEAR SUBSCRIPTION<br />
+                            $49.99 - GET TWO MONTHS FREE
+                        </p>
+                    </div>
+                    <div class="plan-list">
+                        <ul class="d-block about-blocks">
+                            @*<li><i class="fa fa-money-check"></i>$4.99 no matter what</li>
+                                <li><i class="fa fa-money-bill"></i>Direct Deposit</li>
+                                <li><i class="fa fa-envelope"></i>Customer Communication</li>
+                                <li><i class="fa fa-user"></i>Custom Profile/Menu</li>*@
+                            <li><i class="fa fa-money-check"></i>SAVE MONEY</li>
+                            <li><i class="fa fa-money-bill"></i>If you plan to sell more than $60 in meals monthly the basic plan</li>
+                            <li><i class="fa fa-envelope"></i>Great plan for Preppers that have existing customers</li>
+                            @*<li><i class="fa fa-user"></i>Custom Profile/Menu</li>*@
+                        </ul>
+                        <div class="plan-button mx-5">
+                            <a href="@Url.Action("PurchasePlan", "Vendor")" class="btn btn-lp btn-block ">Select</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="plan border h-100">
+                    <div class="plan-header" style="background:#93b278; color: #fff; border-top-left-radius:5px; border-top-right-radius:5px;">
+                        <h4 class="text-white">Premium Plan</h4>
+                        <p class="text-white">GREAT FOR PREPPERS LOOKING TO EXPAND</p>
+                        <div class="plan-price"><sup class="text-white">$</sup>19.99<span class="text-white">/mo</span></div>
+                        <p class="text-white">
+                            ONE-YEAR SUBSCRIPTION<br />
+                            $179.99 - GET THREE MONTHS FREE!
+                        </p>
+                    </div>
+                    <div class="plan-list">
+                        <ul class="d-block about-blocks">
+                            @*<li><i class="fa fa-money-bill"></i>Direct Deposit</li>
+                                <li><i class="fa fa-envelope"></i>Customer Communication</li>
+                                <li><i class="fa fa-user"></i>Custom Profile/Menu</li>
+                                <li><i class="fa fa-people-carry"></i>Available to All</li>
+                                <li><i class="fa fa-th-list"></i>Better Name Placement</li>
+                                <li><i class="fa fa-map-marker"></i>Bigger icon in the map view</li>*@
+
+                            <li><i class="fa fa-money-bill"></i>Great for expanding your customer base</li>
+                            <li><i class="fa fa-envelope"></i>Be at the top of the list when customers search you area</li>
+                            <li><i class="fa fa-user"></i>Your icon will appear bigger on the map view making your stick out more</li>
+                        </ul>
+                        <div class="plan-button mx-5">
+                            <a href="@Url.Action("PurchasePlan", "Vendor")" class="btn btn-lp btn-block">Select</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+
+    <script src="js/app.js"></script>
+
+    <script>
+        function equalHeight() {
+
+            var height = 0;
+
+            $('.about-blocks').each(function () {
+
+                var currentHeight = $(this).height();
+
+                height = currentHeight > height ? currentHeight : height;
+
+            });
+
+            $('.about-blocks').css('height', height);
+
+        } $(window).bind('resize', function () {
+
+            if ($(window).width() > 768) {
+
+                equalHeight();
+
+            }
+
+        });
+
+        $(document).ready(function () {
+
+            if ($(window).width() > 768) {
+
+                equalHeight();
+
+            }
+        });
+
+
+
+
+
+
+    </script>
+
+
+}
+
+
+

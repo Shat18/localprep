@@ -1,0 +1,184 @@
+﻿
+@model LocalPrep.Web.Models.ResponseHistoryOrders1
+@{
+    //ViewBag.Title = "CustomerDetail";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 dashboard-right">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 ">
+        <div class="p-5 w-100">
+
+            <div class="mb-4 text24 fw-medium">
+                <a class="me-4" href="@Url.Action("preppers", "Admin")">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.243" height="13.501" viewBox="0 0 20.243 13.501">
+                        <path id="round-back" d="M15.216,11.51a.919.919,0,0,1,.007,1.294l-4.268,4.282H27.218a.914.914,0,0,1,0,1.828H10.955L15.23,23.2a.925.925,0,0,1-.007,1.294.91.91,0,0,1-1.287-.007L8.142,18.647h0a1.026,1.026,0,0,1-.19-.288.872.872,0,0,1-.07-.352.916.916,0,0,1,.26-.64l5.794-5.836A.9.9,0,0,1,15.216,11.51Z" transform="translate(-7.882 -11.252)" />
+                    </svg>
+                </a>  Preppers  Detail
+            </div>
+
+
+
+            <div class=" content-box">
+                <div class="row">
+
+                    <div class="col-md-4 col-lg-3 mb-5">
+                        <div class="white-shadow h-100 px-5">
+                            <div class="text-end mb-2 d-none">
+                                <a href="#">
+                                    <svg aria-hidden="true" width="20" focusable="false" data-prefix="fas" data-icon="edit" class="svg-inline--fa fa-edit fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#FA5F33" d="M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z"></path></svg>
+                                </a>
+                            </div>
+                            <ul class="nav nav-pills mb-3 info-tabs" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-info" type="button" role="tab" aria-controls="pills-info" aria-selected="true">Personal Info</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-business" type="button" role="tab" aria-controls="pills-business" aria-selected="false">Business Info</button>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                @{ Html.RenderAction("_PreppersDetail", "Admin");}
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 col-lg-9 mb-5">
+                        <div class="white-shadow h-100">
+                            <div class="mx-5">
+                                <ul class="nav nav-pills mb-3 top-tab-list" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Active Order</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Order History</button>
+                                    </li>
+
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+
+                                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab">
+                                        <div class="mt-5">
+
+                                            @*<div class="order-deail" style="display:none;">*@
+                                            <div class="order-deail" style="display:none;">
+                                                <div class="mb-4 text24 fw-medium">
+                                                    <a href="#" class="me-4 back-list">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="20.243" height="13.501" viewBox="0 0 20.243 13.501">
+                                                            <path id="round-back" d="M15.216,11.51a.919.919,0,0,1,.007,1.294l-4.268,4.282H27.218a.914.914,0,0,1,0,1.828H10.955L15.23,23.2a.925.925,0,0,1-.007,1.294.91.91,0,0,1-1.287-.007L8.142,18.647h0a1.026,1.026,0,0,1-.19-.288.872.872,0,0,1-.07-.352.916.916,0,0,1,.26-.64l5.794-5.836A.9.9,0,0,1,15.216,11.51Z" transform="translate(-7.882 -11.252)" />
+                                                        </svg>
+                                                    </a> Orders list
+                                                </div>
+
+
+                                            </div>
+                                            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                <div class="mt-5">
+                                                    <div class="border-bottom border-secondary pb-5 mb-5">
+                                                        <div class="row gy-5">
+                                                            @foreach (var Listdata in Model.response.data.Where(a => a.id == Model.response.HiddenId))
+                                                            {
+                                                                foreach (var mealList in Listdata.meals)
+                                                                {
+                                                                    <div class="col-md-4">
+                                                                        <img src="@mealList.image" class="img-fluid w-100">
+                                                                    </div>
+
+                                                                    <div class="col-md-8">
+                                                                        <div class="d-flex justify-content-between mb-4">
+                                                                            <div class="fw-semi-blod">@mealList.name</div>
+                                                                            @*<div class="fw-medium text12 text-black-50">17 Feb 2022, 11:00 AM</div>*@
+                                                                        </div>
+                                                                        @*<div class="text12 fw-bold mb-3">Appetizers</div>
+                                                                        <div class="mb-5">
+                                                                            <div class="badge rounded-5 bg-ye-light fw-medium">Lorem ipsum</div>
+                                                                            <div class="badge rounded-5 bg-ye-light fw-medium">Lorem ipsum</div>
+                                                                            <div class="badge rounded-5 bg-ye-light fw-medium">Lorem ipsum</div>
+                                                                        </div>
+                                                                        <div class="text12 fw-bold mb-3">Meal</div>
+                                                                        <div class="mb-5">
+                                                                            <div class="badge rounded-5 bg-or-light fw-medium">Lorem ipsum</div>
+                                                                            <div class="badge rounded-5 bg-or-light fw-medium">Lorem ipsum</div>
+                                                                            <div class="badge rounded-5 bg-or-light fw-medium">Lorem ipsum</div>
+                                                                        </div>
+                                                                        <div class="text12 fw-bold mb-3">Desert</div>
+                                                                        <div class="mb-5">
+                                                                            <div class="badge rounded-5 bg-gr-light fw-medium">Lorem ipsum</div>
+                                                                            <div class="badge rounded-5 bg-gr-light fw-medium">Lorem ipsum</div>
+                                                                            <div class="badge rounded-5 bg-gr-light fw-medium">Lorem ipsum</div>
+                                                                        </div>*@
+                                                                    <div class="row gy-5 justify-content-between">
+                                                                        <div class="col-md-3 col-lg-5 col-xl-4">
+                                                                            <div class="fw-bold mb-2 text18">Total <span class="fw-bold text-orange">@mealList.price</span></div>
+                                                                            @*<div class="text12 fw-bold">7 Feb 2022 at 11:30 AM</div>*@
+                                                                        </div>      
+
+                                                                 @{ Html.RenderAction("_prepperdeliveryaddress", "Admin");}
+                                                                        <!--<div class="col-md-3 col-lg-5 col-xl-4">-->
+                                                                            @*<div class="fw-bold mb-2 text18">Total <span class="fw-bold text-orange">@mealList.price</span></div>*@
+                                                                            <!--<div class="text12 fw-bold">7 Feb 2022 at 11:30 AM</div>
+                                                                        </div>-->
+                                                                        @*<div class="col-md-6  col-lg-5 col-xl-4">
+                                                                            <div class="my-5 fw-medium">
+                                                                                2088 Easthaven Dr,<br>
+                                                                                Columbus, Ohio, 43232
+                                                                            </div>
+                                                                        </div>*@
+                                                                    </div>
+
+
+                                                                        <div class="fw-semi-blod mb-2">Special Request</div>
+                                                                        <p class="text14 mb-5">@mealList.description</p>
+
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                        <div class="mt-5">
+                                            <div class="History-order">
+
+                                                @{ Html.RenderAction("_PreppersOrderHistoryList", "Admin");}
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</main>
+
+

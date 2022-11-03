@@ -1,0 +1,53 @@
+﻿@model LocalPrep.Web.Models.LoginPartial
+@using Microsoft.AspNet.Identity
+
+@if (!Model.IsLogin && !Model.IsVerified)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right", style = "display: inline;" }))
+    {
+        @Html.AntiForgeryToken()
+        if (!Model.Isregistered)
+        {
+            <li><a href="@Url.Action("LogOff", "Account")">Log Out</a></li>
+            if (Model.role == "CUSTOMER")
+            {
+                <li><a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge" id="cartbadge">@Model.CartCount</span></a></li>
+            }
+
+        }
+        else
+        {
+            <li>
+                <a href="@Url.Action("Notifications", "Vendor")" class="position-relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 21.883 21.996">
+                        <g id="bell" transform="translate(1 1)">
+                            <path id="Shape" d="M9.993,20a2.005,2.005,0,0,1-1.73-1h3.46A2.005,2.005,0,0,1,9.993,20Zm9.89-5H0a3,3,0,0,0,2.993-3V7a7,7,0,1,1,14,0v5a3,3,0,0,0,2.889,3Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></path>
+                        </g>
+                    </svg>
+                    <span class="countN">@Model.NotificationCount</span>
+                </a>
+            </li>
+            <li><a href="@Url.Action("Orders", "Manage")">My Account</a></li>
+            <li><a href="@Url.Action("LogOff", "Account")">Log Out</a></li>
+            if (Model.role == "CUSTOMER")
+            {
+                <li><a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge" id="cartbadge">@Model.CartCount</span></a></li>
+            }
+        }
+
+    }
+}
+else
+{
+    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "boldMenuLogin" })</li>
+    if (Model.role == "CUSTOMER")
+    {
+        <li><a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge" id="cartbadge">@Model.CartCount</span></a></li>
+    }
+
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+}

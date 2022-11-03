@@ -1,0 +1,1661 @@
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\LocalPrep.Web.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\LocalPrep.Web.pdb
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\csc.exe
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\csc.exe.config
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\csc.rsp
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\csi.exe
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\csi.exe.config
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\csi.rsp
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Console.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\vbc.exe
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\vbc.exe.config
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\vbc.rsp
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Antlr3.Runtime.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\AuthorizeNet.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\EntityFramework.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Newtonsoft.Json.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Owin.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\SendGrid.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\StarkbankEcdsa.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Buffers.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.IO.Pipelines.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Memory.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.Helpers.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.Mvc.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.Optimization.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.Razor.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.WebPages.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\WebGrease.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\AuthorizeNet.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\EntityFramework.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\SendGrid.pdb
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\SendGrid.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Buffers.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.IO.Pipelines.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Memory.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.Helpers.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.Mvc.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.Optimization.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.Razor.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.WebPages.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Newtonsoft.Json.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.Initial.resources
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.PkChange.resources
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.AddedNames.resources
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.AddDietsCuisinesWebsite.resources
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.AddedCookingStyle.resources
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.AddedProfilePic.resources
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.AddedMealProperties.resources
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+D:\Working Copy\LocalPrep2020-master\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\LocalPrep.Web.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\LocalPrep.Web.pdb
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\csc.exe
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\csc.exe.config
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\csc.rsp
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\csi.exe
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\csi.exe.config
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\csi.rsp
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Console.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\vbc.exe
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\vbc.exe.config
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\vbc.rsp
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Antlr3.Runtime.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\AuthorizeNet.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\EntityFramework.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Newtonsoft.Json.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Owin.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\SendGrid.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\StarkbankEcdsa.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Buffers.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.IO.Pipelines.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Memory.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.Helpers.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.Mvc.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.Optimization.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.Razor.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.WebPages.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\WebGrease.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\AuthorizeNet.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\EntityFramework.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\SendGrid.pdb
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\SendGrid.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Buffers.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.IO.Pipelines.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Memory.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.Helpers.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.Mvc.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.Optimization.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.Razor.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.WebPages.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Newtonsoft.Json.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\Working Copy\LocalPrepProd\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+D:\Local prep Work\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x86.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x64.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.so
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.dylib
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+D:\Working Copy\Development\loaclprep190921\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x86.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x64.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.so
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.dylib
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.pdb
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.pdb
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+D:\Working copy\Development\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x86.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x64.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.so
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.dylib
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.pdb
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.pdb
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+D:\Working Copy\Development\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x86.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x64.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.so
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.dylib
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+C:\Users\Pushpendra\Downloads\LocalPrepStg19112021\LocalPrepStg28102021\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x86.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x64.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.so
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.dylib
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.pdb
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.pdb
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Localprep\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+F:\Localprep\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+F:\Localprep\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+F:\Localprep\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+F:\Localprep\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+F:\Localprep\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+F:\Localprep\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x86.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x64.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.so
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.dylib
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+C:\Users\Admin\Downloads\LocalPrepStg04052022\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x86.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x64.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.so
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.dylib
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+D:\Working Copy\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x86.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\grpc_csharp_ext.x64.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.so
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\libgrpc_csharp_ext.x64.dylib
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll.config
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\LocalPrep.Web.pdb
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.exe.config
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\csc.rsp
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.exe.config
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\csi.rsp
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.AppContext.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Console.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Http.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Net.Sockets.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.exe.config
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\vbc.rsp
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Owin.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\RestSharp.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\SendGrid.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\StarkbankEcdsa.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Memory.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\WebGrease.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\AuthorizeNet.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.pdb
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.pdb
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Grpc.Core.Api.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Blob.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Azure.Storage.Common.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\RestSharp.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\SendGrid.pdb
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\SendGrid.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Buffers.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.IO.Pipelines.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Memory.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Numerics.Vectors.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.Helpers.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.Mvc.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.Optimization.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.Razor.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Newtonsoft.Json.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Antlr3.Runtime.pdb
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csprojAssemblyReference.cache
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.Migrations.InitialCreate.resources
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.GenerateResource.cache
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CoreCompileInputs.cache
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.csproj.CopyComplete
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.dll
+C:\Users\shat\Downloads\LocalPrepStg (5)\LocalPrepStg\LocalPrep.Web\obj\Release\LocalPrep.Web.pdb

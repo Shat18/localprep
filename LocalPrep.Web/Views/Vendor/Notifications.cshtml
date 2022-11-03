@@ -1,0 +1,61 @@
+﻿@model LocalPrep.Web.Models.ResponseNotifications
+
+@{ ViewBag.Title = "Notifications";
+    //ViewBag.Span = Html.ActionLink("Add Meal", "EditMeal", "Manage");
+    //ViewBag.Span = Html.ActionLink("Add Meal", "AddMeal", "Manage");
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+
+
+
+<div class="col-lg-12 mb-5">
+    <div class="shadow p-5 rounded-bottom ">
+
+        <div class="container my-5">
+            @*<h2 class="mb-4">Orders Details</h2>*@
+            <div class="loader-container" style="display:none">
+                <div class="loader"></div>
+            </div>
+            @if (Model.response.Count > 0)
+            {
+                foreach (var notifiction in Model.response)
+                {
+                    <div class="shadow p-5 mb-5">
+                        <div class="row ">
+                            <div class="col-md-4 mb-4 mb-md-0">
+                                <img src="~/img/noti.svg" class="img-fluid" />
+                                <img src="@notifiction.title" class="img-fluid" />
+                                <img src="~/img/empty-profile-image.jpg" class="img-fluid" />
+
+                            </div>
+                            <div class="col-md-8 mb-4 mb-md-0">
+                                <h4>
+                                    @notifiction.content
+                                </h4>
+                                <p class="mb-4">
+                                    @notifiction.title
+                                </p>
+                                <div>
+                                    <div class="count-box">
+                                        @notifiction.user_id
+                                    </div>
+                                    <div class="price-text">
+                                        @notifiction.created_at
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>}
+            }
+            else
+            {
+                <p>There is not any notifications yet.</p>
+            }
+
+
+
+
+
+        </div>
+    </div>
+
+</div>

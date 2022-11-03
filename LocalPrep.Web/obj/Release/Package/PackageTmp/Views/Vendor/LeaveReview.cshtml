@@ -1,0 +1,69 @@
+﻿@model LocalPrep.Web.Models.ReviewsViewModel
+@*@{
+    ViewBag.Title = "Leave a Review for " + Model.vendor.VendorName;
+}*@
+
+<!-- Content -->
+<section id="page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                @*@if (!Model.IsLogin)
+                {
+                    <p>
+                        You must first @Html.ActionLink("register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" }) with a Local Prep account prior to leaving a star rating.
+                    </p>
+                }
+                else
+                {*@
+                    @using (Html.BeginForm("LeaveReview", "Vendor", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+                        @Html.HiddenFor(m => m.vendor.VendorId)
+                        @*<div class="form-group">
+                            @Html.LabelFor(m => m.review.Meal.MealName, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.DropDownListFor(m => m.review.MealId, new SelectList(Model.meals, "MealId", "MealName"), new { @class = "form-control" })
+                            </div>
+                        </div>*@
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.review.RatingComments, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                @Html.TextAreaFor(m => m.review.RatingComments, new { @class = "form-control", rows = "8" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.review.StarRating, new { @class = "col-md-12 control-label" })
+                            <div class="col-md-12">
+                                <div class="rateit" data-rateit-mode="font" style="font-size:50px"></div>
+                            </div>
+                        </div>
+                        @Html.HiddenFor(m => m.review.StarRating)
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-lp" value="Add Review" />
+                        </div>
+                    }
+                @*}*@
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts
+{
+    <script src="~/plugins/rateit/jquery.rateit.min.js"></script>
+    <link rel="stylesheet" href="~/plugins/rateit/rateit.css">
+
+    <script type="text/javascript">
+        //we bind only to the rateit controls within the products div
+        $('.rateit').bind('rated reset', function (e) {
+            var ri = $(this);
+            var value = ri.rateit('value');
+            $('input[name="review.StarRating"]').val(value);
+        });
+    </script>
+}
